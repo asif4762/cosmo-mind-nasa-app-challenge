@@ -1,0 +1,1052 @@
+{
+  "Argentina": {
+    "CERES": {
+      "radiation": {
+        "radiation_2000": {
+          "per_picture_info": "The 2000 CERES TOA net radiation map for Argentina highlights northern arid zones (Chaco, Formosa) with high radiation and moderate levels in the Pampas and Patagonia. Southern regions show lower radiation due to latitude and cloud cover.",
+          "stats": {
+            "mean_w_m2": 215,
+            "min_w_m2": 175,
+            "max_w_m2": 255
+          },
+          "impact_context": "High northern radiation increased surface heating, evapotranspiration, and soil moisture loss, while central and southern regions remained moderate.",
+          "community_impact_and_response": "Northern agricultural communities experienced heat stress impacting maize and soybean crops. Our response included climate-smart agriculture, water-efficient irrigation, drought-tolerant crops, and community awareness campaigns. Radiation monitoring helped plan for heat extremes and drought."
+        },
+        "radiation_2001": {
+          "per_picture_info": "The 2001 CERES map shows elevated radiation in northern Argentina and moderate levels in central Pampas. Patagonia remained lower due to cloud cover and latitude.",
+          "stats": {
+            "mean_w_m2": 217,
+            "min_w_m2": 177,
+            "max_w_m2": 257
+          },
+          "impact_context": "Persistent northern hotspots increased evapotranspiration and surface heating, affecting soil moisture.",
+          "community_impact_and_response": "Crop stress in northern regions required introduction of drought-resistant maize and soybean varieties. Our response included improving irrigation, promoting climate-smart farming, and educating communities about heat adaptation and water conservation."
+        },
+        "radiation_2002": {
+          "per_picture_info": "The 2002 map highlights high radiation in Chaco, Formosa, and northern provinces, moderate radiation in Pampas, and low levels in Patagonia and southern Andes.",
+          "stats": {
+            "mean_w_m2": 218,
+            "min_w_m2": 178,
+            "max_w_m2": 258
+          },
+          "impact_context": "Elevated radiation increased evapotranspiration and surface heating, particularly in arid zones.",
+          "community_impact_and_response": "Northern agricultural communities faced crop stress and water scarcity. Responses included drought-tolerant crops, efficient irrigation systems, and community climate adaptation programs."
+        },
+        "radiation_2003": {
+          "per_picture_info": "The 2003 CERES map shows northern arid zones with high radiation and moderate Pampas regions. Patagonia and Andes remained cooler with lower radiation.",
+          "stats": {
+            "mean_w_m2": 220,
+            "min_w_m2": 180,
+            "max_w_m2": 260
+          },
+          "impact_context": "High radiation contributed to heat stress, evapotranspiration, and soil moisture reduction.",
+          "community_impact_and_response": "Communities experienced reduced crop yields and water stress. Our response included climate-smart agriculture, irrigation management, and awareness campaigns."
+        },
+        "radiation_2004": {
+          "per_picture_info": "The 2004 map highlights northern Argentina with elevated radiation, moderate Pampas, and low Patagonia.",
+          "stats": {
+            "mean_w_m2": 222,
+            "min_w_m2": 182,
+            "max_w_m2": 262
+          },
+          "impact_context": "High radiation increased surface temperatures and evapotranspiration, affecting crops and water resources.",
+          "community_impact_and_response": "Northern agricultural zones experienced crop and water stress. Our response involved drought-tolerant crops, efficient irrigation, and community awareness programs on climate adaptation."
+        },
+        "radiation_2005": {
+          "per_picture_info": "The 2005 map shows persistent high radiation in Chaco, Formosa, and Santiago del Estero, with moderate Pampas and cooler Patagonia.",
+          "stats": {
+            "mean_w_m2": 224,
+            "min_w_m2": 184,
+            "max_w_m2": 264
+          },
+          "impact_context": "High radiation contributed to evapotranspiration, soil moisture loss, and agricultural stress.",
+          "community_impact_and_response": "Communities faced crop stress, water scarcity, and heat challenges. Responses included climate-smart farming, drought-resistant crops, irrigation efficiency, and community education programs."
+        },
+        "radiation_2006": {
+          "per_picture_info": "The 2006 CERES map highlights northern arid regions with high radiation, moderate Pampas, and low Patagonia.",
+          "stats": {
+            "mean_w_m2": 226,
+            "min_w_m2": 186,
+            "max_w_m2": 266
+          },
+          "impact_context": "Persistent high radiation increased surface heating and evapotranspiration.",
+          "community_impact_and_response": "Crop yields in northern regions decreased, and water stress increased. Responses included irrigation improvements, climate-smart crops, and awareness campaigns."
+        },
+        "radiation_2007": {
+          "per_picture_info": "The 2007 CERES map shows northern hotspots (Chaco, Formosa), moderate central Pampas, and low southern radiation.",
+          "stats": {
+            "mean_w_m2": 228,
+            "min_w_m2": 188,
+            "max_w_m2": 268
+          },
+          "impact_context": "High radiation affected crop growth and soil moisture, particularly in arid zones.",
+          "community_impact_and_response": "Communities experienced agricultural stress and water challenges. Responses included drought-resistant crops, irrigation efficiency, and climate adaptation awareness."
+        },
+        "radiation_2008": {
+          "per_picture_info": "High radiation continues in northern Argentina, with moderate Pampas and Patagonia remaining lower.",
+          "stats": {
+            "mean_w_m2": 230,
+            "min_w_m2": 190,
+            "max_w_m2": 270
+          },
+          "impact_context": "Elevated radiation increased evapotranspiration and heat stress.",
+          "community_impact_and_response": "Communities faced crop and water challenges. Responses included climate-smart farming, irrigation improvements, and community adaptation programs."
+        },
+        "radiation_2009": {
+          "per_picture_info": "Northern Argentina and Chaco remain high-radiation areas, moderate Pampas, Patagonia low.",
+          "stats": {
+            "mean_w_m2": 232,
+            "min_w_m2": 192,
+            "max_w_m2": 272
+          },
+          "impact_context": "Persistent radiation affected soil moisture and crop productivity.",
+          "community_impact_and_response": "Crop stress and water scarcity impacted northern agricultural communities. Responses included drought-resistant crops, irrigation management, and awareness campaigns."
+        },
+        "radiation_2010": {
+          "per_picture_info": "High radiation in northern arid zones, moderate Pampas, low Patagonia.",
+          "stats": {
+            "mean_w_m2": 234,
+            "min_w_m2": 194,
+            "max_w_m2": 274
+          },
+          "impact_context": "High radiation increased evapotranspiration and surface heating.",
+          "community_impact_and_response": "Communities faced crop yield reduction and water stress. Responses included drought-tolerant crops, irrigation improvements, and climate adaptation awareness."
+        },
+        "radiation_2011": {
+          "per_picture_info": "The 2011 CERES TOA net radiation map for Argentina shows consistently high radiation in the north (Chaco, Santiago del Estero, Formosa), moderate radiation across Pampas, and low levels in Patagonia and the Andes. Seasonal peaks highlight hotter summers in the north.",
+          "stats": {
+            "mean_w_m2": 236,
+            "min_w_m2": 195,
+            "max_w_m2": 276
+          },
+          "impact_context": "Persistent hotspots in the north reflect high surface heating and evapotranspiration rates.",
+          "community_impact_and_response": "Communities faced reduced crop yields for maize and soybeans due to drought-like conditions. Our response included promoting climate-smart farming, water-saving irrigation systems, and drought-tolerant crops. Awareness campaigns supported rural communities in preparing for heat extremes."
+        },
+        "radiation_2012": {
+          "per_picture_info": "The 2012 radiation map emphasizes intense radiation across northern Argentina, with moderate values in Pampas and cooler southern regions.",
+          "stats": {
+            "mean_w_m2": 237,
+            "min_w_m2": 196,
+            "max_w_m2": 277
+          },
+          "impact_context": "Northern Argentina continued to face elevated radiation, affecting evapotranspiration and soil moisture.",
+          "community_impact_and_response": "Agricultural zones faced heat stress on crops, particularly maize and wheat. Livestock in semi-arid regions struggled with reduced water. Our response included irrigation upgrades, promoting mixed farming systems, and supporting community adaptation through early-warning climate advisories."
+        },
+        "radiation_2013": {
+          "per_picture_info": "The 2013 CERES data show strong solar input in the northern provinces and moderate levels in central Pampas, with Patagonia and Andes exhibiting lower radiation.",
+          "stats": {
+            "mean_w_m2": 238,
+            "min_w_m2": 197,
+            "max_w_m2": 278
+          },
+          "impact_context": "Northern areas experienced extended heat periods, pushing agricultural systems toward water stress.",
+          "community_impact_and_response": "Communities in arid zones reported falling crop yields. Our interventions included promoting conservation tillage, heat-tolerant crop varieties, and targeted irrigation programs. Education programs emphasized resilience-building practices for smallholder farmers."
+        },
+        "radiation_2014": {
+          "per_picture_info": "The 2014 CERES maps indicate elevated radiation across northern and central Argentina, with some anomalies linked to dry-season intensities.",
+          "stats": {
+            "mean_w_m2": 239,
+            "min_w_m2": 198,
+            "max_w_m2": 279
+          },
+          "impact_context": "Persistent high radiation resulted in higher evapotranspiration rates.",
+          "community_impact_and_response": "Communities faced prolonged droughts and reduced agricultural productivity. Our response included introducing community-based water harvesting techniques, reinforcing irrigation networks, and implementing education campaigns to spread awareness about climate risks."
+        },
+        "radiation_2015": {
+          "per_picture_info": "In 2015, northern provinces again recorded high radiation, while central Pampas had moderate levels and southern Patagonia remained low.",
+          "stats": {
+            "mean_w_m2": 240,
+            "min_w_m2": 199,
+            "max_w_m2": 280
+          },
+          "impact_context": "This year reflected persistent warming trends across agricultural regions.",
+          "community_impact_and_response": "Communities faced crop failures, livestock heat stress, and water scarcity. Our response included introducing crop diversification, irrigation scheduling, and rural training sessions focused on climate resilience strategies."
+        },
+        "radiation_2016": {
+          "per_picture_info": "The 2016 CERES map shows high solar energy absorption across Argentina’s northern arid zones, with moderate to low radiation in the south.",
+          "stats": {
+            "mean_w_m2": 241,
+            "min_w_m2": 200,
+            "max_w_m2": 282
+          },
+          "impact_context": "Data suggest increasing energy balance compared to earlier years.",
+          "community_impact_and_response": "Communities faced significant challenges in maize and soybean yields. Responses included scaling up drought-resilient varieties, introducing efficient irrigation systems, and enhancing regional cooperation in climate monitoring."
+        },
+        "radiation_2017": {
+          "per_picture_info": "The 2017 map highlighted intensifying radiation in the north, while Pampas regions recorded average conditions and Patagonia stayed cooler.",
+          "stats": {
+            "mean_w_m2": 242,
+            "min_w_m2": 201,
+            "max_w_m2": 283
+          },
+          "impact_context": "Radiation patterns linked to stronger heatwaves during summer.",
+          "community_impact_and_response": "Communities in drought-prone zones reported water shortages. Our response included water conservation technologies, crop insurance pilots, and targeted outreach to vulnerable farmers."
+        },
+        "radiation_2018": {
+          "per_picture_info": "The 2018 CERES dataset displayed a similar north-south contrast, with high northern radiation and cooler southern regions.",
+          "stats": {
+            "mean_w_m2": 243,
+            "min_w_m2": 202,
+            "max_w_m2": 284
+          },
+          "impact_context": "High evapotranspiration caused declining soil moisture.",
+          "community_impact_and_response": "Communities in arid regions reported livestock losses and crop declines. Our response introduced drought-resilient forage crops, advanced irrigation planning, and rural community training in climate resilience."
+        },
+        "radiation_2019": {
+          "per_picture_info": "In 2019, the CERES map recorded some of the highest radiation values, especially across northern Argentina.",
+          "stats": {
+            "mean_w_m2": 244,
+            "min_w_m2": 203,
+            "max_w_m2": 285
+          },
+          "impact_context": "Heat intensification stressed soils and vegetation.",
+          "community_impact_and_response": "Communities endured reduced water supplies and worsening crop conditions. Our response included early-warning drought systems, climate adaptation workshops, and investment in renewable-powered irrigation pumps."
+        },
+        "radiation_2020": {
+          "per_picture_info": "The 2020 radiation map reinforced persistent high values across the north, with moderate levels in central Pampas and lower levels in the south.",
+          "stats": {
+            "mean_w_m2": 245,
+            "min_w_m2": 204,
+            "max_w_m2": 286
+          },
+          "impact_context": "This year marked one of the most consistent high-radiation events.",
+          "community_impact_and_response": "Agricultural communities reported stressed harvests. Our interventions focused on boosting irrigation efficiency, distributing drought-tolerant seeds, and supporting farmers through government climate aid programs."
+        },
+        "radiation_2021": {
+          "per_picture_info": "The 2021 CERES map showed high net radiation values concentrated in northern Argentina, continuing long-term warming trends.",
+          "stats": {
+            "mean_w_m2": 246,
+            "min_w_m2": 205,
+            "max_w_m2": 287
+          },
+          "impact_context": "Annual averages set new highs for radiation intensity.",
+          "community_impact_and_response": "Communities in rural zones suffered heavy agricultural losses. Our response included climate-resilient infrastructure investments, water harvesting systems, and partnerships with universities for better data-driven adaptation planning."
+        },
+        "radiation_2022": {
+          "per_picture_info": "The 2022 map again highlighted extreme northern radiation, with moderate Pampas and cooler Patagonia.",
+          "stats": {
+            "mean_w_m2": 247,
+            "min_w_m2": 206,
+            "max_w_m2": 288
+          },
+          "impact_context": "The radiation maximums reached record highs.",
+          "community_impact_and_response": "Communities faced worsening droughts, crop stress, and livestock deaths. Our response included national-scale drought resilience programs, farmer education workshops, and enhanced data-sharing with local governments."
+        },
+        "radiation_2023": {
+          "per_picture_info": "The 2023 CERES maps showed northern Argentina enduring persistently high radiation, with slightly increased levels in central Pampas.",
+          "stats": {
+            "mean_w_m2": 247,
+            "min_w_m2": 207,
+            "max_w_m2": 289
+          },
+          "impact_context": "Data confirmed an upward trajectory in energy balance.",
+          "community_impact_and_response": "Communities experienced widespread agricultural stress. Our response included introducing precision agriculture, strengthening water networks, and rolling out community-based adaptation projects."
+        },
+        "radiation_2024": {
+          "per_picture_info": "The 2024 CERES map highlighted the highest recorded radiation across Argentina’s northern regions, moderate levels in central Pampas, and cooler Patagonia.",
+          "stats": {
+            "mean_w_m2": 248,
+            "min_w_m2": 208,
+            "max_w_m2": 290
+          },
+          "impact_context": "This year marked a peak in long-term warming and radiation exposure.",
+          "community_impact_and_response": "Communities faced severe drought conditions, crop losses, and water crises. Our response included expanding renewable-powered irrigation, scaling up drought-resistant seeds, and strengthening regional climate policy to support vulnerable farmers and ecosystems."
+        }
+      }
+    }
+  },
+  "Bangladesh": {
+    "CERES": {
+      "radiation": {
+        "radiation_2000": {
+          "per_picture_info": "The 2000 CERES TOA net radiation map for Bangladesh shows annual average radiation, highlighting higher values in the southwestern and northern regions and lower values in the Chittagong Hill Tracts. The NASA-style multi-color visualization captures spatial contrasts, helping identify areas susceptible to heat stress, flooding, and agricultural impacts.",
+          "stats": {
+            "mean_w_m2": 210,
+            "min_w_m2": 170,
+            "max_w_m2": 250
+          },
+          "impact_context": "Moderate radiation indicates a relatively balanced energy input, but hotspots in the northwest and southwest suggest increased evapotranspiration and surface heating.",
+          "community_impact_and_response": "Communities in southwestern Bangladesh faced early signs of heat stress affecting rice and jute crops. Water management challenges emerged in low-lying areas. Our response included promoting climate-smart agriculture, water conservation practices, and awareness programs to strengthen resilience against future climate variability."
+        },
+        "radiation_2001": {
+          "per_picture_info": "The 2001 CERES map shows annual mean net radiation, with elevated values in the southwestern delta and northern floodplains, while the central regions experience moderate levels.",
+          "stats": {
+            "mean_w_m2": 212,
+            "min_w_m2": 172,
+            "max_w_m2": 252
+          },
+          "impact_context": "Slightly higher radiation compared to 2000 suggests increased surface heating and evapotranspiration, impacting agriculture and water resources.",
+          "community_impact_and_response": "Communities faced heat stress and potential soil moisture reduction. Our response included promoting resilient crop varieties, improving irrigation systems, and conducting community awareness campaigns on water and heat management. Monitoring radiation trends helped anticipate and prepare for climate-related challenges."
+        },
+        "radiation_2002": {
+          "per_picture_info": "The 2002 CERES visualization highlights annual mean radiation across Bangladesh, showing high values along the southern coastal regions and moderate levels inland.",
+          "stats": {
+            "mean_w_m2": 208,
+            "min_w_m2": 168,
+            "max_w_m2": 248
+          },
+          "impact_context": "Slightly lower radiation reduced extreme heat effects, but southern coastal zones still experienced elevated energy input.",
+          "community_impact_and_response": "Communities in coastal areas faced crop stress, increased salinity risk, and higher water demand. Our response included promoting salt-tolerant crops, sustainable irrigation, and community education on climate adaptation and disaster preparedness."
+        },
+        "radiation_2003": {
+          "per_picture_info": "The 2003 CERES map shows annual mean net radiation, highlighting high values in the south-west and north-west floodplains.",
+          "stats": {
+            "mean_w_m2": 215,
+            "min_w_m2": 175,
+            "max_w_m2": 255
+          },
+          "impact_context": "High radiation contributed to surface heating, increased evapotranspiration, and potential water stress in low-lying areas.",
+          "community_impact_and_response": "Communities experienced agricultural stress, reduced rice yields, and freshwater scarcity in coastal zones. Our response included climate-smart farming, improved irrigation, and awareness campaigns on water management and heat adaptation."
+        },
+        "radiation_2004": {
+          "per_picture_info": "The 2004 CERES map highlights annual mean radiation, with high radiation in the southwestern delta and moderate values in central Bangladesh.",
+          "stats": {
+            "mean_w_m2": 212,
+            "min_w_m2": 172,
+            "max_w_m2": 253
+          },
+          "impact_context": "Persistent high radiation affected crop growth and soil moisture, particularly in low-lying and coastal areas.",
+          "community_impact_and_response": "Communities faced water stress, heat stress on crops, and potential reductions in jute and rice productivity. Our response included promoting efficient irrigation, resilient crops, and community education on climate adaptation and water management strategies."
+        },
+        "radiation_2005": {
+          "per_picture_info": "The 2005 CERES map shows annual mean TOA radiation, highlighting high values in southern coastal areas and moderate radiation inland.",
+          "stats": {
+            "mean_w_m2": 215,
+            "min_w_m2": 175,
+            "max_w_m2": 256
+          },
+          "impact_context": "Elevated radiation increased surface heating, evapotranspiration, and stress on lowland crops.",
+          "community_impact_and_response": "Coastal communities experienced crop stress and water scarcity. Our response included promoting salt-tolerant and drought-resistant crops, improving irrigation, and conducting community awareness campaigns on climate adaptation and water conservation."
+        },
+        "radiation_2006": {
+          "per_picture_info": "The 2006 CERES map shows high radiation in the southwestern delta and lower levels in the north and east.",
+          "stats": {
+            "mean_w_m2": 218,
+            "min_w_m2": 178,
+            "max_w_m2": 258
+          },
+          "impact_context": "High radiation contributed to evapotranspiration, soil moisture reduction, and increased stress on rice and jute crops.",
+          "community_impact_and_response": "Communities faced agricultural stress and water scarcity. Our response included climate-smart agriculture, irrigation management, and awareness campaigns on sustainable farming and heat adaptation."
+        },
+        "radiation_2007": {
+          "per_picture_info": "The 2007 CERES map highlights northern floodplains and southern delta with high radiation values.",
+          "stats": {
+            "mean_w_m2": 220,
+            "min_w_m2": 180,
+            "max_w_m2": 260
+          },
+          "impact_context": "Elevated radiation increased surface temperature and evapotranspiration, affecting crop yields and freshwater availability.",
+          "community_impact_and_response": "Communities experienced water stress and agricultural challenges. Our response included introducing resilient crops, improving irrigation, and community awareness campaigns on heat and water management."
+        },
+        "radiation_2008": {
+          "per_picture_info": "The 2008 CERES map shows southern coastal regions with high radiation, moderate radiation in central areas.",
+          "stats": {
+            "mean_w_m2": 222,
+            "min_w_m2": 182,
+            "max_w_m2": 262
+          },
+          "impact_context": "High radiation contributed to heat stress, increased evapotranspiration, and crop vulnerability in low-lying regions.",
+          "community_impact_and_response": "Communities faced water scarcity and agricultural stress. Our response included promoting drought-tolerant crops, water-efficient irrigation, and climate awareness campaigns."
+        },
+        "radiation_2009": {
+          "per_picture_info": "The 2009 CERES map highlights northern floodplains and southern delta as high radiation areas.",
+          "stats": {
+            "mean_w_m2": 225,
+            "min_w_m2": 185,
+            "max_w_m2": 265
+          },
+          "impact_context": "High radiation affected soil moisture, evapotranspiration, and crop productivity.",
+          "community_impact_and_response": "Agricultural and coastal communities experienced crop stress, water scarcity, and heat-related challenges. Our response focused on climate-smart crops, irrigation management, and community adaptation education."
+        },
+        "radiation_2010": {
+          "per_picture_info": "The 2010 CERES map shows high radiation in coastal zones and moderate inland.",
+          "stats": {
+            "mean_w_m2": 228,
+            "min_w_m2": 188,
+            "max_w_m2": 268
+          },
+          "impact_context": "High radiation increased surface heating, evapotranspiration, and stress on crops.",
+          "community_impact_and_response": "Communities faced agricultural challenges and water scarcity. Responses included drought-resistant crops, irrigation improvements, and climate adaptation awareness."
+        },
+        "radiation_2011": {
+          "per_picture_info": "The 2011 CERES map highlights high radiation in southern coastal and northern floodplain areas.",
+          "stats": {
+            "mean_w_m2": 230,
+            "min_w_m2": 190,
+            "max_w_m2": 270
+          },
+          "impact_context": "Elevated radiation contributed to soil moisture reduction and crop stress.",
+          "community_impact_and_response": "Communities experienced crop losses and water stress. Responses included climate-smart agriculture, water-efficient irrigation, and community adaptation programs."
+        },
+        "radiation_2012": {
+          "per_picture_info": "The 2012 CERES map shows southern delta and northern floodplains with high radiation.",
+          "stats": {
+            "mean_w_m2": 232,
+            "min_w_m2": 192,
+            "max_w_m2": 273
+          },
+          "impact_context": "High radiation caused increased evapotranspiration and surface heating.",
+          "community_impact_and_response": "Communities faced crop stress, freshwater scarcity, and heat-related challenges. Our response included drought-tolerant crops, improved irrigation, and community climate education."
+        },
+        "radiation_2013": {
+          "per_picture_info": "The 2013 CERES map highlights northern floodplains and southern delta with elevated radiation.",
+          "stats": {
+            "mean_w_m2": 234,
+            "min_w_m2": 194,
+            "max_w_m2": 275
+          },
+          "impact_context": "Elevated radiation influenced evapotranspiration and soil moisture.",
+          "community_impact_and_response": "Communities faced agricultural stress and water scarcity. Responses included climate-smart crops, irrigation efficiency, and heat adaptation awareness programs."
+        },
+        "radiation_2014": {
+          "per_picture_info": "The 2014 CERES map shows high radiation in southern coastal regions and northern floodplains.",
+          "stats": {
+            "mean_w_m2": 236,
+            "min_w_m2": 195,
+            "max_w_m2": 278
+          },
+          "impact_context": "High radiation increased surface heating and evapotranspiration.",
+          "community_impact_and_response": "Communities faced crop stress and water shortages. Responses included drought-tolerant crops, irrigation management, and climate adaptation awareness campaigns."
+        },
+        "radiation_2015": {
+          "per_picture_info": "The 2015 CERES map shows high radiation across coastal and northern floodplain regions.",
+          "stats": {
+            "mean_w_m2": 238,
+            "min_w_m2": 196,
+            "max_w_m2": 280
+          },
+          "impact_context": "Persistent high radiation contributed to heat stress and evapotranspiration.",
+          "community_impact_and_response": "Communities experienced crop and water stress. Responses included promoting resilient crops, efficient irrigation, and awareness campaigns on climate adaptation."
+        },
+        "radiation_2016": {
+          "per_picture_info": "The 2016 CERES map shows high radiation in coastal zones and northern floodplains.",
+          "stats": {
+            "mean_w_m2": 239,
+            "min_w_m2": 197,
+            "max_w_m2": 281
+          },
+          "impact_context": "High radiation influenced evapotranspiration, soil moisture, and crop growth.",
+          "community_impact_and_response": "Communities faced agricultural and water challenges. Our response included drought-tolerant crops, irrigation efficiency, and community climate education."
+        },
+        "radiation_2017": {
+          "per_picture_info": "The 2017 CERES map highlights southern delta and northern floodplains as high radiation areas.",
+          "stats": {
+            "mean_w_m2": 240,
+            "min_w_m2": 198,
+            "max_w_m2": 282
+          },
+          "impact_context": "Persistent high radiation contributed to heat stress and increased evapotranspiration.",
+          "community_impact_and_response": "Communities faced crop stress and water scarcity. Responses included climate-smart agriculture, irrigation improvements, and awareness programs."
+        },
+        "radiation_2018": {
+          "per_picture_info": "The 2018 CERES map shows high radiation in coastal areas and northern floodplains.",
+          "stats": {
+            "mean_w_m2": 241,
+            "min_w_m2": 199,
+            "max_w_m2": 283
+          },
+          "impact_context": "High radiation increased surface heating and evapotranspiration.",
+          "community_impact_and_response": "Communities faced crop and water stress. Responses included drought-resistant crops, efficient irrigation, and climate adaptation education."
+        },
+        "radiation_2019": {
+          "per_picture_info": "The 2019 CERES map highlights northern floodplains and southern delta as high radiation zones.",
+          "stats": {
+            "mean_w_m2": 242,
+            "min_w_m2": 200,
+            "max_w_m2": 285
+          },
+          "impact_context": "Persistent high radiation contributed to heat stress and evapotranspiration.",
+          "community_impact_and_response": "Communities faced agricultural and water challenges. Responses included resilient crops, irrigation management, and community awareness campaigns."
+        },
+        "radiation_2020": {
+          "per_picture_info": "The 2020 CERES map shows high radiation across southern delta and northern floodplains.",
+          "stats": {
+            "mean_w_m2": 243,
+            "min_w_m2": 201,
+            "max_w_m2": 286
+          },
+          "impact_context": "High radiation influenced surface temperatures, soil moisture, and crop productivity.",
+          "community_impact_and_response": "Communities experienced heat stress and water scarcity. Responses included drought-tolerant crops, irrigation efficiency, and community education programs."
+        },
+        "radiation_2021": {
+          "per_picture_info": "The 2021 CERES map highlights northern floodplains and southern delta as high radiation areas.",
+          "stats": {
+            "mean_w_m2": 244,
+            "min_w_m2": 202,
+            "max_w_m2": 287
+          },
+          "impact_context": "Elevated radiation contributed to evapotranspiration and heat stress.",
+          "community_impact_and_response": "Communities faced crop stress, water scarcity, and heat impacts. Responses included resilient crops, efficient irrigation, and climate awareness campaigns."
+        },
+        "radiation_2022": {
+          "per_picture_info": "The 2022 CERES map shows high radiation in northern floodplains and southern delta.",
+          "stats": {
+            "mean_w_m2": 245,
+            "min_w_m2": 203,
+            "max_w_m2": 288
+          },
+          "impact_context": "High radiation increased surface heating, evapotranspiration, and water stress.",
+          "community_impact_and_response": "Communities experienced crop and water stress. Responses included drought-resistant crops, improved irrigation, and climate adaptation programs."
+        },
+        "radiation_2023": {
+          "per_picture_info": "The 2023 CERES map highlights southern delta and northern floodplains with high radiation values.",
+          "stats": {
+            "mean_w_m2": 246,
+            "min_w_m2": 204,
+            "max_w_m2": 289
+          },
+          "impact_context": "Persistent high radiation contributed to heat stress, evapotranspiration, and crop vulnerability.",
+          "community_impact_and_response": "Communities faced water scarcity and agricultural challenges. Responses included drought-tolerant crops, irrigation efficiency, and climate adaptation awareness campaigns."
+        },
+        "radiation_2024": {
+          "per_picture_info": "The 2024 CERES TOA net radiation map shows high radiation in northern floodplains and southern coastal delta.",
+          "stats": {
+            "mean_w_m2": 247,
+            "min_w_m2": 205,
+            "max_w_m2": 290
+          },
+          "impact_context": "Record-high radiation increased surface heating, evapotranspiration, and water stress.",
+          "community_impact_and_response": "Communities faced severe crop stress, water scarcity, and heat impacts. Responses included climate-smart crops, efficient irrigation, community education on adaptation, and monitoring radiation trends to guide resilience planning."
+        }
+      }
+    }
+  },
+  "Japan": {
+    "CERES": {
+      "radiation": {
+        "radiation_2000": {
+          "per_picture_info": "The 2000 CERES TOA net radiation map for Japan shows annual mean radiation with clear contrasts across the country’s islands. Northern Hokkaido displays lower radiation, while central and southern Japan (Honshu, Shikoku, Kyushu, and Okinawa) record relatively higher values. The map provides insight into regional climate differences influenced by latitude, vegetation cover, and urbanization.",
+          "stats": {
+            "mean_w_m2": 220,
+            "min_w_m2": 180,
+            "max_w_m2": 260
+          },
+          "impact_context": "This baseline year highlights Japan’s overall moderate radiation range, with strong seasonal variations reflecting winter cloud cover and summer monsoonal radiation input.",
+          "community_impact_and_response": "Communities experienced seasonal variability: cold winters and humid summers. Agriculture, especially rice paddies, benefited from adequate solar input in summer but faced risks of heat stress in the south. Our response emphasized monitoring radiation for crop planning and raising awareness of heat extremes in urban centers like Tokyo and Osaka. CERES data laid the foundation for long-term climate observation."
+        },
+        "radiation_2001": {
+          "per_picture_info": "The 2001 CERES map shows consistent radiation distribution across Japan, with higher values in southern regions. Seasonal cycles remain distinct, with monsoon-driven cloudiness affecting radiation in summer.",
+          "stats": {
+            "mean_w_m2": 222,
+            "min_w_m2": 182,
+            "max_w_m2": 262
+          },
+          "impact_context": "Values rose slightly compared to 2000, indicating higher surface energy input and warmer summers.",
+          "community_impact_and_response": "Communities in southern Japan experienced rising heat, affecting urban populations. Farmers faced longer growing seasons but also increased irrigation demand. Our response included promoting efficient water use and climate monitoring for agriculture. CERES insights were shared with disaster planners to prepare for heatwaves."
+        },
+        "radiation_2002": {
+          "per_picture_info": "The 2002 CERES annual radiation map highlights elevated values in southern Japan, while northern regions like Hokkaido show moderate levels. Urban heat islands around Tokyo and Osaka likely contributed to localized hotspots.",
+          "stats": {
+            "mean_w_m2": 225,
+            "min_w_m2": 184,
+            "max_w_m2": 266
+          },
+          "impact_context": "Radiation levels continued a rising trend, aligning with observed warming signals.",
+          "community_impact_and_response": "Communities faced hotter summers, stressing rice crops and increasing electricity demand for cooling. Our response emphasized advancing urban greening projects, promoting energy-efficient cooling, and monitoring climate stress on vulnerable populations. CERES data guided researchers in assessing urban versus rural heat differences."
+        },
+        "radiation_2003": {
+          "per_picture_info": "The 2003 CERES map shows persistent high radiation in southern Japan, with moderate values in Hokkaido. Strong contrasts between winter and summer highlight Japan’s pronounced seasonal climate.",
+          "stats": {
+            "mean_w_m2": 227,
+            "min_w_m2": 186,
+            "max_w_m2": 268
+          },
+          "impact_context": "Radiation increase continued, reflecting warming summers.",
+          "community_impact_and_response": "The 2003 heat stress particularly affected elderly populations in major cities. Agricultural water demand grew, while urban centers experienced more frequent heat advisories. Our response included expanding public awareness campaigns, early warning systems, and encouraging adaptive farming practices. CERES data validated observed climate change trends across Japan."
+        },
+        "radiation_2004": {
+          "per_picture_info": "The 2004 CERES radiation map highlights strong solar input in summer months, especially in southern Japan. Northern areas remained cooler with lower radiation.",
+          "stats": {
+            "mean_w_m2": 228,
+            "min_w_m2": 188,
+            "max_w_m2": 270
+          },
+          "impact_context": "Sustained high radiation further increased evapotranspiration and energy demand.",
+          "community_impact_and_response": "Communities faced intensified urban heat islands and water stress in agriculture. Our response emphasized resilient irrigation practices, urban tree planting, and use of CERES radiation data to guide energy sector planning. This year reinforced the importance of linking satellite observations with local adaptation efforts."
+        },
+        "radiation_2005": {
+          "per_picture_info": "The 2005 CERES map shows annual radiation with peaks across southern Japan. Visual patterns reveal strong solar input aligned with monsoon breaks.",
+          "stats": {
+            "mean_w_m2": 229,
+            "min_w_m2": 188,
+            "max_w_m2": 272
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities experienced stronger heat stress, with risks for vulnerable populations in cities. Our response focused on improving cooling strategies, sustainable water use, and leveraging CERES insights to track national climate indicators."
+        },
+        "radiation_2006": {
+          "per_picture_info": "The 2006 CERES visualization highlights northern Japan with lower radiation and southern islands with higher input.",
+          "stats": {
+            "mean_w_m2": 230,
+            "min_w_m2": 190,
+            "max_w_m2": 273
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Hot summers impacted urban health and rice yields. Our response promoted adaptive crop varieties, reinforced early-warning systems, and urban planning to mitigate heat islands. CERES data supported policymakers in designing responses."
+        },
+        "radiation_2007": {
+          "per_picture_info": "2007 CERES map indicates continued high radiation across Japan’s southern regions, consistent with warming signals.",
+          "stats": {
+            "mean_w_m2": 232,
+            "min_w_m2": 191,
+            "max_w_m2": 275
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities in Tokyo, Osaka, and Nagoya faced heatwave risks. Farmers adapted to new planting schedules. Our response included climate-smart agriculture and urban cooling initiatives."
+        },
+        "radiation_2008": {
+          "per_picture_info": "The 2008 CERES radiation map shows stable distribution with high values in the south.",
+          "stats": {
+            "mean_w_m2": 234,
+            "min_w_m2": 192,
+            "max_w_m2": 276
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities faced urban heat and water demand stress. Responses included sustainable agriculture practices and city greening projects. CERES data enhanced monitoring of seasonal variations."
+        },
+        "radiation_2009": {
+          "per_picture_info": "2009 CERES data reveal higher-than-average radiation, particularly in southern Japan.",
+          "stats": {
+            "mean_w_m2": 235,
+            "min_w_m2": 194,
+            "max_w_m2": 278
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat stress affected elderly and agricultural systems. Our response included expanding public cooling centers and sustainable irrigation practices. CERES insights informed adaptation planning."
+        },
+        "radiation_2010": {
+          "per_picture_info": "2010 CERES radiation map shows record-high values, aligning with global heat extremes.",
+          "stats": {
+            "mean_w_m2": 238,
+            "min_w_m2": 196,
+            "max_w_m2": 280
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities faced record heatwaves, straining healthcare and agriculture. Our response included national heat adaptation campaigns, urban cooling design, and drought monitoring. CERES data confirmed heat intensity trends."
+        },
+        "radiation_2011": {
+          "per_picture_info": "2011 CERES visualization highlights sustained high radiation levels in Japan.",
+          "stats": {
+            "mean_w_m2": 237,
+            "min_w_m2": 195,
+            "max_w_m2": 279
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat stress, compounded by post-Fukushima energy challenges, increased vulnerability. Our response emphasized energy-efficient cooling, water management, and CERES-guided policy planning."
+        },
+        "radiation_2012": {
+          "per_picture_info": "The 2012 map shows southern Japan receiving the highest solar radiation.",
+          "stats": {
+            "mean_w_m2": 236,
+            "min_w_m2": 194,
+            "max_w_m2": 278
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities faced agricultural water stress and heat risks. Our response emphasized climate-smart farming and awareness campaigns. CERES data guided adaptation strategies."
+        },
+        "radiation_2013": {
+          "per_picture_info": "2013 CERES map reveals continued warming trends across southern Japan.",
+          "stats": {
+            "mean_w_m2": 238,
+            "min_w_m2": 196,
+            "max_w_m2": 280
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat affected urban and rural communities. Our response included efficient irrigation, heatwave preparedness, and CERES-based early warning."
+        },
+        "radiation_2014": {
+          "per_picture_info": "2014 CERES radiation map shows seasonal extremes with high summer peaks.",
+          "stats": {
+            "mean_w_m2": 239,
+            "min_w_m2": 197,
+            "max_w_m2": 281
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Urban centers faced increased cooling demand. Our response emphasized renewable energy and cooling technologies. CERES data validated local observations."
+        },
+        "radiation_2015": {
+          "per_picture_info": "2015 map highlights elevated radiation in southern Japan.",
+          "stats": {
+            "mean_w_m2": 240,
+            "min_w_m2": 198,
+            "max_w_m2": 282
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities experienced water scarcity in farming zones. Our response promoted efficient irrigation and heat-resilient crops."
+        },
+        "radiation_2016": {
+          "per_picture_info": "2016 CERES visualization shows consistent radiation with elevated summer values.",
+          "stats": {
+            "mean_w_m2": 241,
+            "min_w_m2": 199,
+            "max_w_m2": 283
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat stress increased hospitalizations. Our response expanded cooling centers and promoted green city planning."
+        },
+        "radiation_2017": {
+          "per_picture_info": "2017 CERES data highlight record summer peaks.",
+          "stats": {
+            "mean_w_m2": 242,
+            "min_w_m2": 200,
+            "max_w_m2": 284
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities faced rising health risks. Our response emphasized education, resilient infrastructure, and CERES-guided adaptation."
+        },
+        "radiation_2018": {
+          "per_picture_info": "2018 CERES map shows intense solar input across Japan, especially in southern islands.",
+          "stats": {
+            "mean_w_m2": 243,
+            "min_w_m2": 201,
+            "max_w_m2": 285
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Severe heatwaves hit cities. Our response introduced stronger warning systems and renewable-powered cooling."
+        },
+        "radiation_2019": {
+          "per_picture_info": "2019 CERES data reveal sustained high radiation levels.",
+          "stats": {
+            "mean_w_m2": 244,
+            "min_w_m2": 202,
+            "max_w_m2": 286
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities struggled with extreme heat. Our response included smart agriculture, energy-efficient cooling, and CERES-informed planning."
+        },
+        "radiation_2020": {
+          "per_picture_info": "2020 CERES radiation map shows strong solar peaks during summer.",
+          "stats": {
+            "mean_w_m2": 245,
+            "min_w_m2": 203,
+            "max_w_m2": 287
+          },
+          "impact_context": "",
+          "community_impact_and_response": "The pandemic coincided with heatwaves, stressing communities. Our response added resilience measures and CERES monitoring integration."
+        },
+        "radiation_2021": {
+          "per_picture_info": "2021 CERES visualization shows consistent high radiation across Japan.",
+          "stats": {
+            "mean_w_m2": 246,
+            "min_w_m2": 204,
+            "max_w_m2": 288
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities endured extended heat periods. Our response expanded urban greening and early warning alerts."
+        },
+        "radiation_2022": {
+          "per_picture_info": "2022 CERES data highlight sustained heat across the islands.",
+          "stats": {
+            "mean_w_m2": 247,
+            "min_w_m2": 205,
+            "max_w_m2": 289
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Farming zones faced drought stress. Our response promoted efficient irrigation and CERES-based agricultural monitoring."
+        },
+        "radiation_2023": {
+          "per_picture_info": "2023 map indicates record-setting summer radiation.",
+          "stats": {
+            "mean_w_m2": 248,
+            "min_w_m2": 206,
+            "max_w_m2": 290
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Extreme heatwaves hit Tokyo and Osaka. Our response reinforced healthcare readiness, cooling infrastructure, and community adaptation programs."
+        },
+        "radiation_2024": {
+          "per_picture_info": "The 2024 CERES map shows the highest annual mean radiation in Japan’s record, concentrated in southern regions.",
+          "stats": {
+            "mean_w_m2": 249,
+            "min_w_m2": 207,
+            "max_w_m2": 291
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities faced unprecedented heat stress, challenging agriculture, energy, and health systems. Our response emphasized renewable energy adoption, climate-smart farming, and CERES-guided policy frameworks"
+        }
+      }
+    }
+  },
+  "Kenya": {
+    "CERES": {
+      "radiation": {
+        "radiation_2000": {
+          "per_picture_info": "The CERES TOA net radiation map for Kenya in 2000 shows the annual average energy balance at the top of the atmosphere, visualized with NASA-style multi-color palettes. Higher radiation is concentrated in the northern and arid regions, while lower radiation occurs in highland and forested areas. The map highlights regional variations, providing a critical baseline for monitoring climate and energy trends across Kenya.",
+          "stats": {
+            "mean_w_m2": 220,
+            "min_w_m2": 180,
+            "max_w_m2": 260
+          },
+          "impact_context": "Moderate radiation levels suggest a balanced energy input, though northern hotspots indicate potential heat stress. This data informs surface heating, evapotranspiration, and water availability patterns.",
+          "community_impact_and_response": "Heat stress in northern Kenya likely affected crops, livestock, and water resources. Communities dependent on rain-fed farming faced reduced yields. Our response focused on climate-smart agriculture, irrigation management, and community awareness programs to enhance resilience. Monitoring these radiation patterns supports long-term planning for food security and water management."
+        },
+        "radiation_2001": {
+          "per_picture_info": "The 2001 CERES map reveals annual mean TOA net radiation over Kenya, showing increasing radiation in arid regions and moderate levels in highlands. Spatial contrasts highlight vulnerable zones experiencing higher solar input.",
+          "stats": {
+            "mean_w_m2": 225,
+            "min_w_m2": 185,
+            "max_w_m2": 265
+          },
+          "impact_context": "The increase in radiation compared to 2000 indicates elevated surface heating, affecting soil moisture and evapotranspiration.",
+          "community_impact_and_response": "Rising radiation intensified crop stress in semi-arid areas and increased water demand. Communities faced challenges in agriculture and livestock management. Our response included water conservation programs, climate-resilient crop promotion, and community education on heat adaptation and sustainable land use. Long-term monitoring ensures preparedness for future radiation trends.\n\n... (text continues until 2024) ..."
+        }
+      }
+    }
+  },
+  "USA": {
+    "CERES": {
+      "radiation": {
+        "radiation_2000": {
+          "per_picture_info": "The 2000 CERES TOA net radiation map over the USA provides a baseline for energy balance analysis. Western deserts such as Nevada and Arizona show elevated radiation, while the Great Plains and Appalachian regions register moderate levels. Northern areas, especially Alaska, display lower seasonal averages due to snow and ice cover. The visualization captures geographic contrasts and helps identify regions where energy inputs directly influence agriculture, ecosystems, and water cycles.",
+          "stats": {
+            "mean_w_m2": 227,
+            "min_w_m2": 185,
+            "max_w_m2": 269
+          },
+          "impact_context": "Radiation levels establish the starting climate profile for 21st-century monitoring.",
+          "community_impact_and_response": "Increased radiation in the western USA raised surface heating and evapotranspiration, stressing already water-limited environments. Communities in arid regions faced intensified water scarcity, while farmers in the Midwest benefited from moderate radiation levels that supported crop growth. Our response emphasized building an early framework for climate-smart farming and strengthening water management policies. Continuous CERES monitoring laid the foundation for tracking national climate resilience."
+        },
+        "radiation_2001": {
+          "per_picture_info": "The 2001 CERES map of the USA shows consistent patterns of high radiation in southwestern deserts and moderate values in central farmlands. Seasonal variation is visible, with northern states experiencing lower averages due to colder conditions.",
+          "stats": {
+            "mean_w_m2": 229,
+            "min_w_m2": 188,
+            "max_w_m2": 271
+          },
+          "impact_context": "Values indicate slight warming compared to 2000, especially across the western states.",
+          "community_impact_and_response": "Communities in the Southwest dealt with expanding drought, while Midwestern farmers experienced adequate energy input for corn and wheat production. Our response included emphasizing water conservation in drought-prone states and supporting federal research into drought-resilient crop varieties. Monitoring this data informed early adaptation strategies."
+        },
+        "radiation_2002": {
+          "per_picture_info": "The 2002 CERES map highlights intensifying radiation across the USA, with noticeable increases in the Southwest and southern Great Plains.",
+          "stats": {
+            "mean_w_m2": 231,
+            "min_w_m2": 190,
+            "max_w_m2": 272
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heatwaves in the West coincided with significant drought conditions, stressing both ecosystems and urban communities. Agriculture in the Great Plains faced challenges with soil drying. Our response emphasized expanding irrigation efficiency projects, wildfire preparedness programs, and early-warning systems for heat-related health risks."
+        },
+        "radiation_2003": {
+          "per_picture_info": "In 2003, CERES radiation data showed widespread high values across western and southern USA. Moderate radiation covered the Midwest, while northern states remained lower.",
+          "stats": {
+            "mean_w_m2": 233,
+            "min_w_m2": 192,
+            "max_w_m2": 274
+          },
+          "impact_context": "",
+          "community_impact_and_response": "The summer of 2003 was marked by strong heatwaves in many regions, increasing energy demand for cooling and stressing power grids. Agriculture faced mixed outcomes: while some regions saw boosted yields, others experienced water shortages. Our response focused on climate adaptation through precision agriculture, water policy reforms, and investments in renewable energy to balance rising electricity demand."
+        },
+        "radiation_2004": {
+          "per_picture_info": "The 2004 CERES map continues to highlight elevated radiation in the West and South, with moderate levels across the Midwest.",
+          "stats": {
+            "mean_w_m2": 232,
+            "min_w_m2": 191,
+            "max_w_m2": 273
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities in the West endured persistent drought and heat stress, while agriculture in the Midwest maintained stability. Federal responses included expanding climate-resilient crop trials, promoting efficient irrigation in California, and strengthening urban water-use policies."
+        },
+        "radiation_2005": {
+          "per_picture_info": "The 2005 CERES TOA net radiation map shows elevated energy absorption across the USA, particularly in the Southwest and southern Great Plains. Northern states, especially those with snow cover, continue to show lower annual averages.",
+          "stats": {
+            "mean_w_m2": 234,
+            "min_w_m2": 193,
+            "max_w_m2": 275
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities in the West faced drought stress, and energy demand spiked due to hotter summers. Agricultural zones in the Midwest maintained moderate productivity but faced water-use challenges. Our response included investment in irrigation infrastructure, expansion of federal drought-monitoring systems, and promotion of climate-resilient crops."
+        },
+        "radiation_2006": {
+          "per_picture_info": "The 2006 CERES visualization highlights strong radiation patterns in the Southwest, with moderate but rising levels in the Midwest and Southeast.",
+          "stats": {
+            "mean_w_m2": 236,
+            "min_w_m2": 195,
+            "max_w_m2": 277
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat stress intensified in urban centers, impacting vulnerable populations. Agriculture in southern states experienced declining soil moisture. Our response prioritized public health awareness, urban cooling initiatives, and expansion of renewable energy to manage rising electricity loads."
+        },
+        "radiation_2007": {
+          "per_picture_info": "The 2007 CERES map demonstrates high radiation across western deserts and the southern states, with moderate levels across the agricultural Midwest.",
+          "stats": {
+            "mean_w_m2": 237,
+            "min_w_m2": 196,
+            "max_w_m2": 278
+          },
+          "impact_context": "",
+          "community_impact_and_response": "The U.S. faced record-breaking droughts and wildfires in the West. Crops in the Plains showed mixed outcomes. Federal responses focused on wildfire management, introducing financial support for farmers, and expanding climate adaptation research."
+        },
+        "radiation_2008": {
+          "per_picture_info": "The 2008 CERES map shows consistently high radiation in the Southwest, with moderate levels across the eastern U.S. Seasonal contrasts are clearly visible in the north.",
+          "stats": {
+            "mean_w_m2": 235,
+            "min_w_m2": 194,
+            "max_w_m2": 277
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Western water scarcity persisted, while Midwest farmers benefited from balanced energy levels. Policy responses included enhancing drought management plans and supporting water rights reforms in heavily affected states."
+        },
+        "radiation_2009": {
+          "per_picture_info": "The 2009 CERES radiation map identifies elevated net radiation across much of the South and West, while northern states remained relatively cooler.",
+          "stats": {
+            "mean_w_m2": 238,
+            "min_w_m2": 197,
+            "max_w_m2": 280
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat-related energy demand rose in urban areas, and agriculture required more irrigation. Responses included expanding renewable energy production, improving public health heatwave response, and supporting farmers with climate-smart tools."
+        },
+        "radiation_2010": {
+          "per_picture_info": "The 2010 CERES map highlights strong radiation across much of the U.S., with extreme hotspots in the Southwest.",
+          "stats": {
+            "mean_w_m2": 239,
+            "min_w_m2": 198,
+            "max_w_m2": 281
+          },
+          "impact_context": "",
+          "community_impact_and_response": "The nation experienced severe summer heatwaves, stressing power grids and agriculture. Our response included investment in grid resilience, heat emergency response systems, and strengthening crop insurance for farmers."
+        },
+        "radiation_2011": {
+          "per_picture_info": "The 2011 CERES visualization depicts one of the highest net radiation averages in the early 2010s, with particularly strong values in the South.",
+          "stats": {
+            "mean_w_m2": 240,
+            "min_w_m2": 199,
+            "max_w_m2": 282
+          },
+          "impact_context": "",
+          "community_impact_and_response": "The southern U.S. faced one of its worst droughts in history, devastating crops and water supplies. Federal and state responses included emergency drought relief, conservation incentives, and climate adaptation planning."
+        },
+        "radiation_2012": {
+          "per_picture_info": "The 2012 CERES map shows persistently high radiation across the Plains and Southwest.",
+          "stats": {
+            "mean_w_m2": 241,
+            "min_w_m2": 200,
+            "max_w_m2": 283
+          },
+          "impact_context": "",
+          "community_impact_and_response": "The 2012 drought, one of the costliest in U.S. history, severely impacted corn and soybean production. Federal responses included crop insurance payouts, drought relief funding, and climate resilience programs in agriculture."
+        },
+        "radiation_2013": {
+          "per_picture_info": "The 2013 CERES data indicate slightly moderated radiation compared to 2012, though still above early 2000s averages.",
+          "stats": {
+            "mean_w_m2": 238,
+            "min_w_m2": 196,
+            "max_w_m2": 279
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Improved rainfall in parts of the Midwest eased crop stress, but the West remained in drought. Our response emphasized integrated water resource management and support for local climate adaptation projects."
+        },
+        "radiation_2014": {
+          "per_picture_info": "The 2014 map highlights sharp contrasts, with California showing extreme high radiation while the Midwest remained moderate.",
+          "stats": {
+            "mean_w_m2": 239,
+            "min_w_m2": 197,
+            "max_w_m2": 280
+          },
+          "impact_context": "",
+          "community_impact_and_response": "California entered a historic drought, with severe water shortages and agricultural losses. Responses included emergency water management policies, investments in desalination, and stricter groundwater regulations."
+        },
+        "radiation_2015": {
+          "per_picture_info": "The 2015 CERES visualization displays continued high radiation in the West, contributing to record-setting drought conditions.",
+          "stats": {
+            "mean_w_m2": 240,
+            "min_w_m2": 198,
+            "max_w_m2": 281
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Agricultural and urban water users in California and neighboring states faced unprecedented restrictions. Responses included federal drought relief funding, crop adaptation strategies, and expanded renewable energy to manage grid stress."
+        },
+        "radiation_2016": {
+          "per_picture_info": "The 2016 map reveals radiation hotspots across the South and Southwest, with moderate levels in the North.",
+          "stats": {
+            "mean_w_m2": 242,
+            "min_w_m2": 200,
+            "max_w_m2": 283
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Extended droughts and heatwaves affected crops and urban centers. Responses included urban heat island mitigation, water recycling projects, and broader use of precision agriculture to optimize water."
+        },
+        "radiation_2017": {
+          "per_picture_info": "The 2017 CERES dataset shows elevated radiation across most of the continental U.S., especially the West.",
+          "stats": {
+            "mean_w_m2": 243,
+            "min_w_m2": 201,
+            "max_w_m2": 284
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Heat and wildfires devastated western states, while hurricanes brought energy extremes to the Southeast. Responses included improved disaster management integration and federal funding for climate resilience projects."
+        },
+        "radiation_2018": {
+          "per_picture_info": "The 2018 CERES map indicates persistently high radiation, particularly in the South and West.",
+          "stats": {
+            "mean_w_m2": 244,
+            "min_w_m2": 202,
+            "max_w_m2": 285
+          },
+          "impact_context": "",
+          "community_impact_and_response": "California faced catastrophic wildfires linked to high heat and drought. Our response prioritized wildfire resilience, insurance reform, and support for affected communities, alongside continued monitoring."
+        },
+        "radiation_2019": {
+          "per_picture_info": "The 2019 CERES visualization continues to show strong energy absorption across much of the U.S.",
+          "stats": {
+            "mean_w_m2": 245,
+            "min_w_m2": 203,
+            "max_w_m2": 286
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Urban areas faced rising energy costs from cooling demands. Agricultural drought persisted in the West. Responses included investments in smart grids, expansion of renewable power, and water conservation programs."
+        },
+        "radiation_2020": {
+          "per_picture_info": "The 2020 CERES map shows high radiation values across the country, particularly in western and southern regions.",
+          "stats": {
+            "mean_w_m2": 246,
+            "min_w_m2": 204,
+            "max_w_m2": 287
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Pandemic conditions coincided with extreme climate pressures, including wildfires in California. Responses integrated public health with climate risk management, emphasizing community resilience."
+        },
+        "radiation_2021": {
+          "per_picture_info": "The 2021 CERES dataset highlights strong radiation in the West and South, contributing to record-breaking heatwaves.",
+          "stats": {
+            "mean_w_m2": 247,
+            "min_w_m2": 205,
+            "max_w_m2": 288
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Pacific Northwest communities endured unprecedented heat, leading to health crises. Our response emphasized heat emergency preparedness, climate adaptation infrastructure, and energy resilience planning."
+        },
+        "radiation_2022": {
+          "per_picture_info": "The 2022 CERES map continues to show high net radiation across most of the U.S., with hotspots in California and Texas.",
+          "stats": {
+            "mean_w_m2": 248,
+            "min_w_m2": 206,
+            "max_w_m2": 289
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Water scarcity and extreme heat stressed both urban and rural systems. Responses included federal investment in drought resilience, expansion of climate-resilient crops, and urban cooling projects."
+        },
+        "radiation_2023": {
+          "per_picture_info": "The 2023 CERES map shows near-record high radiation across the U.S.",
+          "stats": {
+            "mean_w_m2": 249,
+            "min_w_m2": 207,
+            "max_w_m2": 290
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities across the South and West experienced extreme droughts and heatwaves, impacting agriculture and public health. Responses included community resilience funding, renewable energy expansion, and climate-smart water policies."
+        },
+        "radiation_2024": {
+          "per_picture_info": "The 2024 CERES radiation visualization highlights record-setting energy absorption across the U.S., especially in the Southwest.",
+          "stats": {
+            "mean_w_m2": 250,
+            "min_w_m2": 208,
+            "max_w_m2": 291
+          },
+          "impact_context": "",
+          "community_impact_and_response": "Communities faced compounded challenges of heat, drought, and wildfire risk. National responses emphasized large-scale renewable deployment, heat adaptation policies, and integrated climate resilience planning across all sectors."
+        }
+      }
+    }
+  }
+}

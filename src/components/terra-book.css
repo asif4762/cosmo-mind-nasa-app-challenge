@@ -1,0 +1,239 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&display=swap");
+
+/* General reset and font */
+* { 
+  box-sizing: border-box; 
+}
+.terra-book { 
+  font-family: "Bricolage Grotesque", system-ui, sans-serif; 
+}
+
+/* ------------ Page Shell ------------ */
+.page {
+  background: #111827; /* Deep Space Black */
+  border: 1px solid #2a2d3d; /* Darker border */
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  background-color: #1b1d25;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.page:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.page-content {
+  height: 100%;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  color: #f1f5f9; /* Soft off-white text color */
+  position: relative;
+}
+
+/* ------------ Cover Page with Green Vibe ------------ */
+.cover {
+  background: linear-gradient(135deg, #3b82f6, #10b981, #16a34a); /* Blue & Green Gradient */
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  animation: fadeInCover 1.5s ease-in-out;
+}
+
+@keyframes fadeInCover {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.cover-title {
+  font-size: 34px;
+  font-weight: 800;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.cover-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 12px;
+  font-weight: 600;
+  opacity: 0.9;
+  animation: slideInSubtitle 1.8s ease-in-out;
+}
+
+@keyframes slideInSubtitle {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* ------------ Country Intro ------------ */
+.country-intro { display: grid; gap: 15px; }
+
+.country-cover {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #2a2d3d;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.country-title {
+  font-size: 24px;
+  color: #f1f5f9;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.country-lead {
+  color: #e0e7ff;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.country-lead:hover {
+  color: #10b981; /* Highlight color on hover */
+}
+
+/* ------------ Year Page ------------ */
+.year-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 12px;
+  animation: slideInYearHead 0.7s ease-out;
+}
+
+@keyframes slideInYearHead {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.year-country {
+  font-size: 18px;
+  color: #f1f5f9;
+  font-weight: 700;
+}
+
+.year-badge {
+  font-size: 14px;
+  font-weight: 700;
+  background: #10b981; /* Green Badge */
+  border: 1px solid #34d399;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.map-figure {
+  margin: 0;
+}
+
+.map-figure img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background: #1b1d25;
+  border-radius: 12px;
+  border: 2px solid #2a2d3d;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.map-figure img:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.map-figure figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.story {
+  color: #e0e7ff;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* ------------ Back Page ------------ */
+.back {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.back h2 {
+  font-size: 24px;
+  color: #f1f5f9;
+  font-weight: 700;
+}
+
+.back p {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+}
+
+/* ------------ Glow Effect on Hover ------------ */
+.page:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 255, 255, 0.2), 0 6px 10px rgba(0, 255, 255, 0.2); /* Cyan glow effect */
+}
+
+/* ------------ Panel and Button Transitions ------------ */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* ------------ Responsive Design ------------ */
+@media (max-width: 768px) {
+  .cover-title {
+    font-size: 26px;
+  }
+
+  .cover-subtitle {
+    font-size: 16px;
+  }
+
+  .country-title {
+    font-size: 22px;
+  }
+
+  .map-figure img {
+    height: 200px;
+  }
+
+  .back h2 {
+    font-size: 22px;
+  }
+
+  .back p {
+    font-size: 14px;
+  }
+}

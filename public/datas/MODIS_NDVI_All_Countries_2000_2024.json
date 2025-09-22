@@ -1,0 +1,716 @@
+{
+  "dataset": "MODIS NDVI",
+  "product": "MOD13Q1 v061",
+  "sensor": "MODIS Terra",
+  "notes": "Parsed from user-supplied NDVI narratives; fields kept consistent across countries.",
+  "countries": {
+    "Bangladesh": [
+      {
+        "year": 2000,
+        "per_picture_info": "Bangladesh’s 2000 NDVI map shows moderate vegetation cover. Northern and eastern forests, including Chittagong Hill Tracts and Sylhet, display high NDVI (0.6–0.8). Central and southwestern agricultural and urban areas are lower (0.2–0.5). Peak greenness occurs during monsoon months.",
+        "terra_data_insights": "Terra MODIS (MOD13Q1 v061) reveals an annual mean NDVI of ~0.48. Northern forests are stable, while southern agricultural lands show minor decline.",
+        "community_environmental_impact": "Reduced vegetation affects crop yields, grazing lands, and forest-based livelihoods. Urban expansion reduces green cover, increasing local heat stress.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2001,
+        "per_picture_info": "NDVI maps show slight vegetation decline in southwestern Bangladesh, while northern regions remain dense (0.6–0.8). Seasonal monsoon peaks remain visible.",
+        "terra_data_insights": "Annual mean NDVI ~0.47. Riverine floodplains experience temporary degradation due to seasonal floods.",
+        "community_environmental_impact": "Flooding reduces crop yields and affects rural livelihoods. Vegetation loss contributes to soil erosion and higher local temperatures.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2002,
+        "per_picture_info": "NDVI indicates recovery in some degraded areas. Northern forests are dense (0.6–0.8), central agricultural zones moderate (0.3–0.5), and southern coastal areas show minor stress from salinity intrusion.",
+        "terra_data_insights": "Mean NDVI ~0.49. Seasonal peaks correspond with monsoon growth patterns, with slight improvement in stressed areas.",
+        "community_environmental_impact": "Vegetation recovery supports better crop yields and grazing lands, though coastal crops face challenges.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2003,
+        "per_picture_info": "High vegetation density in Chittagong Hill Tracts and Sylhet (0.7–0.8); central and western districts moderate (0.3–0.5). Coastal areas show slight decline due to early monsoon flooding.",
+        "terra_data_insights": "Annual mean NDVI ~0.48. Seasonal variation is evident with peak greenness in June–September.",
+        "community_environmental_impact": "Flood-affected areas see reduced crop yields. Urban expansion in Dhaka and Khulna reduces vegetation and increases heat stress.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2004,
+        "per_picture_info": "Strong vegetation growth in northern wetlands and forests (0.6–0.8). Southern coastal belt shows low NDVI (0.2–0.4) from mangrove degradation and salinity.",
+        "terra_data_insights": "Mean NDVI ~0.46; southern vegetation stress due to cyclone impacts.",
+        "community_environmental_impact": "Coastal communities face crop loss and soil degradation. Inland wetlands remain productive for fishing and agriculture.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2005,
+        "per_picture_info": "NDVI maps highlight dense northern forests (0.7–0.8) and moderate central regions (0.3–0.5). Coastal areas recover slightly from past cyclone impacts.",
+        "terra_data_insights": "Mean NDVI ~0.49. Seasonal monsoon greening is strong, showing vegetation recovery in flood-prone zones.",
+        "community_environmental_impact": "Improved vegetation boosts crop yields and grazing lands. Coastal rehabilitation aids livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2006,
+        "per_picture_info": "NDVI maps show healthy forests in the north (0.6–0.8) and moderate vegetation elsewhere (0.3–0.5). Central districts experience urban expansion.",
+        "terra_data_insights": "Mean NDVI ~0.48. Vegetation trends stable overall, with urbanization causing localized decline.",
+        "community_environmental_impact": "Urban heat increases in central regions; agricultural lands remain moderately productive.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2007,
+        "per_picture_info": "Dense vegetation in northeastern forests (0.7–0.8) and moderate agricultural zones (0.3–0.5). Southern coastal areas show stress from minor flooding events.",
+        "terra_data_insights": "Annual mean NDVI ~0.47. Floods reduce NDVI temporarily in low-lying areas.",
+        "community_environmental_impact": "Crop yields decline in flooded zones; fishing communities are affected by wetland changes.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2008,
+        "per_picture_info": "Vegetation remains dense in northern and eastern forests (0.6–0.8). Central and western agricultural zones are moderate (0.3–0.5). Urban areas show lower NDVI (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.48. Seasonal monsoon growth is visible, with temporary urban vegetation loss.",
+        "community_environmental_impact": "Urban heat stress rises; agriculture largely stable. Wetland areas remain productive.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2009,
+        "per_picture_info": "NDVI maps show strong greening in northern forests (0.7–0.8) and moderate agricultural regions (0.3–0.5). Southern areas face minor saline intrusion stress.",
+        "terra_data_insights": "Mean NDVI ~0.49. Vegetation remains stable overall, with coastal challenges persisting.",
+        "community_environmental_impact": "Coastal agriculture affected by salinity; inland crop productivity improves. Forest resources continue to support livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2010,
+        "per_picture_info": "NDVI indicates high northern forest density (0.7–0.8). Central regions are moderate (0.3–0.5), while southwestern coastal regions experience reduced NDVI (0.2–0.4) from cyclone effects.",
+        "terra_data_insights": "Annual mean NDVI ~0.46. Seasonal greening aligns with monsoon, though cyclone stress lowers southern NDVI.",
+        "community_environmental_impact": "Crop loss and soil erosion affect coastal livelihoods; inland agriculture remains stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2011,
+        "per_picture_info": "Vegetation is dense in the north (0.7–0.8) and moderate in central agricultural zones (0.3–0.5). Southern wetlands show partial recovery.",
+        "terra_data_insights": "Mean NDVI ~0.48. Vegetation recovery in coastal zones is observed after previous cyclone events.",
+        "community_environmental_impact": "Crop yields improve, wetlands support fishing, and forest resources benefit local livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2012,
+        "per_picture_info": "NDVI maps show strong greening in northern forests (0.7–0.8) and moderate vegetation in agricultural central zones (0.3–0.5). Urban zones are slightly reduced (0.2–0.4).",
+        "terra_data_insights": "Annual mean NDVI ~0.48. Seasonal monsoon patterns are visible.",
+        "community_environmental_impact": "Urban heat stress rises; agriculture remains productive. Northern forests sustain biodiversity and local livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2013,
+        "per_picture_info": "High northern and eastern forest density (0.7–0.8). Coastal and southern agricultural areas show moderate vegetation (0.3–0.5) with minor saline intrusion.",
+        "terra_data_insights": "Mean NDVI ~0.47. Seasonal peaks correspond with monsoon growth.",
+        "community_environmental_impact": "Coastal crops face salinity challenges; inland productivity is stable. Fishing and forest livelihoods are maintained.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2014,
+        "per_picture_info": "Vegetation remains dense in northern forests (0.7–0.8) and moderate in central zones (0.3–0.5). Urbanized areas show reduced NDVI (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.48. Seasonal monsoon patterns show consistent peak greenness.",
+        "community_environmental_impact": "Urban heat stress persists; agriculture remains moderately productive. Forested zones continue supporting livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2015,
+        "per_picture_info": "Northern forests dense (0.7–0.8); central agricultural zones moderate (0.3–0.5). Coastal areas face minor vegetation stress from flooding.",
+        "terra_data_insights": "Mean NDVI ~0.47. Vegetation temporarily decreases in flood-affected zones.",
+        "community_environmental_impact": "Floods reduce crop yield; forest and wetland areas support local communities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2016,
+        "per_picture_info": "Dense forests in the north (0.7–0.8), moderate vegetation in central regions (0.3–0.5), southern coastal areas slightly stressed (0.2–0.4).",
+        "terra_data_insights": "Annual mean NDVI ~0.48. Seasonal growth patterns are visible, with minor coastal stress.",
+        "community_environmental_impact": "Coastal agriculture and livelihoods affected by salinity and flooding; inland farming remains stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2017,
+        "per_picture_info": "NDVI maps show high northern forest density (0.7–0.8) and moderate central agricultural vegetation (0.3–0.5). Urban zones show slight decline (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.48. Seasonal monsoon greening remains prominent.",
+        "community_environmental_impact": "Urban heat stress and crop variability affect livelihoods; forests remain stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2018,
+        "per_picture_info": "Dense northern and northeastern forests (0.7–0.8); coastal southern areas moderate (0.3–0.5). Urbanized central areas have lower NDVI (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.47. Seasonal vegetation peaks correspond with monsoon rainfall.",
+        "community_environmental_impact": "Coastal crop stress due to salinity; urban heat persists. Forested and wetland regions support livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2019,
+        "per_picture_info": "Northern forests dense (0.7–0.8), central agricultural areas moderate (0.3–0.5), southern coastal vegetation moderately stressed (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.48. Vegetation remains stable in inland areas; coastal challenges persist.",
+        "community_environmental_impact": "Salinity and flooding affect coastal crops and livelihoods; inland agriculture stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2020,
+        "per_picture_info": "NDVI highlights strong northern forest greenness (0.7–0.8) and moderate central agriculture (0.3–0.5). Urban areas slightly lower (0.2–0.4).",
+        "terra_data_insights": "Annual mean NDVI ~0.48. Seasonal monsoon peaks are consistent.",
+        "community_environmental_impact": "Urban heat and agricultural variability impact communities; forests continue providing ecosystem services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2021,
+        "per_picture_info": "Northern and eastern forests remain dense (0.7–0.8); central agricultural areas moderate (0.3–0.5). Coastal zones show minor stress.",
+        "terra_data_insights": "Mean NDVI ~0.48. Seasonal variations reflect regular monsoon growth.",
+        "community_environmental_impact": "Coastal agriculture impacted by salinity; inland productivity stable. Forests support livelihoods and biodiversity.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2022,
+        "per_picture_info": "Dense forests in the north and northeast (0.7–0.8), moderate central agriculture (0.3–0.5), urban areas show lower NDVI (0.2–0.4).",
+        "terra_data_insights": "Annual mean NDVI ~0.48. Seasonal monsoon patterns visible; minor coastal stress persists.",
+        "community_environmental_impact": "Urban heat and coastal salinity impact livelihoods; inland agriculture remains productive.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2023,
+        "per_picture_info": "NDVI maps indicate dense northern forests (0.7–0.8) and moderate vegetation in central regions (0.3–0.5). Coastal and urban zones show slight decline (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.48. Seasonal monsoon growth patterns persist.",
+        "community_environmental_impact": "Coastal crop stress and urban heat continue to affect livelihoods; forested regions remain resilient.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2024,
+        "per_picture_info": "Dense vegetation in northern forests (0.7–0.8), moderate central agricultural zones (0.3–0.5), coastal areas slightly stressed (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.48. Seasonal monsoon peaks remain prominent; minor coastal vegetation stress observed.",
+        "community_environmental_impact": "Coastal agriculture and urban expansion continue affecting local livelihoods; forests support biodiversity and ecosystem services.",
+        "response_and_mitigation": ""
+      }
+    ],
+    "Japan": [
+      {
+        "year": 2000,
+        "per_picture_info": "Japan’s 2000 NDVI map shows dense forests in Hokkaido and Tohoku (0.7–0.85) and moderate vegetation in central Honshu (0.4–0.6). Urbanized regions like Tokyo, Osaka, and Nagoya have lower NDVI (0.2–0.4). Seasonal monsoon peaks in summer contribute to high greenness in rice paddies and forests.",
+        "terra_data_insights": "Terra MODIS (MOD13Q1 v061) shows an annual mean NDVI ~0.55. Northern forests remain stable, while urban expansion slightly reduces green cover in metropolitan areas.",
+        "community_environmental_impact": "Dense forests support timber, biodiversity, and carbon sequestration. Urban expansion increases heat stress, while agricultural regions rely on seasonal vegetation for rice production. Typhoon impacts are minimal this year.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2001,
+        "per_picture_info": "NDVI maps reveal healthy northern and eastern forests (0.7–0.85) and moderate central vegetation (0.4–0.6). Southwestern coastal areas, including Kyushu, show slight decline (0.3–0.5) due to minor flooding events.",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal peaks are observed during summer, with temporary vegetation stress in flood-prone coastal areas.",
+        "community_environmental_impact": "Floods reduce rice yields in Kyushu; northern forests support timber and wildlife. Urban heat persists in Tokyo and Osaka.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2002,
+        "per_picture_info": "Dense vegetation in Hokkaido (0.75–0.85) and moderate central Honshu areas (0.4–0.6). Coastal areas in Shikoku and Kyushu show minor vegetation stress due to typhoon rainfall.",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Vegetation recovery in flood-affected areas is observed mid-year.",
+        "community_environmental_impact": "Typhoon rainfall temporarily reduces crop productivity and affects rural livelihoods. Forests continue providing ecosystem services and biodiversity support.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2003,
+        "per_picture_info": "Northern Japan shows dense forests (0.75–0.85), central agricultural zones moderate (0.4–0.6), and southern coastal Kyushu areas experience minor stress (0.3–0.5). Seasonal patterns highlight peak greenness in summer months.",
+        "terra_data_insights": "Mean NDVI ~0.54. Typhoon events cause temporary NDVI reduction in southern coastal regions.",
+        "community_environmental_impact": "Agricultural losses occur in Kyushu and Shikoku; northern forests support timber and carbon storage. Urban heat is moderate in metropolitan areas.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2004,
+        "per_picture_info": "Dense Hokkaido forests (0.75–0.85), moderate vegetation central Honshu (0.4–0.6), and southern coastal regions slightly stressed (0.3–0.5). Paddy fields show peak greenness in monsoon.",
+        "terra_data_insights": "Mean NDVI ~0.55. Typhoon events moderately reduce vegetation in southern regions.",
+        "community_environmental_impact": "Rice yields in Kyushu and Shikoku temporarily decline. Forests continue to provide carbon storage and biodiversity. Urban heat persists in major cities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2005,
+        "per_picture_info": "Northern forests remain dense (0.75–0.85). Central Honshu has moderate vegetation (0.4–0.6). Kyushu and Shikoku coastal areas show minor vegetation stress due to typhoons.",
+        "terra_data_insights": "Annual mean NDVI ~0.54. Seasonal NDVI peaks align with summer monsoon.",
+        "community_environmental_impact": "Flooding affects rice yields; urban expansion reduces green cover in Tokyo and Osaka. Northern forests provide timber and ecological services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2006,
+        "per_picture_info": "Hokkaido and northern Honshu forests remain dense (0.75–0.85), while central agricultural regions show moderate NDVI (0.4–0.6). Kyushu and Shikoku exhibit slight vegetation stress (0.3–0.5) due to early summer typhoons. Urban areas like Tokyo and Osaka have lower NDVI (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal variations show peak greenness during summer months, with temporary NDVI decline in southern coastal regions after storms.",
+        "community_environmental_impact": "Typhoon-affected crops reduce yields in Kyushu. Urban heat increases in metropolitan centers, affecting air quality and energy demands. Forests continue supporting biodiversity and timber resources.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2007,
+        "per_picture_info": "Northern forests and wetlands remain dense (0.75–0.85). Central Honshu agricultural zones moderate (0.4–0.6). Coastal areas in Shikoku and Kyushu show vegetation stress (0.3–0.5) following typhoon-induced floods.",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Vegetation recovers mid-year after early monsoon floods.",
+        "community_environmental_impact": "Rice paddy yields decline in southern coastal regions. Urban areas face heat island effects, while northern forests continue to sustain timber and ecosystem services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2008,
+        "per_picture_info": "Dense forests in Hokkaido and Tohoku (0.75–0.85), moderate central Honshu vegetation (0.4–0.6). Southern islands show temporary NDVI decrease due to typhoon rainfall.",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal peaks occur during summer; southern regions recover after floods.",
+        "community_environmental_impact": "Floods reduce yields in Kyushu rice paddies. Urban heat stress continues in Tokyo and Osaka. Forested regions maintain ecological balance and biodiversity.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2009,
+        "per_picture_info": "Hokkaido forests remain very dense (0.75–0.85). Central Honshu moderate (0.4–0.6). Southern coastal areas experience minor NDVI stress due to late-summer typhoons.",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Vegetation peaks align with summer monsoon; temporary southern stress observed.",
+        "community_environmental_impact": "Agricultural losses in Kyushu and Shikoku; northern forests continue supporting timber and biodiversity. Urban heat persists in major cities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2010,
+        "per_picture_info": "Dense forests in Hokkaido (0.75–0.85), moderate central Honshu vegetation (0.4–0.6). Coastal regions of Kyushu and Shikoku show moderate stress (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal growth patterns remain consistent, with summer peaks and temporary storm-related declines.",
+        "community_environmental_impact": "Coastal crop yields are temporarily reduced; urban heat continues to affect large cities. Forested areas provide ecosystem services and carbon storage.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2011,
+        "per_picture_info": "Hokkaido forests remain dense (0.75–0.85). Central Honshu shows moderate NDVI (0.4–0.6), while Tohoku coastal regions have lower NDVI (0.3–0.5) following the March 2011 earthquake and tsunami.",
+        "terra_data_insights": "Mean NDVI ~0.53. Vegetation temporarily reduced in disaster-affected areas; northern forests remain stable.",
+        "community_environmental_impact": "Rice paddies and farmlands in Tohoku were damaged; urban areas faced infrastructure challenges. Forests and wetlands continued to provide crucial ecosystem services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2012,
+        "per_picture_info": "Northern Hokkaido and Tohoku forests dense (0.75–0.85). Central Honshu moderate (0.4–0.6). Southern Kyushu and Shikoku recover from past typhoon impacts (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal summer peaks observed; southern recovery evident by late summer.",
+        "community_environmental_impact": "Improved vegetation supports rice yields and forestry. Coastal communities benefit from flood-reduced impacts. Urban heat remains moderate.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2013,
+        "per_picture_info": "Dense Hokkaido and Tohoku forests (0.75–0.85), moderate central Honshu (0.4–0.6), coastal southern Kyushu stress remains (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal variations show summer peaks; typhoon-induced stress minimal this year.",
+        "community_environmental_impact": "Rice production stable; urban heat persists. Northern forests continue providing biodiversity and timber.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2014,
+        "per_picture_info": "Northern forests dense (0.75–0.85), central Honshu moderate (0.4–0.6). Kyushu and Shikoku show minimal NDVI reduction (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal summer growth consistent; coastal recovery observed.",
+        "community_environmental_impact": "Agricultural yields stable; urban heat continues in major cities. Forests maintain ecological services and biodiversity.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2015,
+        "per_picture_info": "Hokkaido forests remain dense (0.75–0.85). Central Honshu moderate (0.4–0.6). Southern coastal areas slightly stressed (0.3–0.5).",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Summer monsoon peaks observed; southern stress minor.",
+        "community_environmental_impact": "Rice production slightly affected in Kyushu. Urban heat persists; northern forests provide timber and carbon storage.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2016,
+        "per_picture_info": "Dense Hokkaido forests (0.75–0.85), moderate central Honshu (0.4–0.6), minor southern coastal stress (0.3–0.5). Seasonal summer monsoon greening prominent.",
+        "terra_data_insights": "Mean NDVI ~0.54. Vegetation stable overall, minor southern coastal fluctuations.",
+        "community_environmental_impact": "Coastal rice paddies affected by typhoon rainfall; urban heat continues. Forested regions support biodiversity and ecosystem services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2017,
+        "per_picture_info": "Northern and Tohoku forests dense (0.75–0.85), central Honshu moderate (0.4–0.6), southern Kyushu stress low (0.3–0.5).",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Summer monsoon peaks prominent; minimal storm-related vegetation decline.",
+        "community_environmental_impact": "Rice and forestry production stable; urban heat remains a concern. Forests sustain biodiversity and provide timber.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2018,
+        "per_picture_info": "Dense forests in Hokkaido (0.75–0.85), moderate central Honshu (0.4–0.6). Coastal southern Kyushu stress minor (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Summer growth peaks observed; coastal recovery from previous storms evident.",
+        "community_environmental_impact": "Coastal agriculture affected slightly by typhoons; urban heat persists. Forested regions maintain biodiversity and carbon storage.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2019,
+        "per_picture_info": "Northern forests remain dense (0.75–0.85), central Honshu moderate (0.4–0.6), southern coastal areas minimal stress (0.3–0.5).",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Summer vegetation peaks align with monsoon rainfall; minor typhoon stress in southern regions.",
+        "community_environmental_impact": "Rice yields stable; urban heat persists. Forests sustain biodiversity, timber, and carbon sequestration.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2020,
+        "per_picture_info": "Hokkaido forests dense (0.75–0.85), central Honshu moderate (0.4–0.6), southern Kyushu minimal stress (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Summer monsoon peaks observed; vegetation stable overall.",
+        "community_environmental_impact": "Urban heat continues in Tokyo, Osaka, and Nagoya. Coastal agriculture slightly affected by minor typhoon events.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2021,
+        "per_picture_info": "Northern forests dense (0.75–0.85), central Honshu moderate (0.4–0.6). Southern Kyushu coastal areas show minor stress (0.3–0.5).",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Seasonal monsoon greenness peaks in summer; southern stress is minor.",
+        "community_environmental_impact": "Rice production stable; coastal communities minimally affected by typhoon rainfall. Urban heat persists.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2022,
+        "per_picture_info": "Hokkaido and Tohoku forests dense (0.75–0.85), central Honshu moderate (0.4–0.6). Kyushu and Shikoku coastal stress low (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Summer monsoon vegetation peaks observed; southern regions recover quickly.",
+        "community_environmental_impact": "Rice and forestry production stable. Urban heat persists; northern forests continue providing ecological services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2023,
+        "per_picture_info": "Dense northern forests (0.75–0.85), moderate central Honshu (0.4–0.6), southern coastal areas minimal stress (0.3–0.5).",
+        "terra_data_insights": "Annual mean NDVI ~0.55. Summer monsoon peaks evident; minimal storm-related stress.",
+        "community_environmental_impact": "Coastal rice paddies slightly affected by typhoon rainfall; urban heat persists. Forested areas maintain biodiversity and carbon storage.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2024,
+        "per_picture_info": "Hokkaido forests remain dense (0.75–0.85), central Honshu moderate (0.4–0.6), southern coastal regions show minimal stress (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.54. Summer monsoon peaks consistent; minor southern fluctuations observed.",
+        "community_environmental_impact": "Urban heat persists in large cities. Coastal agriculture minimally impacted. Forested regions continue providing ecosystem services, timber, and carbon sequestration.",
+        "response_and_mitigation": ""
+      }
+    ],
+    "Kenya": [
+      {
+        "year": 2000,
+        "per_picture_info": "Kenya’s NDVI map in 2000 shows dense vegetation in western highlands (0.6–0.8) and moderate cover (0.3–0.5) in central agricultural zones. Northern arid and semi-arid lands (ASALs) have low NDVI (0.1–0.3), reflecting sparse vegetation. Seasonal peaks occur during long rains (March–May) and short rains (October–December).",
+        "terra_data_insights": "Terra MODIS (MOD13Q1 v061) indicates a national mean NDVI of ~0.45. Western forests and central highlands remain stable, while northern regions show minimal vegetation growth due to aridity.",
+        "community_environmental_impact": "Northern pastoral communities experience limited grazing, affecting livestock. Central highlands support productive agriculture, while western forests provide timber, water regulation, and biodiversity services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2001,
+        "per_picture_info": "The 2001 NDVI map shows slight vegetation decline in northern Kenya due to drought. Western and central highlands remain dense (0.6–0.8). Coastal lowlands have moderate cover (0.3–0.5), with seasonal peaks during long rains.",
+        "terra_data_insights": "National mean NDVI ~0.44. Northern ASAL regions show reduced greenness, while western forests are stable.",
+        "community_environmental_impact": "Pastoralist livelihoods are stressed by limited grazing. Agricultural areas remain productive, supporting local economies.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2002,
+        "per_picture_info": "NDVI maps show recovery in northern semi-arid lands (0.2–0.4). Central highlands and western forests maintain dense vegetation (0.6–0.8). Coastal lowlands remain moderate (0.3–0.5). Seasonal peaks follow rainfall cycles.",
+        "terra_data_insights": "Mean NDVI ~0.46. Vegetation trends indicate improvement in drought-affected northern areas.",
+        "community_environmental_impact": "Pastoral grazing improves, agricultural yields stabilize, and forest ecosystems continue supporting biodiversity and water regulation.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2003,
+        "per_picture_info": "Northern Kenya shows low NDVI (0.1–0.3) due to prolonged dry conditions, while central highlands and western forests are dense (0.6–0.8). Rift Valley exhibits moderate vegetation (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.44. Seasonal growth peaks in March–May, with northern arid regions remaining stressed.",
+        "community_environmental_impact": "Pastoralist communities face grazing shortages; central agriculture supports food production. Forested areas maintain timber and water services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2004,
+        "per_picture_info": "NDVI maps show dense western forests (0.6–0.8) and moderate vegetation in central highlands (0.4–0.6). Northern semi-arid lands remain low (0.1–0.3). Coastal areas show moderate greenness (0.3–0.5), with peaks during long rains.",
+        "terra_data_insights": "National mean NDVI ~0.45. Vegetation recovers slightly in drought-affected northern regions. Western forests remain stable, supporting biodiversity and water regulation.",
+        "community_environmental_impact": "Pastoralist communities in northern Kenya gain limited grazing improvement. Central agricultural zones sustain crop productivity. Coastal fisheries benefit from healthy mangrove vegetation.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2005,
+        "per_picture_info": "Northern Kenya remains sparse (0.1–0.3), while central highlands and Rift Valley show moderate vegetation (0.3–0.6). Western forests dense (0.6–0.8); coastal lowlands moderate (0.3–0.5). Seasonal peaks align with rainfall cycles.",
+        "terra_data_insights": "Mean NDVI ~0.46. Northern vegetation remains stressed, while central and western regions are stable.",
+        "community_environmental_impact": "Pastoral grazing is limited in arid zones; central agriculture produces stable yields. Forest ecosystems continue supporting water and timber.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2006,
+        "per_picture_info": "Western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), and northern arid lands low (0.1–0.3). Rift Valley shows moderate NDVI (0.3–0.5). Coastal vegetation stable.",
+        "terra_data_insights": "Mean NDVI ~0.45. Seasonal monsoon growth observed, with limited northern vegetation recovery.",
+        "community_environmental_impact": "Pastoral communities remain vulnerable; central agriculture productive. Forested zones support biodiversity and water supply.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2007,
+        "per_picture_info": "Northern Kenya remains low (0.1–0.3) due to recurrent dry spells. Central highlands and Rift Valley moderate (0.3–0.5). Western forests dense (0.6–0.8), coastal lowlands moderate (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.44. Northern vegetation under stress; seasonal peaks occur in March–May and October–December.",
+        "community_environmental_impact": "Pastoral grazing scarce; central agriculture supports livelihoods. Forested areas provide ecosystem services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2008,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5), and northern arid lands low (0.1–0.3). Coastal vegetation stable (0.3–0.5). Seasonal greening aligns with rainfall.",
+        "terra_data_insights": "Mean NDVI ~0.46. Vegetation trends stable in central and western areas, limited recovery in northern regions.",
+        "community_environmental_impact": "Northern pastoralists face grazing challenges; central agriculture productive. Coastal fisheries benefit from healthy mangroves.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2009,
+        "per_picture_info": "Western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), northern ASALs low (0.1–0.3). Rift Valley moderate (0.3–0.5). Coastal lowlands moderate.",
+        "terra_data_insights": "Mean NDVI ~0.45. Northern regions still limited by aridity; western forests stable.",
+        "community_environmental_impact": "Pastoralist livelihoods remain vulnerable; central agricultural productivity supports food security.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2010,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5). Northern arid lands remain low (0.1–0.3), while Rift Valley shows moderate NDVI. Coastal vegetation slightly stressed.",
+        "terra_data_insights": "Mean NDVI ~0.44. Seasonal growth peaks during rainfall; arid northern regions remain vulnerable.",
+        "community_environmental_impact": "Northern pastoralists face limited grazing; central agriculture productive. Forested regions support water supply and timber resources.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2011,
+        "per_picture_info": "Northern ASALs show minimal vegetation (0.1–0.3), western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), coastal areas stable. Seasonal peaks visible.",
+        "terra_data_insights": "Mean NDVI ~0.45. Northern vegetation shows slow recovery after previous dry years.",
+        "community_environmental_impact": "Pastoralists still face grazing shortages; agriculture in highlands stable. Forests sustain biodiversity and water regulation.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2012,
+        "per_picture_info": "Western forests dense (0.6–0.8), northern arid regions low (0.1–0.3), central highlands moderate (0.3–0.5). Rift Valley shows moderate NDVI; coastal vegetation stable.",
+        "terra_data_insights": "Mean NDVI ~0.46. Seasonal peaks follow rainfall; northern areas show minor improvement.",
+        "community_environmental_impact": "Pastoralist grazing improves slightly; central agriculture productive; coastal fisheries stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2013,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5), northern arid lands low (0.1–0.3), Rift Valley moderate. Coastal vegetation stable.",
+        "terra_data_insights": "Mean NDVI ~0.45. Northern areas show slight vegetation stress due to low rainfall.",
+        "community_environmental_impact": "Northern pastoralists face grazing shortages; central agriculture remains productive. Forests provide timber and water services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2014,
+        "per_picture_info": "Northern arid lands low NDVI (0.1–0.3), central highlands moderate (0.3–0.5), western forests dense (0.6–0.8). Coastal vegetation stable (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.46. Seasonal monsoon peaks observed; northern arid lands remain stressed.",
+        "community_environmental_impact": "Pastoralist grazing limited; central highlands maintain agriculture productivity; forests support biodiversity.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2015,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5), northern arid lands low (0.1–0.3). Rift Valley moderate; coastal vegetation stable.",
+        "terra_data_insights": "Mean NDVI ~0.45. Northern ASALs still vulnerable; western forests stable.",
+        "community_environmental_impact": "Pastoralist livelihoods constrained; central agriculture productive; forest ecosystem services maintained.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2016,
+        "per_picture_info": "Northern arid lands low (0.1–0.3), central highlands moderate (0.3–0.5), western forests dense (0.6–0.8), coastal areas moderate. Seasonal peaks visible.",
+        "terra_data_insights": "Mean NDVI ~0.46. Northern vegetation slowly improving after consecutive dry years.",
+        "community_environmental_impact": "Pastoralist grazing improves slightly; central agriculture productive; forests continue supporting water regulation.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2017,
+        "per_picture_info": "Western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), northern ASALs low (0.1–0.3). Rift Valley moderate; coastal areas stable.",
+        "terra_data_insights": "Mean NDVI ~0.45. Seasonal rainfall supports vegetation growth; northern regions remain semi-arid.",
+        "community_environmental_impact": "Pastoralist grazing limited; central agriculture productive; forested regions sustain livelihoods.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2018,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5), northern arid lands low (0.1–0.3), coastal areas moderate. Seasonal peaks aligned with rainfall.",
+        "terra_data_insights": "Mean NDVI ~0.46. Northern areas show minor recovery; western forests stable.",
+        "community_environmental_impact": "Pastoralists still face grazing stress; agriculture remains productive. Forests maintain biodiversity and water services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2019,
+        "per_picture_info": "Western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), northern ASALs low (0.1–0.3), coastal areas stable.",
+        "terra_data_insights": "Mean NDVI ~0.45. Seasonal vegetation peaks present; northern semi-arid regions under slight stress.",
+        "community_environmental_impact": "Pastoralist grazing limited; central agricultural zones productive; coastal fisheries stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2020,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5), northern arid lands low (0.1–0.3), coastal areas moderate.",
+        "terra_data_insights": "Mean NDVI ~0.46. Seasonal growth aligns with rainfall; northern ASALs slightly improved.",
+        "community_environmental_impact": "Pastoralist grazing limited; agriculture stable; forests support biodiversity and water regulation.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2021,
+        "per_picture_info": "Northern arid lands low (0.1–0.3), central highlands moderate (0.3–0.5), western forests dense (0.6–0.8), coastal zones stable.",
+        "terra_data_insights": "Mean NDVI ~0.46. Seasonal monsoon growth observed; northern areas remain semi-arid.",
+        "community_environmental_impact": "Pastoralist grazing limited; central agriculture productive; forests maintain ecosystem services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2022,
+        "per_picture_info": "Western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), northern arid lands low (0.1–0.3), coastal areas moderate.",
+        "terra_data_insights": "Mean NDVI ~0.45. Seasonal vegetation growth consistent; northern regions slightly stressed.",
+        "community_environmental_impact": "Pastoralists face grazing challenges; central agriculture productive; coastal fisheries stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2023,
+        "per_picture_info": "Dense western forests (0.6–0.8), moderate central highlands (0.3–0.5), northern arid lands low (0.1–0.3), coastal regions moderate.",
+        "terra_data_insights": "Mean NDVI ~0.46. Seasonal peaks correspond with rainfall; northern regions remain semi-arid.",
+        "community_environmental_impact": "Pastoralists grazing limited; central agriculture stable; forests maintain water and biodiversity services.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2024,
+        "per_picture_info": "Western forests dense (0.6–0.8), central highlands moderate (0.3–0.5), northern arid lands low (0.1–0.3), coastal areas moderate.",
+        "terra_data_insights": "Mean NDVI ~0.46. Seasonal rainfall supports vegetation growth; northern arid lands slightly improved.",
+        "community_environmental_impact": "Pastoralists grazing remains limited; agriculture productive; forests support livelihoods and ecosystem services.",
+        "response_and_mitigation": ""
+      }
+    ],
+    "USA": [
+      {
+        "year": 2000,
+        "per_picture_info": "Dense vegetation is observed in the Pacific Northwest, Midwest, and Northeast (0.6–0.9). The Southwest and Rocky Mountains show lower NDVI (0.2–0.5) due to deserts and semi-arid lands. Peak greenness occurs in summer; winter months show low NDVI in northern states.",
+        "terra_data_insights": "Terra MODIS (MOD13Q1 v061) reports annual mean NDVI ~0.55. Forested areas remain stable; arid Southwest shows sparse vegetation.",
+        "community_environmental_impact": "Crop yields depend on NDVI health. Low vegetation areas face water scarcity, affecting grazing. Urban zones experience heat stress.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2001,
+        "per_picture_info": "NDVI highlights healthy Midwest croplands and Appalachian forests (0.6–0.9). Southwest remains sparse (0.2–0.5). Seasonal peaks occur late spring to summer.",
+        "terra_data_insights": "Mean NDVI ~0.54. Drought-stressed southwestern zones show low NDVI; central US vegetation stable.",
+        "community_environmental_impact": "Reduced vegetation affects grazing and water supply in arid regions. Crop yield stable in Midwest; forests support recreation and biodiversity.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2002,
+        "per_picture_info": "High NDVI in Pacific Northwest and Great Lakes (0.7–0.9). Central plains moderate (0.5–0.7). Southwest shows low NDVI (0.2–0.5) due to drought.",
+        "terra_data_insights": "Mean NDVI ~0.55. Drought stress persists in Arizona, New Mexico, Nevada; northeastern forests stable.",
+        "community_environmental_impact": "Crop productivity good in central plains; Southwest affected by grazing and water scarcity. Wildfire risks increase in arid regions.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2003,
+        "per_picture_info": "Dense vegetation in Pacific Northwest and Northeast (0.7–0.9). Central plains moderate (0.5–0.7). Southwest arid lands remain sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Drought conditions worsen in Texas, New Mexico, and Arizona.",
+        "community_environmental_impact": "Reduced crop yields in southern plains; wildfires threaten forests. Urban heat persists in southern cities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2004,
+        "per_picture_info": "Vegetation remains dense in Northeast and Midwest (0.6–0.9). Pacific Northwest forests stable; Southwest low (0.2–0.5). Summer peaks strong.",
+        "terra_data_insights": "Mean NDVI ~0.55. Central croplands healthy; Southwest stressed.",
+        "community_environmental_impact": "Drought affects grazing lands; forested areas support biodiversity. Urban heat stress increases.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2005,
+        "per_picture_info": "Dense forests in Pacific Northwest and Great Lakes (0.7–0.9). Central plains moderate (0.5–0.7). Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Drought persists in Southwest; central US vegetation stable.",
+        "community_environmental_impact": "Crop yields strong in central US; grazing lands stressed in Southwest. Wildfire risk high.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2006,
+        "per_picture_info": "Dense Pacific Northwest forests (0.7–0.9); Midwest moderate (0.5–0.7). Southern plains low NDVI (0.3–0.5) from drought.",
+        "terra_data_insights": "Mean NDVI ~0.54. Seasonal patterns consistent; drought in Texas and Southwest persists.",
+        "community_environmental_impact": "Agriculture affected in southern plains; northern forests stable.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2007,
+        "per_picture_info": "Dense northeastern forests (0.7–0.9) and Midwest croplands (0.5–0.7). Southwest arid (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. North stable; arid Southwest low NDVI.",
+        "community_environmental_impact": "Wildfire risk in Southwest; urban heat stress in southern cities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2008,
+        "per_picture_info": "Dense Pacific Northwest & Northeast (0.7–0.9). Central plains moderate (0.5–0.7). Southwest low (0.2–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.55. Drought zones persist in arid regions.",
+        "community_environmental_impact": "Crop yields stable in Midwest; forests support ecosystems.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2009,
+        "per_picture_info": "Lush greenness in Northeast & Great Lakes (0.7–0.9). Central plains moderate (0.5–0.7). Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Drought stress in arid zones; central croplands stable.",
+        "community_environmental_impact": "Wildfire risk high in west; urban heat persists.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2010,
+        "per_picture_info": "Dense northern forests (0.7–0.9); Midwest moderate (0.5–0.7). Southern plains/Southwest low NDVI (0.3–0.5).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal patterns stable; Southwest drought persists.",
+        "community_environmental_impact": "Southwest agriculture affected; northern forests sustain timber & biodiversity.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2011,
+        "per_picture_info": "Lush greenness in Northeast & Great Lakes forests (0.7–0.9); Midwest croplands moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal patterns consistent; Southwest drought continues.",
+        "community_environmental_impact": "Crop productivity stable in central US; wildfire risk in western states.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2012,
+        "per_picture_info": "Dense forests in Pacific Northwest & Northeast (0.7–0.9); central plains moderate (0.5–0.7); arid Southwest (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Vegetation stable in central/northern US; drought persists in Southwest.",
+        "community_environmental_impact": "Wildfire risk high in arid west; urban heat in southern cities. Agriculture productive in Midwest.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2013,
+        "per_picture_info": "Dense forests in Northeast & Pacific Northwest (0.7–0.9); Midwest moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal growth peaks observed.",
+        "community_environmental_impact": "Crop yields stable; wildfire risk persists in west; urban heat stress continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2014,
+        "per_picture_info": "Dense northern forests (0.7–0.9); Midwest croplands moderate (0.5–0.7); Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Vegetation patterns stable; summer peaks observed.",
+        "community_environmental_impact": "Wildfire risk persists; drought affects arid zones; urban heat in southern cities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2015,
+        "per_picture_info": "Lush greenness in Northeast & Great Lakes forests (0.7–0.9); central plains moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Drought stress continues in Southwest.",
+        "community_environmental_impact": "Crop yields stable in central US; wildfire risk high in arid west; urban heat persists.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2016,
+        "per_picture_info": "Dense forests in Pacific Northwest & Northeast (0.7–0.9); Midwest moderate (0.5–0.7); arid Southwest (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal growth peaks consistent; drought persists in Southwest.",
+        "community_environmental_impact": "Wildfire risk high; crop productivity stable; urban heat continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2017,
+        "per_picture_info": "Dense forests in Northeast & Pacific Northwest (0.7–0.9); Midwest moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Vegetation stable; summer growth peaks observed.",
+        "community_environmental_impact": "Wildfire risk persists; drought affects southern plains; urban heat in southern cities.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2018,
+        "per_picture_info": "Dense Pacific Northwest & Northeast forests (0.7–0.9); Midwest moderate (0.5–0.7); Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal patterns consistent; drought zones persist in arid Southwest.",
+        "community_environmental_impact": "Crop yields stable; wildfire risk high; urban heat stress continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2019,
+        "per_picture_info": "Dense forests in Northeast & Pacific Northwest (0.7–0.9); central plains moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Vegetation patterns stable; summer peaks strong.",
+        "community_environmental_impact": "Wildfire risk persists; drought impacts arid Southwest; urban heat continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2020,
+        "per_picture_info": "Dense forests in Pacific Northwest & Northeast (0.7–0.9); Midwest moderate (0.5–0.7); Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal growth consistent; drought persists in Southwest.",
+        "community_environmental_impact": "Crop yields stable; wildfire risk high; urban heat stress persists.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2021,
+        "per_picture_info": "Dense forests in Northeast & Pacific Northwest (0.7–0.9); Midwest moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.54. Vegetation stable; summer peaks observed.",
+        "community_environmental_impact": "Wildfire risk persists; drought affects arid regions; urban heat continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2022,
+        "per_picture_info": "Lush greenness in Northeast & Great Lakes forests (0.7–0.9); Midwest moderate (0.5–0.7); Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal growth consistent; drought persists in Southwest.",
+        "community_environmental_impact": "Wildfire risk high; crop productivity stable; urban heat stress continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2023,
+        "per_picture_info": "Dense Pacific Northwest & Northeast forests (0.7–0.9); central plains moderate (0.5–0.7); Southwest low (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Seasonal patterns consistent; drought zones persist.",
+        "community_environmental_impact": "Wildfire risk persists; crop yields stable; urban heat stress continues.",
+        "response_and_mitigation": ""
+      },
+      {
+        "year": 2024,
+        "per_picture_info": "Dense forests in Northeast & Pacific Northwest (0.7–0.9); Midwest moderate (0.5–0.7); Southwest sparse (0.2–0.4).",
+        "terra_data_insights": "Mean NDVI ~0.55. Vegetation stable; seasonal peaks in summer months.",
+        "community_environmental_impact": "Wildfire risk high; drought affects arid Southwest; urban heat continues. Crop yields stable in central US.",
+        "response_and_mitigation": ""
+      }
+    ]
+  }
+}

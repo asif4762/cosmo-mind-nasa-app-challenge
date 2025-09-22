@@ -1,0 +1,2392 @@
+{
+  "Argentina": {
+    "MISR": {
+      "ndvi": {
+        "ndvi_2000": {
+          "per_picture_info": "The 2000 NDVI map shows dense vegetation in northern subtropical forests (Chaco and Misiones, NDVI 0.7–0.8) and moderate vegetation in central Pampas grasslands (0.4–0.6). Western Andes regions and southern Patagonia show low NDVI (0.2–0.4) due to sparse steppe and mountainous terrain. Seasonal greenness peaks in the austral summer (December–February).",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Northern forests are stable, central agriculture productive, and southern steppe remains sparse."
+          },
+          "vegetation_state": "The 2000 NDVI map shows dense vegetation in northern subtropical forests (Chaco and Misiones, NDVI 0.7–0.8) and moderate vegetation in central Pampas grasslands (0.4–0.6). Western Andes regions and southern Patagonia show low NDVI (0.2–0.4) due to sparse steppe and mountainous terrain. Seasonal greenness peaks in the austral summer (December–February).",
+          "community_impact": {
+            "agriculture": "Pampas agriculture supports crop and livestock production, so moderate NDVI changes impact yields. Forests provide timber, biodiversity, and ecosystem services. Low NDVI in Patagonia limits grazing potential.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI monitoring guides sustainable agriculture, reforestation, and soil conservation programs, improving resilience to climate variability."
+          ]
+        },
+        "ndvi_2001": {
+          "per_picture_info": "In 2001, northern forests remain dense (0.7–0.8), while Pampas grasslands show slight vegetation decline (0.3–0.5) due to dry spells. Patagonia and Andes remain low (0.2–0.4).",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "Mean NDVI ~0.51. Seasonal peaks still align with austral summer, with minor drought stress in central regions."
+          },
+          "vegetation_state": "In 2001, northern forests remain dense (0.7–0.8), while Pampas grasslands show slight vegetation decline (0.3–0.5) due to dry spells. Patagonia and Andes remain low (0.2–0.4).",
+          "community_impact": {
+            "agriculture": "Reduced vegetation in Pampas slightly affects crop yields and livestock grazing. Northern forests and Andes ecosystems continue supporting local communities.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops, soil moisture monitoring, and NDVI-informed land management help mitigate impacts."
+          ]
+        },
+        "ndvi_2002": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), central Pampas recovering from previous dry year (0.4–0.6). Patagonia remains sparse (0.2–0.4), while western Andes show moderate seasonal greenness.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "Mean NDVI ~0.53. Central agriculture shows improved productivity with seasonal rainfall recovery."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), central Pampas recovering from previous dry year (0.4–0.6). Patagonia remains sparse (0.2–0.4), while western Andes show moderate seasonal greenness.",
+          "community_impact": {
+            "agriculture": "Improved vegetation enhances crop yields and livestock grazing. Northern forests continue providing timber and ecosystem services.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Adaptive crop management and forest conservation projects continue, informed by NDVI trends."
+          ]
+        },
+        "ndvi_2003": {
+          "per_picture_info": "Dense northern forest cover persists (0.7–0.8). Central Pampas remains productive (0.4–0.6), and southern Patagonia shows minimal NDVI (~0.2–0.3). Western Andes experience seasonal greening.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Seasonal variability is evident, with summer peaks in Pampas and northern forests."
+          },
+          "vegetation_state": "Dense northern forest cover persists (0.7–0.8). Central Pampas remains productive (0.4–0.6), and southern Patagonia shows minimal NDVI (~0.2–0.3). Western Andes experience seasonal greening.",
+          "community_impact": {
+            "agriculture": "Agricultural regions sustain crop and livestock output, supporting rural livelihoods. Patagonia remains sparsely productive but supports limited grazing.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI monitoring continues guiding sustainable agriculture and forest conservation projects."
+          ]
+        },
+        "ndvi_2004": {
+          "per_picture_info": "Northern forests dense (0.7–0.8). Pampas show moderate vegetation (0.3–0.5) due to localized drought. Andes and Patagonia remain sparse (0.2–0.4). Seasonal summer growth patterns are visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "Mean NDVI ~0.51. Some areas of central Argentina show temporary vegetation stress from dry conditions."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8). Pampas show moderate vegetation (0.3–0.5) due to localized drought. Andes and Patagonia remain sparse (0.2–0.4). Seasonal summer growth patterns are visible.",
+          "community_impact": {
+            "agriculture": "Dry conditions reduce crop yields and grazing potential. Northern forests and Andean ecosystems remain productive.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Drought-adapted crops, irrigation management, and NDVI-informed monitoring help reduce agricultural stress."
+          ]
+        },
+        "ndvi_2005": {
+          "per_picture_info": "Northern forests and Chaco remain dense (0.7–0.8), central Pampas recover (0.4–0.6). Patagonia remains low (0.2–0.3), while Andes show moderate seasonal greening.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "Mean NDVI ~0.53. Seasonal peaks are consistent, indicating recovery in central agricultural areas."
+          },
+          "vegetation_state": "Northern forests and Chaco remain dense (0.7–0.8), central Pampas recover (0.4–0.6). Patagonia remains low (0.2–0.3), while Andes show moderate seasonal greening.",
+          "community_impact": {
+            "agriculture": "Improved vegetation supports crop yields and livestock grazing. Northern forests provide continued ecosystem benefits.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Forest protection, sustainable crop rotation, and NDVI monitoring guide adaptive agricultural practices."
+          ]
+        },
+        "ndvi_2006": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), central Pampas moderate (0.4–0.6), Andes moderate (0.3–0.5), Patagonia sparse (0.2–0.3). Summer peaks highlight seasonal greening in Pampas.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Vegetation trends stable overall, with minor dry areas in central Argentina."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), central Pampas moderate (0.4–0.6), Andes moderate (0.3–0.5), Patagonia sparse (0.2–0.3). Summer peaks highlight seasonal greening in Pampas.",
+          "community_impact": {
+            "agriculture": "Central agriculture remains productive. Northern forests support timber and biodiversity. Patagonia’s sparse vegetation continues to limit grazing potential.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-guided soil conservation, forest management, and adaptive crop planning continue."
+          ]
+        },
+        "ndvi_2007": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6). Andes and Patagonia show minor seasonal greening (0.3–0.4). Coastal Buenos Aires region shows slight urban NDVI reduction.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Seasonal peaks in summer are evident; minor stress observed in urbanized areas."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6). Andes and Patagonia show minor seasonal greening (0.3–0.4). Coastal Buenos Aires region shows slight urban NDVI reduction.",
+          "community_impact": {
+            "agriculture": "Urban expansion reduces green space. Central agriculture remains productive. Northern forests continue providing ecosystem services.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Urban greening, NDVI monitoring, and sustainable agriculture programs implemented."
+          ]
+        },
+        "ndvi_2008": {
+          "per_picture_info": "Dense northern forests persist (0.7–0.8), central Pampas moderate (0.4–0.6), Patagonia sparse (0.2–0.3). Andes highlands show seasonal greening (0.4–0.5).",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "Mean NDVI ~0.53. Vegetation overall stable; minor dry patches in central Pampas."
+          },
+          "vegetation_state": "Dense northern forests persist (0.7–0.8), central Pampas moderate (0.4–0.6), Patagonia sparse (0.2–0.3). Andes highlands show seasonal greening (0.4–0.5).",
+          "community_impact": {
+            "agriculture": "Central crop and livestock productivity support livelihoods; northern forests sustain biodiversity. Patagonia continues to provide limited grazing resources.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Forest conservation, adaptive farming, and NDVI-guided land management continue."
+          ]
+        },
+        "ndvi_2009": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6). Southern Patagonia and western Andes sparse (~0.2–0.4). Seasonal summer peaks visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Vegetation remains stable with some minor stress in central Pampas."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6). Southern Patagonia and western Andes sparse (~0.2–0.4). Seasonal summer peaks visible.",
+          "community_impact": {
+            "agriculture": "Crop and livestock yields largely unaffected. Northern forests support ecosystem services and rural livelihoods.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-informed reforestation, crop rotation, and sustainable land management practices implemented."
+          ]
+        },
+        "ndvi_2010": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6), Patagonia sparse (0.2–0.3). Andes show seasonal greening (0.3–0.5).",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Summer peak greenness consistent; minor dry areas in Pampas observed."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6), Patagonia sparse (0.2–0.3). Andes show seasonal greening (0.3–0.5).",
+          "community_impact": {
+            "agriculture": "Agriculture productive; northern forests continue providing timber and ecosystem services. Patagonia grazing remains limited.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Soil conservation, adaptive farming, and forest management programs continue using NDVI data."
+          ]
+        },
+        "ndvi_2011": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), moderate Pampas (0.4–0.6). Southern Patagonia and western Andes sparse (0.2–0.4). Seasonal monsoon/summer peaks visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "Mean NDVI ~0.53. Vegetation stable; minor stress in central Pampas areas."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), moderate Pampas (0.4–0.6). Southern Patagonia and western Andes sparse (0.2–0.4). Seasonal monsoon/summer peaks visible.",
+          "community_impact": {
+            "agriculture": "Crop yields supported by moderate vegetation. Forests provide ecosystem services; Patagonia supports limited grazing.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-informed forest conservation, soil management, and adaptive agricultural strategies implemented."
+          ]
+        },
+        "ndvi_2012": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Urban areas show slight NDVI reduction (Buenos Aires).",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Seasonal peaks evident; urban vegetation slightly stressed."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Urban areas show slight NDVI reduction (Buenos Aires).",
+          "community_impact": {
+            "agriculture": "Urban heat stress and minor dry periods affect productivity. Northern forests and Pampas support local livelihoods.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Urban greening, NDVI-guided agriculture, and forest management continued."
+          ]
+        },
+        "ndvi_2013": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), moderate Pampas (0.4–0.6). Patagonia and western Andes sparse (~0.2–0.4). Seasonal peaks visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Vegetation trends stable; minor drought in Pampas."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), moderate Pampas (0.4–0.6). Patagonia and western Andes sparse (~0.2–0.4). Seasonal peaks visible.",
+          "community_impact": {
+            "agriculture": "Crop productivity moderately affected; forests support ecosystem services and timber production.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Drought-adapted crops, NDVI-informed land management, and reforestation programs implemented."
+          ]
+        },
+        "ndvi_2014": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Seasonal summer peaks evident.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Minor dry stress in central Pampas; northern forests stable."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Seasonal summer peaks evident.",
+          "community_impact": {
+            "agriculture": "Crop and livestock productivity supported; northern forests sustain biodiversity and rural livelihoods.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-informed adaptive agriculture, forest management, and soil conservation programs continued."
+          ]
+        },
+        "ndvi_2015": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6). Southern Patagonia and Andes sparse (~0.2–0.4).",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "Mean NDVI ~0.53. Seasonal growth peaks visible; minor vegetation stress in Pampas."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6). Southern Patagonia and Andes sparse (~0.2–0.4).",
+          "community_impact": {
+            "agriculture": "Crop yields slightly affected by dry patches; northern forests stable. Patagonia continues limited grazing.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-guided soil and forest management, drought-adapted crop strategies implemented."
+          ]
+        },
+        "ndvi_2016": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Summer peaks observed.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Vegetation stable; minor stress in urban areas."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Summer peaks observed.",
+          "community_impact": {
+            "agriculture": "Crop productivity supported; urban expansion reduces green cover; forests stable.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Urban greening, NDVI-informed adaptive agriculture, and forest protection programs."
+          ]
+        },
+        "ndvi_2017": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), Pampas moderate (0.4–0.6), Andes and Patagonia sparse (~0.2–0.4). Seasonal peaks visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Minor drought stress in Pampas; northern forests stable."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), Pampas moderate (0.4–0.6), Andes and Patagonia sparse (~0.2–0.4). Seasonal peaks visible.",
+          "community_impact": {
+            "agriculture": "Crop and livestock productivity stable; northern forests provide timber and ecosystem services.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-based land management, forest conservation, and adaptive farming continued."
+          ]
+        },
+        "ndvi_2018": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Urbanized Buenos Aires area shows minor vegetation decline.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Summer seasonal peaks visible; minor urban stress."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Urbanized Buenos Aires area shows minor vegetation decline.",
+          "community_impact": {
+            "agriculture": "Urban heat stress and crop variability affect livelihoods; northern forests support biodiversity.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Urban greening, NDVI-informed agriculture, and forest conservation continue."
+          ]
+        },
+        "ndvi_2019": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Seasonal growth patterns evident.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Minor drought stress in Pampas; northern forests stable."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), Pampas moderate (0.4–0.6). Patagonia and Andes sparse (~0.2–0.4). Seasonal growth patterns evident.",
+          "community_impact": {
+            "agriculture": "Crop productivity stable; forest resources support livelihoods. Patagonia grazing remains limited.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Adaptive agriculture, reforestation, and NDVI-guided land management continued."
+          ]
+        },
+        "ndvi_2020": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Urban areas show slight decline.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Summer seasonal peaks visible; minor stress in urban zones."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Urban areas show slight decline.",
+          "community_impact": {
+            "agriculture": "Urban heat and minor crop variability affect livelihoods; northern forests remain stable.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Urban greening, NDVI-informed agriculture, and forest conservation continue."
+          ]
+        },
+        "ndvi_2021": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Seasonal peaks visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Vegetation trends stable; minor drought in central Pampas."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Seasonal peaks visible.",
+          "community_impact": {
+            "agriculture": "Crop and livestock productivity largely stable; forests continue providing ecosystem services.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-informed forest protection, soil management, and adaptive agriculture continue."
+          ]
+        },
+        "ndvi_2022": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Seasonal summer peaks visible.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Minor drought stress in Pampas; northern forests stable."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Seasonal summer peaks visible.",
+          "community_impact": {
+            "agriculture": "Crop productivity largely stable; forests continue supporting biodiversity and livelihoods.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Adaptive agriculture, forest management, and NDVI-informed land planning continue."
+          ]
+        },
+        "ndvi_2023": {
+          "per_picture_info": "Dense northern forests (0.7–0.8), moderate Pampas (0.4–0.6), Patagonia sparse (~0.2–0.4). Urban areas show minor vegetation decline.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Seasonal growth peaks visible; minor urban stress observed."
+          },
+          "vegetation_state": "Dense northern forests (0.7–0.8), moderate Pampas (0.4–0.6), Patagonia sparse (~0.2–0.4). Urban areas show minor vegetation decline.",
+          "community_impact": {
+            "agriculture": "Urban heat stress and minor crop variability affect communities; northern forests remain productive.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-guided urban greening, sustainable agriculture, and forest conservation continue."
+          ]
+        },
+        "ndvi_2024": {
+          "per_picture_info": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Seasonal summer peaks prominent.",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "Mean NDVI ~0.52. Vegetation trends stable; minor urban and dry stress in central Pampas."
+          },
+          "vegetation_state": "Northern forests dense (0.7–0.8), central Pampas moderate (0.4–0.6), Patagonia sparse (~0.2–0.4). Seasonal summer peaks prominent.",
+          "community_impact": {
+            "agriculture": "Crop productivity largely stable; forests support biodiversity; Patagonia remains sparsely productive.",
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "NDVI-informed land management, adaptive agriculture, forest conservation, and urban greening programs continue to sustain Argentina’s ecosystems and communities."
+          ]
+        }
+      }
+    }
+  },
+  "Bangladesh": {
+    "MISR": {
+      "ndvi": {
+        "ndvi_2000": {
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.42,
+            "assessment": "moderate vegetation cover"
+          },
+          "vegetation_state": "Cropland and natural vegetation largely healthy, small patches of sparse vegetation in arid areas",
+          "community_impact": {
+            "agriculture": "Most crops grew normally; minor stress in water-limited regions",
+            "water_resources": "Moderate demand, local irrigation sufficient",
+            "urban_areas": "Vegetation in cities stable, minimal heat stress",
+            "forests": null,
+            "livelihoods": "Communities reliant on rice and wheat crops experienced stable yields"
+          },
+          "our_response_suggestions": [
+            "Promote efficient irrigation in low NDVI areas"
+          ]
+        },
+        "ndvi_2001": {
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.39,
+            "assessment": "slight vegetation decline"
+          },
+          "vegetation_state": "Localized crop stress in northwest and central regions",
+          "community_impact": {
+            "agriculture": "Reduced crop growth in some districts; early signs of drought stress",
+            "water_resources": "Increased irrigation demand in affected areas",
+            "urban_areas": "City parks and peri-urban vegetation slightly impacted",
+            "forests": null,
+            "livelihoods": "Farmers needed supplemental water; minor reduction in food production"
+          },
+          "our_response_suggestions": [
+            "Implement drought-resilient crops in affected districts"
+          ]
+        },
+        "ndvi_2002": {
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Cropland and forested areas fully recovered; dense vegetation in north and east",
+          "community_impact": {
+            "agriculture": "Strong crop growth, particularly in rice fields",
+            "water_resources": "Sufficient rainfall and water supply, minimal stress",
+            "urban_areas": "Parks and green belts flourished",
+            "forests": null,
+            "livelihoods": "Farmers benefited from high yields; local food security improved"
+          },
+          "our_response_suggestions": [
+            "Encourage continued soil conservation practices"
+          ]
+        },
+        "ndvi_2003": {
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Minor vegetation stress in central and southern regions",
+          "community_impact": {
+            "agriculture": "Slight decline in crop growth; rice paddies in southern regions slightly affected",
+            "water_resources": "Local irrigation sufficient but requires monitoring",
+            "urban_areas": "Vegetation stable; minor heat stress observed in central urban areas",
+            "forests": null,
+            "livelihoods": "Farmers needed careful crop management to avoid losses"
+          },
+          "our_response_suggestions": [
+            "Provide guidance on optimized irrigation schedules"
+          ]
+        },
+        "ndvi_2004": {
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.45,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Cropland, forest, and grasslands at optimal health; minimal sparse regions",
+          "community_impact": {
+            "agriculture": "High crop yields; strong harvest expected across major rice-growing areas",
+            "water_resources": "Adequate rainfall and groundwater supply",
+            "urban_areas": "Green areas well-maintained; minimal heat-related stress",
+            "forests": null,
+            "livelihoods": "Positive impact on community income and food availability"
+          },
+          "our_response_suggestions": [
+            "Maintain good agricultural practices for sustained productivity"
+          ]
+        },
+        "ndvi_2005": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2006": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2007": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2008": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2009": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2010": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2011": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2012": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2013": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2014": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2015": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2016": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2017": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2018": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2019": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2020": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2021": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2022": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2023": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        },
+        "ndvi_2024": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": null,
+            "assessment": null
+          },
+          "vegetation_state": null,
+          "community_impact": {
+            "agriculture": null,
+            "water_resources": null,
+            "urban_areas": null,
+            "forests": null,
+            "livelihoods": null
+          },
+          "our_response_suggestions": []
+        }
+      }
+    }
+  },
+  "Kenya": {
+    "MISR": {
+      "ndvi": {
+        "ndvi_2000": {
+          "per_picture_info": "Sensor: MISR Terra",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.42,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Croplands in Rift Valley healthy; forests in Central Highlands stable; semi-arid North and East sparse",
+          "community_impact": {
+            "agriculture": "Moderate crop yields; maize and tea areas performing well",
+            "water_resources": "Adequate rainfall in Rift Valley; stress in semi-arid regions",
+            "urban_areas": "Green spaces maintained",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Moderate forage availability; livestock grazing stable"
+          },
+          "our_response_suggestions": [
+            "Promote water-efficient irrigation in semi-arid areas"
+          ]
+        },
+        "ndvi_2001": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.39,
+            "assessment": "slight decline"
+          },
+          "vegetation_state": "Semi-arid and Eastern regions stressed; Central Highlands forests stable",
+          "community_impact": {
+            "agriculture": "Maize and tea crops slightly stressed",
+            "water_resources": "Increased demand in dry regions",
+            "urban_areas": "Parks slightly affected",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Reduced forage in dry areas; livestock vulnerable"
+          },
+          "our_response_suggestions": [
+            "Introduce drought-tolerant crops"
+          ]
+        },
+        "ndvi_2002": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands recovered; forests dense; semi-arid regions showing improved forage",
+          "community_impact": {
+            "agriculture": "High yields in Rift Valley and Western regions",
+            "water_resources": "Adequate rainfall; irrigation needs reduced",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Improved livestock grazing"
+          },
+          "our_response_suggestions": [
+            "Maintain soil fertility and agroforestry practices"
+          ]
+        },
+        "ndvi_2003": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Some stress in Eastern and Northern semi-arid regions; croplands stable",
+          "community_impact": {
+            "agriculture": "Slight decrease in yields; maize in Eastern regions stressed",
+            "water_resources": "Localized water stress",
+            "urban_areas": "Vegetation stable",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Limited forage, livestock needed supplemental feed"
+          },
+          "our_response_suggestions": [
+            "Promote supplemental irrigation for crops"
+          ]
+        },
+        "ndvi_2004": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.45,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid regions slightly improved",
+          "community_impact": {
+            "agriculture": "Strong maize, tea, and coffee yields",
+            "water_resources": "Rainfall sufficient; low irrigation stress",
+            "urban_areas": "Green spaces healthy",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain soil and water conservation practices"
+          ]
+        },
+        "ndvi_2005": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.38,
+            "assessment": "lower vegetation"
+          },
+          "vegetation_state": "Stress in Northern and Eastern semi-arid regions; croplands slightly affected",
+          "community_impact": {
+            "agriculture": "Lower maize and sorghum yields",
+            "water_resources": "Increased irrigation and water demand",
+            "urban_areas": "Minor vegetation stress",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Reduced forage availability; livestock vulnerable"
+          },
+          "our_response_suggestions": [
+            "Introduce drought-tolerant crops and early warning systems"
+          ]
+        },
+        "ndvi_2006": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.43,
+            "assessment": "moderate to healthy vegetation"
+          },
+          "vegetation_state": "Croplands recovered; forests dense; semi-arid regions improving",
+          "community_impact": {
+            "agriculture": "Improved yields in Rift Valley and Western Kenya",
+            "water_resources": "Sufficient rainfall; minimal stress",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Increased forage availability"
+          },
+          "our_response_suggestions": [
+            "Continue soil fertility and pasture management"
+          ]
+        },
+        "ndvi_2007": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.4,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Eastern and Northern semi-arid areas; croplands mostly stable",
+          "community_impact": {
+            "agriculture": "Minor crop stress in drier regions",
+            "water_resources": "Increased irrigation demand",
+            "urban_areas": "Green spaces maintained",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Reduced forage; some livestock at risk"
+          },
+          "our_response_suggestions": [
+            "Promote drought-tolerant crops and efficient irrigation"
+          ]
+        },
+        "ndvi_2008": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.46,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid regions improving",
+          "community_impact": {
+            "agriculture": "High crop yields across major regions",
+            "water_resources": "Adequate rainfall",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Sufficient forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain soil and water conservation practices"
+          ]
+        },
+        "ndvi_2009": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.37,
+            "assessment": "lower vegetation"
+          },
+          "vegetation_state": "Semi-arid North and East stressed; some croplands affected",
+          "community_impact": {
+            "agriculture": "Reduced crop yields in Eastern and Northern regions",
+            "water_resources": "Increased irrigation demand",
+            "urban_areas": "Minor vegetation stress",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Limited forage; livestock vulnerable"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops"
+          ]
+        },
+        "ndvi_2010": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests recovered; semi-arid areas slightly improved",
+          "community_impact": {
+            "agriculture": "Strong yields",
+            "water_resources": "Sufficient rainfall",
+            "urban_areas": "Green spaces healthy",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture"
+          ]
+        },
+        "ndvi_2011": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Some stress in Northern and Eastern semi-arid areas",
+          "community_impact": {
+            "agriculture": "Slight crop stress in drier regions",
+            "water_resources": "Localized water stress",
+            "urban_areas": "Green spaces maintained",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Reduced forage availability"
+          },
+          "our_response_suggestions": [
+            "Promote water-efficient irrigation"
+          ]
+        },
+        "ndvi_2012": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.43,
+            "assessment": "moderate to healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid regions improving",
+          "community_impact": {
+            "agriculture": "Improved crop yields",
+            "water_resources": "Adequate rainfall",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Increased forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain soil fertility and pasture management"
+          ]
+        },
+        "ndvi_2013": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.4,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Eastern and Northern semi-arid regions",
+          "community_impact": {
+            "agriculture": "Reduced crop yields in dry regions",
+            "water_resources": "Increased irrigation demand",
+            "urban_areas": "Vegetation stable",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Limited forage; livestock at risk"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops and water-efficient irrigation"
+          ]
+        },
+        "ndvi_2014": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.45,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands, forests, and semi-arid regions improved",
+          "community_impact": {
+            "agriculture": "Strong crop yields",
+            "water_resources": "Rainfall sufficient",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Continue soil and water conservation"
+          ]
+        },
+        "ndvi_2015": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.38,
+            "assessment": "lower vegetation"
+          },
+          "vegetation_state": "Stress in Northern and Eastern semi-arid regions",
+          "community_impact": {
+            "agriculture": "Crop yields reduced in dry areas",
+            "water_resources": "Irrigation demand high",
+            "urban_areas": "Minor vegetation stress",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Limited forage; livestock at risk"
+          },
+          "our_response_suggestions": [
+            "Promote drought-tolerant crops and efficient irrigation"
+          ]
+        },
+        "ndvi_2016": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid regions improving",
+          "community_impact": {
+            "agriculture": "Strong yields",
+            "water_resources": "Minimal irrigation stress",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture"
+          ]
+        },
+        "ndvi_2017": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Semi-arid regions stressed; croplands stable",
+          "community_impact": {
+            "agriculture": "Minor yield reductions",
+            "water_resources": "Irrigation needed locally",
+            "urban_areas": "Green spaces stable",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Reduced forage; livestock moderately stressed"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops"
+          ]
+        },
+        "ndvi_2018": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.43,
+            "assessment": "moderate to healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid regions improving",
+          "community_impact": {
+            "agriculture": "Positive yields",
+            "water_resources": "Sufficient rainfall",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage"
+          },
+          "our_response_suggestions": [
+            "Maintain soil and pasture management"
+          ]
+        },
+        "ndvi_2019": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.39,
+            "assessment": "lower vegetation"
+          },
+          "vegetation_state": "Stress in Northern and Eastern semi-arid areas",
+          "community_impact": {
+            "agriculture": "Reduced crop yields in dry regions",
+            "water_resources": "Irrigation demand high",
+            "urban_areas": "Minor vegetation stress",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Limited forage; livestock stressed"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops"
+          ]
+        },
+        "ndvi_2020": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.45,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid areas slightly improved",
+          "community_impact": {
+            "agriculture": "Strong yields",
+            "water_resources": "Minimal stress",
+            "urban_areas": "Green spaces healthy",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture"
+          ]
+        },
+        "ndvi_2021": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.42,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Croplands and forests stable; semi-arid regions slightly stressed",
+          "community_impact": {
+            "agriculture": "Stable crop growth",
+            "water_resources": "Localized irrigation stress",
+            "urban_areas": "Green spaces stable",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Moderate forage"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops in stressed regions"
+          ]
+        },
+        "ndvi_2022": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands, forests, and semi-arid regions stable",
+          "community_impact": {
+            "agriculture": "High yields",
+            "water_resources": "Sufficient rainfall",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain soil and water conservation"
+          ]
+        },
+        "ndvi_2023": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Semi-arid regions stressed; croplands mostly stable",
+          "community_impact": {
+            "agriculture": "Minor crop stress in dry regions",
+            "water_resources": "Local irrigation needed",
+            "urban_areas": "Green spaces stable",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Reduced forage; livestock moderately stressed"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops"
+          ]
+        },
+        "ndvi_2024": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving; semi-arid regions improving",
+          "community_impact": {
+            "agriculture": "Strong yields",
+            "water_resources": "Minimal stress",
+            "urban_areas": "Green spaces flourishing",
+            "forests": null,
+            "livelihoods": null,
+            "pastoral_lands": "Adequate forage; livestock healthy"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture"
+          ]
+        }
+      }
+    }
+  },
+  "Japan": {
+    "MISR": {
+      "ndvi": {
+        "ndvi_2000": {
+          "per_picture_info": "Sensor: MISR Terra",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.48,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Rice paddies and forests in Honshu healthy; sparse vegetation in Hokkaido during winter",
+          "community_impact": {
+            "agriculture": "Rice cultivation in central regions stable; minor stress in northern areas",
+            "water_resources": null,
+            "urban_areas": "Parks and green spaces stable",
+            "forests": "Dense canopy in southern and central Japan; healthy ecosystem",
+            "livelihoods": "Farmers experienced stable yields"
+          },
+          "our_response_suggestions": [
+            "Monitor northern croplands for stress"
+          ]
+        },
+        "ndvi_2001": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.46,
+            "assessment": "slight vegetation decline"
+          },
+          "vegetation_state": "Minor stress in Hokkaido and western Honshu",
+          "community_impact": {
+            "agriculture": "Slight reduction in rice yields in northern regions",
+            "water_resources": null,
+            "urban_areas": "Vegetation slightly impacted in cities",
+            "forests": "Stable; minor localized stress",
+            "livelihoods": "Communities adapted with supplemental irrigation"
+          },
+          "our_response_suggestions": [
+            "Encourage drought-tolerant crop varieties"
+          ]
+        },
+        "ndvi_2002": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Recovery in most agricultural zones; forests thriving",
+          "community_impact": {
+            "agriculture": "Rice paddies and vegetable crops grew well",
+            "water_resources": null,
+            "urban_areas": "Green areas flourishing",
+            "forests": "Dense canopy; ecosystem stable",
+            "livelihoods": "Improved crop yields supported local food security"
+          },
+          "our_response_suggestions": [
+            "Promote sustainable rice cultivation practices"
+          ]
+        },
+        "ndvi_2003": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.47,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in western Honshu and Shikoku",
+          "community_impact": {
+            "agriculture": "Minor yield reductions in affected regions",
+            "water_resources": null,
+            "urban_areas": "Green spaces stable; minor heat stress in cities",
+            "forests": "Stable",
+            "livelihoods": "Farmers needed careful water management"
+          },
+          "our_response_suggestions": [
+            "Optimize irrigation scheduling"
+          ]
+        },
+        "ndvi_2004": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests in central and southern Japan fully recovered",
+          "community_impact": {
+            "agriculture": "High rice and vegetable yields expected",
+            "water_resources": null,
+            "urban_areas": "Green spaces flourishing",
+            "forests": "Dense and healthy canopy",
+            "livelihoods": "Positive impact on local economies"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable farming practices"
+          ]
+        },
+        "ndvi_2005": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.45,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in western Honshu and Kyushu",
+          "community_impact": {
+            "agriculture": "Minor reduction in crop yields",
+            "water_resources": null,
+            "urban_areas": "Vegetation slightly stressed",
+            "forests": "Stable",
+            "livelihoods": "Farmers relied on irrigation in dry regions"
+          },
+          "our_response_suggestions": [
+            "Implement water-efficient irrigation"
+          ]
+        },
+        "ndvi_2006": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Strong growth in rice and vegetable crops",
+            "water_resources": null,
+            "urban_areas": "Parks and green belts healthy",
+            "forests": "Dense canopy; healthy ecosystem",
+            "livelihoods": "Stable crop yields supported local livelihoods"
+          },
+          "our_response_suggestions": [
+            "Continue soil and water conservation practices"
+          ]
+        },
+        "ndvi_2007": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.47,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in northern Honshu and Hokkaido",
+          "community_impact": {
+            "agriculture": "Slight yield reductions in northern rice paddies",
+            "water_resources": null,
+            "urban_areas": "Green spaces stable",
+            "forests": "Minor localized stress",
+            "livelihoods": "Farmers needed additional irrigation in stressed areas"
+          },
+          "our_response_suggestions": [
+            "Encourage drought-tolerant crop varieties"
+          ]
+        },
+        "ndvi_2008": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive yields; rice paddies and vegetables healthy",
+            "water_resources": null,
+            "urban_areas": "Green spaces flourishing",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": "Improved local food production"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture practices"
+          ]
+        },
+        "ndvi_2009": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.46,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in Kyushu and western Honshu",
+          "community_impact": {
+            "agriculture": "Minor yield reduction",
+            "water_resources": null,
+            "urban_areas": "Green spaces slightly stressed",
+            "forests": "Stable",
+            "livelihoods": "Farmers relied on irrigation in dry regions"
+          },
+          "our_response_suggestions": [
+            "Water-efficient irrigation"
+          ]
+        },
+        "ndvi_2010": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests recovered",
+          "community_impact": {
+            "agriculture": "High yields in rice paddies and vegetables",
+            "water_resources": null,
+            "urban_areas": "Green areas flourishing",
+            "forests": "Dense canopy; low stress",
+            "livelihoods": "Positive impact on food security"
+          },
+          "our_response_suggestions": [
+            "Continue soil and water conservation"
+          ]
+        },
+        "ndvi_2011": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.48,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in northern Honshu",
+          "community_impact": {
+            "agriculture": "Minor yield reductions",
+            "water_resources": null,
+            "urban_areas": "Green areas stable",
+            "forests": "Stable",
+            "livelihoods": "Farmers needed careful irrigation"
+          },
+          "our_response_suggestions": [
+            "Encourage efficient irrigation"
+          ]
+        },
+        "ndvi_2012": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive yields",
+            "water_resources": null,
+            "urban_areas": "Parks and green belts healthy",
+            "forests": "Dense canopy; healthy ecosystem",
+            "livelihoods": "Improved local livelihoods"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable farming"
+          ]
+        },
+        "ndvi_2013": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.47,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Kyushu and western Honshu",
+          "community_impact": {
+            "agriculture": "Minor reduction in yields",
+            "water_resources": null,
+            "urban_areas": "Green spaces stable",
+            "forests": "Stable",
+            "livelihoods": "Farmers needed supplemental irrigation"
+          },
+          "our_response_suggestions": [
+            "Encourage drought-tolerant crops"
+          ]
+        },
+        "ndvi_2014": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "High yields",
+            "water_resources": null,
+            "urban_areas": "Green areas flourishing",
+            "forests": "Dense canopy; low stress",
+            "livelihoods": "Positive impact on local economies"
+          },
+          "our_response_suggestions": [
+            "Continue sustainable agriculture"
+          ]
+        },
+        "ndvi_2015": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.46,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Kyushu and Shikoku",
+          "community_impact": {
+            "agriculture": "Slight yield reductions",
+            "water_resources": null,
+            "urban_areas": "Green areas slightly stressed",
+            "forests": "Stable",
+            "livelihoods": "Farmers relied on irrigation"
+          },
+          "our_response_suggestions": [
+            "Water-efficient irrigation"
+          ]
+        },
+        "ndvi_2016": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive yields in rice and vegetables",
+            "water_resources": null,
+            "urban_areas": "Parks and green areas healthy",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": "Stable livelihoods"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable practices"
+          ]
+        },
+        "ndvi_2017": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.48,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in Hokkaido and western Honshu",
+          "community_impact": {
+            "agriculture": "Minor yield reductions",
+            "water_resources": null,
+            "urban_areas": "Green spaces stable",
+            "forests": "Stable",
+            "livelihoods": "Farmers needed careful irrigation"
+          },
+          "our_response_suggestions": [
+            "Drought-tolerant crops in stressed areas"
+          ]
+        },
+        "ndvi_2018": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "High yields",
+            "water_resources": null,
+            "urban_areas": "Parks flourishing",
+            "forests": "Dense canopy; healthy ecosystem",
+            "livelihoods": "Improved local livelihoods"
+          },
+          "our_response_suggestions": [
+            "Maintain soil and water conservation"
+          ]
+        },
+        "ndvi_2019": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.46,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Kyushu and western Honshu",
+          "community_impact": {
+            "agriculture": "Minor yield reduction",
+            "water_resources": null,
+            "urban_areas": "Green areas slightly stressed",
+            "forests": "Stable",
+            "livelihoods": "Farmers relied on irrigation"
+          },
+          "our_response_suggestions": [
+            "Water-efficient irrigation"
+          ]
+        },
+        "ndvi_2020": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "High yields",
+            "water_resources": null,
+            "urban_areas": "Green spaces flourishing",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": "Positive impact on local economies"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable practices"
+          ]
+        },
+        "ndvi_2021": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests stable",
+          "community_impact": {
+            "agriculture": "Stable yields",
+            "water_resources": null,
+            "urban_areas": "Parks healthy",
+            "forests": "Dense canopy",
+            "livelihoods": "Positive local impact"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture"
+          ]
+        },
+        "ndvi_2022": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive crop growth",
+            "water_resources": null,
+            "urban_areas": "Parks and green spaces healthy",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": "Stable livelihoods"
+          },
+          "our_response_suggestions": [
+            "Continue sustainable practices"
+          ]
+        },
+        "ndvi_2023": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.48,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in northern Honshu",
+          "community_impact": {
+            "agriculture": "Minor yield reductions",
+            "water_resources": null,
+            "urban_areas": "Green areas stable",
+            "forests": "Stable",
+            "livelihoods": "Farmers needed careful irrigation"
+          },
+          "our_response_suggestions": [
+            "Encourage water-efficient farming"
+          ]
+        },
+        "ndvi_2024": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "High yields",
+            "water_resources": null,
+            "urban_areas": "Parks and green areas healthy",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": "Positive local impact"
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable agriculture"
+          ]
+        }
+      }
+    }
+  },
+  "USA": {
+    "MISR": {
+      "ndvi": {
+        "ndvi_2000": {
+          "per_picture_info": "Sensor: MISR Terra",
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "moderate to healthy vegetation"
+          },
+          "vegetation_state": "Good growth in Midwest croplands; forests healthy; sparse in Southwest deserts",
+          "community_impact": {
+            "agriculture": "Stable crop yields; minor stress in arid regions",
+            "water_resources": "Sufficient rainfall; irrigation needed in Southwest",
+            "urban_areas": "Green belts stable; minimal heat stress",
+            "forests": "Healthy coverage; low wildfire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Monitor drought-prone areas"
+          ]
+        },
+        "ndvi_2001": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "slight vegetation decline"
+          },
+          "vegetation_state": "Minor stress in Southern Plains and Southwest",
+          "community_impact": {
+            "agriculture": "Reduced growth in parts of Texas and Oklahoma",
+            "water_resources": "Increased irrigation demand",
+            "urban_areas": "Slight decline in parks",
+            "forests": "Stable",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Promote drought-tolerant crops"
+          ]
+        },
+        "ndvi_2002": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.55,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Recovery in most agricultural zones; forests dense and thriving",
+          "community_impact": {
+            "agriculture": "High crop productivity",
+            "water_resources": "Sufficient rainfall; minimal irrigation stress",
+            "urban_areas": "Green spaces flourishing",
+            "forests": "Optimal health",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain soil fertility practices"
+          ]
+        },
+        "ndvi_2003": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.48,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Central Plains showed stress; forests healthy",
+          "community_impact": {
+            "agriculture": "Crop growth impacted; irrigation required",
+            "water_resources": "Reduced surface water in dry regions",
+            "urban_areas": "Moderate heat stress",
+            "forests": "Stable",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Water-efficient irrigation"
+          ]
+        },
+        "ndvi_2004": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.56,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Strong growth in croplands and forests",
+          "community_impact": {
+            "agriculture": "High yields",
+            "water_resources": "Rainfall sufficient; low irrigation stress",
+            "urban_areas": "Healthy vegetation; low heat stress",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Continue monitoring crop and forest health"
+          ]
+        },
+        "ndvi_2005": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.49,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in Southwest and central US",
+          "community_impact": {
+            "agriculture": "Minor reduction in crop yields in dry regions",
+            "water_resources": "Increased irrigation demand",
+            "urban_areas": "Vegetation slightly stressed in cities",
+            "forests": "Healthy; low fire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Promote water-saving irrigation"
+          ]
+        },
+        "ndvi_2006": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Strong crop growth; positive yields",
+            "water_resources": "Rainfall sufficient; low irrigation stress",
+            "urban_areas": "Parks and green belts healthy",
+            "forests": "Dense coverage",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain good farming practices"
+          ]
+        },
+        "ndvi_2007": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Some stress in central and Southwest regions",
+          "community_impact": {
+            "agriculture": "Slight stress in Midwest crops",
+            "water_resources": "Irrigation demand increased",
+            "urban_areas": "Green space maintained",
+            "forests": "Stable",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Use drought-resistant crops"
+          ]
+        },
+        "ndvi_2008": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.54,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Strong growth in agricultural and forested regions",
+          "community_impact": {
+            "agriculture": "High yields; crops thriving",
+            "water_resources": "Sufficient rainfall; low stress",
+            "urban_areas": "Green areas flourishing",
+            "forests": "Dense canopy; low fire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Continue soil conservation"
+          ]
+        },
+        "ndvi_2009": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.47,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Southwest, Midwest minor stress",
+          "community_impact": {
+            "agriculture": "Crop yields reduced in dry regions",
+            "water_resources": "Irrigation needed in Southwest",
+            "urban_areas": "Slight heat stress",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Promote water-efficient irrigation"
+          ]
+        },
+        "ndvi_2010": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.55,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests fully recovered",
+          "community_impact": {
+            "agriculture": "Strong growth; high yields",
+            "water_resources": "Minimal irrigation stress",
+            "urban_areas": "Green spaces stable",
+            "forests": "Dense canopy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Continue conservation practices"
+          ]
+        },
+        "ndvi_2011": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Minor stress in Southern Plains and Southwest",
+          "community_impact": {
+            "agriculture": "Slight reduction in crop growth",
+            "water_resources": "Moderate irrigation demand",
+            "urban_areas": "Vegetation stable",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Monitor drought-prone areas"
+          ]
+        },
+        "ndvi_2012": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive yields across Midwest and Northeast",
+            "water_resources": "Rainfall sufficient",
+            "urban_areas": "Parks and green belts flourishing",
+            "forests": "Dense and healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable farming"
+          ]
+        },
+        "ndvi_2013": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.5,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Southwest deserts and Southern Plains",
+          "community_impact": {
+            "agriculture": "Minor yield reductions",
+            "water_resources": "Localized irrigation stress",
+            "urban_areas": "Vegetation maintained",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Use drought-tolerant crops"
+          ]
+        },
+        "ndvi_2014": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.56,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests fully recovered",
+          "community_impact": {
+            "agriculture": "High yields; strong crop growth",
+            "water_resources": "Adequate rainfall",
+            "urban_areas": "Parks thriving",
+            "forests": "Low wildfire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain soil and water conservation"
+          ]
+        },
+        "ndvi_2015": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.48,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Southwest and central US",
+          "community_impact": {
+            "agriculture": "Reduced yields in arid regions",
+            "water_resources": "Increased irrigation need",
+            "urban_areas": "Slight vegetation stress",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Promote water-efficient irrigation"
+          ]
+        },
+        "ndvi_2016": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.54,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "High crop growth; stable yields",
+            "water_resources": "Minimal irrigation stress",
+            "urban_areas": "Green areas flourishing",
+            "forests": "Dense canopy; low fire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Continue conservation practices"
+          ]
+        },
+        "ndvi_2017": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Some stress in Southwest",
+          "community_impact": {
+            "agriculture": "Slight reduction in yields",
+            "water_resources": "Irrigation needed locally",
+            "urban_areas": "Vegetation stable",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Drought-resistant crops in stressed areas"
+          ]
+        },
+        "ndvi_2018": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive yields",
+            "water_resources": "Minimal irrigation stress",
+            "urban_areas": "Green areas flourishing",
+            "forests": "Dense and healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Continue sustainable agriculture"
+          ]
+        },
+        "ndvi_2019": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.47,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Stress in Southwest and Southern Plains",
+          "community_impact": {
+            "agriculture": "Slight yield reduction in dry areas",
+            "water_resources": "Increased irrigation demand",
+            "urban_areas": "Vegetation stable",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Promote water-efficient irrigation"
+          ]
+        },
+        "ndvi_2020": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.56,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests fully recovered",
+          "community_impact": {
+            "agriculture": "High yields; strong crop growth",
+            "water_resources": "Adequate rainfall",
+            "urban_areas": "Parks thriving",
+            "forests": "Dense canopy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain soil and water conservation"
+          ]
+        },
+        "ndvi_2021": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.52,
+            "assessment": "moderate to healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests stable",
+          "community_impact": {
+            "agriculture": "Stable crop growth",
+            "water_resources": "Minimal stress",
+            "urban_areas": "Green areas healthy",
+            "forests": "Dense coverage",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable farming"
+          ]
+        },
+        "ndvi_2022": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.54,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Strong growth in croplands and forests",
+          "community_impact": {
+            "agriculture": "High crop yields",
+            "water_resources": "Sufficient rainfall",
+            "urban_areas": "Green areas thriving",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Continue conservation practices"
+          ]
+        },
+        "ndvi_2023": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.51,
+            "assessment": "moderate vegetation"
+          },
+          "vegetation_state": "Slight stress in Southwest",
+          "community_impact": {
+            "agriculture": "Minor yield reductions",
+            "water_resources": "Localized irrigation stress",
+            "urban_areas": "Parks and green belts stable",
+            "forests": "Healthy",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Drought-resistant crops in stressed areas"
+          ]
+        },
+        "ndvi_2024": {
+          "per_picture_info": null,
+          "terra_data": {
+            "sensor": "MISR Terra",
+            "average_ndvi": 0.53,
+            "assessment": "healthy vegetation"
+          },
+          "vegetation_state": "Croplands and forests thriving",
+          "community_impact": {
+            "agriculture": "Positive yields; strong crop growth",
+            "water_resources": "Minimal irrigation stress",
+            "urban_areas": "Parks and green spaces healthy",
+            "forests": "Dense canopy; low wildfire risk",
+            "livelihoods": null
+          },
+          "our_response_suggestions": [
+            "Maintain sustainable farming practices"
+          ]
+        }
+      }
+    }
+  }
+}
