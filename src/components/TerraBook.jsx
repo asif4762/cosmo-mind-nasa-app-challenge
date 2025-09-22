@@ -1,20 +1,21 @@
-import React, { useMemo, useRef } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 import "./terra-book.css";
-import confetti from 'canvas-confetti';
-import { Howl } from 'howler';
+import confetti from "canvas-confetti";
+import { Howl } from "howler";
+import { Play, Pause } from "lucide-react";
 
-const flipSound = new Howl({ src: ['/sounds/page-flip.mp3'], volume: 0.25 });
-const chime = new Howl({ src: ['/sounds/chime.mp3'], volume: 0.3 });
+const flipSound = new Howl({ src: ["/sounds/page-flip.mp3"], volume: 0.25 });
+const chime = new Howl({ src: ["/sounds/chime.mp3"], volume: 0.3 });
 
-// Controlled narration
 const useNarration = () => {
   const utteranceRef = useRef(null);
 
   const speak = (text) => {
-    if (speechSynthesis.speaking) speechSynthesis.cancel();
+    stop();
+    if (!text) return;
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.voice = speechSynthesis.getVoices().find(v => v.lang === 'en-US');
+    utterance.voice = speechSynthesis.getVoices().find((v) => v.lang === "en-US");
     utterance.pitch = 1;
     utterance.rate = 1;
     utteranceRef.current = utterance;
@@ -25,15 +26,11 @@ const useNarration = () => {
     if (speechSynthesis.speaking && !speechSynthesis.paused) speechSynthesis.pause();
   };
 
-  const resume = () => {
-    if (speechSynthesis.paused) speechSynthesis.resume();
-  };
-
   const stop = () => {
     if (speechSynthesis.speaking) speechSynthesis.cancel();
   };
 
-  return { speak, pause, resume, stop };
+  return { speak, pause, stop };
 };
 
 const Page = React.forwardRef(({ children, className = "" }, ref) => (
@@ -42,17 +39,14 @@ const Page = React.forwardRef(({ children, className = "" }, ref) => (
   </div>
 ));
 
-const Cover = ({ title, subtitle, narrate }) => (
+const Cover = ({ title, subtitle }) => (
   <div className="cover-simple">
     <h1 className="cover-title">{title}</h1>
     {subtitle && <p className="cover-subtitle">{subtitle}</p>}
-    <div style={{ marginTop: 10 }}>
-      <button onClick={() => narrate(`${title}. ${subtitle || ""}`)}>Narrate</button>
-    </div>
   </div>
 );
 
-const CountryIntro = ({ country, narrate }) => (
+const CountryIntro = ({ country }) => (
   <div className="country-intro">
     {country.coverImage && (
       <img className="country-cover" src={country.coverImage} alt={`${country.name} cover`} />
@@ -62,13 +56,10 @@ const CountryIntro = ({ country, narrate }) => (
       Let’s fly over <b>{country.name}</b> with Terra and look at green places using <b>NDVI</b>.
       Greener means plants are doing great. Paler means plants are having a tough time.
     </p>
-    <div style={{ marginTop: 10 }}>
-      <button onClick={() => narrate(`Let’s fly over ${country.name} with Terra.`)}>Narrate</button>
-    </div>
   </div>
 );
 
-const YearPage = ({ name, year, image, caption, story, narrate }) => (
+const YearPage = ({ name, year, image, caption, story }) => (
   <div className="year-page">
     <div className="year-head">
       <h3 className="year-country">{name}</h3>
@@ -83,16 +74,14 @@ const YearPage = ({ name, year, image, caption, story, narrate }) => (
     )}
 
     {story && <p className="story">{story}</p>}
-
-    <div style={{ marginTop: 10 }}>
-      <button onClick={() => narrate(`${name} Year ${year}. ${story || ""}`)}>Narrate</button>
-    </div>
   </div>
 );
 
 export default function TerraBook({ title, subtitle, data }) {
   const countries = data?.countries ?? [];
-  const { speak, pause, resume, stop } = useNarration();
+  const { speak, pause, stop } = useNarration();
+  const [currentText, setCurrentText] = useState("");
+  const [showControls, setShowControls] = useState(false);
 
   const pages = useMemo(() => {
     const out = [];
@@ -108,13 +97,28 @@ export default function TerraBook({ title, subtitle, data }) {
     return out;
   }, [countries]);
 
+  const handlePageText = (page) => {
+    switch (page.kind) {
+      case "cover":
+        setCurrentText("");
+        setShowControls(false); 
+        break;
+      case "country-intro":
+        setCurrentText(`Let’s fly over ${page.country.name} with Terra. The greener it is, the better plants are doing.`);
+        setShowControls(true);
+        break;
+      case "year":
+        setCurrentText(`${page.country.name} Year ${page.page.year}. ${page.page.story || ""}`);
+        setShowControls(true);
+        break;
+      default:
+        setCurrentText("");
+        setShowControls(true);
+    }
+  };
+
   return (
-    <div>
-      <div style={{ marginBottom: 10 }}>
-        <button onClick={pause}>Pause</button>
-        <button onClick={resume}>Resume</button>
-        <button onClick={stop}>Stop</button>
-      </div>
+    <div style={{ position: "relative" }}>
       <HTMLFlipBook
         width={420}
         height={560}
@@ -123,9 +127,15 @@ export default function TerraBook({ title, subtitle, data }) {
         showCover
         size="fixed"
         className="terra-book"
-        onFlip={() => {
+        onFlip={(e) => {
           flipSound.play();
-          stop(); // stop narration automatically on page flip
+          stop();
+          const pageIndex = e.data;
+          handlePageText(pages[pageIndex]);
+          if (pages.length - pageIndex <= 2) {
+            chime.play();
+            confetti({ particleCount: 90, spread: 70, origin: { y: 0.3 } });
+          }
         }}
       >
         {pages.map((p, i) => {
@@ -133,13 +143,13 @@ export default function TerraBook({ title, subtitle, data }) {
             case "cover":
               return (
                 <Page className="cover" key={`p-${i}`}>
-                  <Cover title={title} subtitle={subtitle} narrate={speak} />
+                  <Cover title={title} subtitle={subtitle} />
                 </Page>
               );
             case "country-intro":
               return (
                 <Page key={`p-${i}`}>
-                  <CountryIntro country={p.country} narrate={speak} />
+                  <CountryIntro country={p.country} />
                 </Page>
               );
             case "year":
@@ -151,7 +161,6 @@ export default function TerraBook({ title, subtitle, data }) {
                     image={p.page.image}
                     caption={p.page.caption}
                     story={p.page.story}
-                    narrate={speak}
                   />
                 </Page>
               );
@@ -169,6 +178,84 @@ export default function TerraBook({ title, subtitle, data }) {
           }
         })}
       </HTMLFlipBook>
+
+      {showControls && (
+        <div
+          style={{
+            position: "absolute",
+            bottom: 20,
+            left: "50%",
+            transform: "translateX(-50%)",
+            display: "flex",
+            gap: "16px",
+            zIndex: 10,
+          }}
+        >
+           
+
+{/* Play button */}
+<button
+  onClick={() => speak(currentText)}
+  style={{
+    width: 50,
+    height: 50,
+    borderRadius: "50%",
+    background: "radial-gradient(circle at 30% 30%, #1f75fe, #0b3d91)",
+    border: "2px solid rgba(255, 255, 255, 0.8)",
+    boxShadow: "0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    cursor: "pointer",
+    transition: "all 0.3s ease",
+    animation: "pulse 2s infinite",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.transform = "scale(1.2)";
+    e.currentTarget.style.boxShadow = "0 0 25px #1f75fe, 0 0 35px #1f75fe inset";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.transform = "scale(1)";
+    e.currentTarget.style.boxShadow = "0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset";
+  }}
+>
+  <Play color="#fff" size={28} />
+</button>
+
+{/* Pause button */}
+<button
+  onClick={pause}
+  style={{
+    width: 50,
+    height: 50,
+    borderRadius: "50%",
+    background: "radial-gradient(circle at 30% 30%, #ff5959, #ff2e2e)",
+    border: "2px solid rgba(255, 255, 255, 0.8)",
+    boxShadow: "0 0 15px #ff5959, 0 0 30px #ff595955 inset",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    cursor: "pointer",
+    transition: "all 0.3s ease",
+    animation: "pulseRed 2s infinite",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.transform = "scale(1.2)";
+    e.currentTarget.style.boxShadow = "0 0 25px #ff5959, 0 0 35px #ff595955 inset";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.transform = "scale(1)";
+    e.currentTarget.style.boxShadow = "0 0 15px #ff5959, 0 0 30px #ff595955 inset";
+  }}
+>
+  <Pause color="#fff" size={28} />
+</button>
+
+
+
+
+        </div>
+      )}
     </div>
   );
 }
