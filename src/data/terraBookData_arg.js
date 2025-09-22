@@ -1,7 +1,7 @@
 // src/data/terraBookData_arg.js
 export const bookData = {
-  title: "🌳 The Whispering Forests of Argentina",
-  subtitle: "A Story of Climate, Deforestation, and Hope",
+  title: "The Singing Forests",
+  subtitle: " From Peril to Promise",
   countries: [
     {
       code: "ARG",

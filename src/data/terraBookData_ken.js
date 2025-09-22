@@ -1,7 +1,7 @@
 // src/data/terraBookData_ken.js
 const bookKEN = {
-  title: "🌿 The Whispering Acacias of Kenya",
-  subtitle: "A Story of Climate, Deforestation, and Hope",
+  title: "Savannah Whispers",
+  subtitle: "Stories of Survival and Hope",
   countries: [
     {
       code: "KEN",

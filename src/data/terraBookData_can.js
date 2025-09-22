@@ -1,7 +1,7 @@
 // src/data/terraBookData_can.js
 const bookCAN = {
-  title: "🌲 The Whispering Pines of Canada",
-  subtitle: "A Story of Climate, Forests, and Hope",
+  title: "Pine Whispers",
+  subtitle: " Struggle and Renewal: Tales of Resilience ",
   countries: [
     {
       code: "CAN",

@@ -1,7 +1,7 @@
 // src/data/terraBookData_uk.js
 const bookUK = {
-  title: "🌳 The Whispering Woods of the UK",
-  subtitle: "A Story of Climate, Forests, and Hope",
+  title: "The Secret Grove",
+  subtitle: "Britain’s Fight for Nature’s Future",
   countries: [
     {
       code: "GBR",

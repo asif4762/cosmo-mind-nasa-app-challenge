@@ -1,7 +1,7 @@
 // src/data/terraBookData_bra.js
 const bookBRA = {
-  title: "🌿 The Whispering Rainforest of Brazil",
-  subtitle: "A Story of Climate, Deforestation, and Hope",
+  title: "he Cry of the Amazon",
+  subtitle: "Renewal in the Rainforest,Fight Against Destruction",
   countries: [
     {
       code: "BRA",
