@@ -237,3 +237,14 @@ button:hover {
     font-size: 14px;
   }
 }
+@keyframes pulse {
+  0% { box-shadow: 0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset; }
+  50% { box-shadow: 0 0 25px #1f75fe, 0 0 35px #1f75fe55 inset; }
+  100% { box-shadow: 0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset; }
+}
+
+@keyframes pulseRed {
+  0% { box-shadow: 0 0 15px #ff5959, 0 0 30px #ff595955 inset; }
+  50% { box-shadow: 0 0 25px #ff5959, 0 0 35px #ff595955 inset; }
+  100% { box-shadow: 0 0 15px #ff5959, 0 0 30px #ff595955 inset; }
+}
