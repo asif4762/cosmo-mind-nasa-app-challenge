@@ -1,7 +1,7 @@
 // src/data/terraBookData_jpn.js
 const bookJPN = {
-  title: "🌸 The Whispering Forests of Japan",
-  subtitle: "A Story of Climate, Deforestation, and Hope",
+  title: "The Sakura’s Lament",
+  subtitle: ": A Tale of Renewa",
   countries: [
     {
       code: "JPN",

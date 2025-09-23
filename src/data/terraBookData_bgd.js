@@ -1,7 +1,7 @@
 // src/data/terraBookData_bgd.js
 export const bookData = {
-  title: "🌿 The Whispering Trees",
-  subtitle: "A Story of Bangladesh, Climate, and Hope",
+  title: "Beneath the Mangrove Canopy",
+  subtitle: " Fighting for Nature’s Future",
   countries: [
     {
       code: "BGD",

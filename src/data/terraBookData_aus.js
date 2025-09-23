@@ -1,7 +1,7 @@
 // src/data/terraBookData_aus.js
 export const bookData = {
-  title: "🌿 The Whispering Eucalypts",
-  subtitle: "A Story of Australia — Climate, Bushfires, and Hope",
+  title: "The Flame and the Leaf",
+  subtitle: "Tales of Drought and Renewal",
   countries: [
     {
       code: "AUS",

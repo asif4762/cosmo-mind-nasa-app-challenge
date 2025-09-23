@@ -1,7 +1,7 @@
 // src/data/terraBookData_usa.js
 const bookUSA = {
-  title: "🌲 The Whispering Pines of America",
-  subtitle: "A Story of Climate, Forests, and Hope",
+  title: "The Redwood’s Cry",
+  subtitle: "A Journey Through Fire and Hope",
   countries: [
     {
       code: "USA",

@@ -53,8 +53,10 @@ const CountryIntro = ({ country }) => (
     )}
     <h2 className="country-title">{country.name}</h2>
     <p className="country-lead">
-      Let’s fly over <b>{country.name}</b> with Terra and look at green places using <b>NDVI</b>.
-      Greener means plants are doing great. Paler means plants are having a tough time.
+      Flying over <b>{country.name}</b> with Terra, the forests stretch thin across the land.
+Fields that once glowed with life now soften into pale shades of green.
+City rooftops shimmer under the relentless sun.
+Every corner of the land seems to whisper a story of change.
     </p>
   </div>
 );
