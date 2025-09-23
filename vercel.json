@@ -8,5 +8,11 @@
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!assets/|models/|textures/|favicon\\.ico|robots\\.txt|manifest\\.json|.*\\.[a-zA-Z0-9]+$).*)",
+      "destination": "/index.html"
+    }
   ]
 }

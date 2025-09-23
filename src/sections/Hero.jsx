@@ -63,8 +63,6 @@ const Hero = () => {
       }
     };
     openFromHash();
-
-    // Also support popstate when users navigate back/forward
     window.addEventListener('hashchange', openFromHash);
     return () => window.removeEventListener('hashchange', openFromHash);
   }, []);
@@ -90,16 +88,13 @@ const Hero = () => {
   // Toast helper
   const showToast = (type, text, ms = 1800) => {
     setToast({ visible: true, type, text });
-    if (ms > 0) {
-      setTimeout(() => setToast(t => ({ ...t, visible: false })), ms);
-    }
+    if (ms > 0) setTimeout(() => setToast(t => ({ ...t, visible: false })), ms);
   };
 
   // When a location is clicked on the globe OR chosen in palette
   const handleLocationClick = useCallback((location /*, event */) => {
     setSelectedLocation(location);
     setIsModalOpen(true);
-    // Update deep-link
     const nextHash = `#loc=${encodeURIComponent(location.name)}`;
     if (window.location.hash !== nextHash) {
       window.history.replaceState(null, '', nextHash);
@@ -110,7 +105,6 @@ const Hero = () => {
   const handleCloseModal = useCallback(() => {
     setIsModalOpen(false);
     setTimeout(() => setSelectedLocation(null), 250);
-    // Clean hash (preserve anything else before '#')
     window.history.replaceState(null, '', window.location.pathname + window.location.search);
   }, []);
 
@@ -152,7 +146,6 @@ const Hero = () => {
         aria-live="polite"
       >
         <div className="absolute inset-0 pointer-events-none">
-          {/* soft aurora glow */}
           <div className="absolute -inset-32 bg-[radial-gradient(80%_50%_at_50%_0%,rgba(59,130,246,.25),transparent_60%)]" />
         </div>
         <div className="flex flex-col items-center space-y-4">
@@ -186,13 +179,25 @@ const Hero = () => {
 
         {/* Interactive Globe */}
         <GlobeComponent
-  dimensions={dimensions}
-  starsData={starsData}
-  onLocationClick={handleLocationClick}
-  satellitePath="/nasa_eos_am-1terra_satellite.glb"
-/>
+          dimensions={dimensions}
+          starsData={starsData}
+          onLocationClick={handleLocationClick}
 
-        {/* Title / CTA overlay */}
+          /* 🔭 Assets in /public/...  (adjust if your folder differs) */
+          satellitePath="/nasa-eos-am-1terra-satellite/source/nasa_eos_am-1terra_satellite.glb"
+          albedoPath="/nasa-eos-am-1terra-satellite/textures/gltf_embedded_2.png"
+          emissivePath="/nasa-eos-am-1terra-satellite/textures/gltf_embedded_0.png"
+
+          /* ✨ Visual tuning */
+          orbitThicknessRatio={0.05}     // thicker glowing ring
+          satelliteScaleRatio={0.06}     // slightly bigger satellite
+          orbitalPeriodMs={24000}        // a bit faster revolution
+          orbitInclinationDeg={35}
+          orbitRAANDeg={-20}
+          orbitAltitudeRatio={1.5}
+        />
+
+        {/* Title / CTA overlay (NASA-ish gradient) */}
         <div className="absolute top-8 left-1/2 -translate-x-1/2 z-20 text-center">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-200 to-teal-200 drop-shadow">
             Terra • Global Story & Data Explorer
@@ -215,7 +220,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Top-right utility buttons (share current if selected) */}
+        {/* Top-right utility buttons */}
         <div className="absolute top-6 right-6 z-20 flex items-center gap-2">
           <button
             onClick={() => setPaletteOpen(true)}
@@ -246,7 +251,7 @@ const Hero = () => {
         quickActions={quickActions}
       />
 
-      {/* Toasts (use your Alert component) */}
+      {/* Toasts */}
       {toast.visible && <Alert type={toast.type === 'danger' ? 'danger' : 'success'} text={toast.text} />}
 
       {/* Location Modal */}
