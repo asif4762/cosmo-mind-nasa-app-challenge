@@ -1,0 +1,1238 @@
+{
+  "Argentina": {
+    "ASTER": {
+      "years": {
+        "2000": {
+          "per_picture_info": "LST map highlights Northern Chaco with high hotspots (Max: +2.8°C), indicating early, localized heat stress.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.6,
+            "max_lst_anomaly_c": 2.8
+          },
+          "community_impact_response": "Established high-resolution ASTER monitoring for the Chaco; distributed heat-tolerant crop seeds and optimized irrigation schedules."
+        },
+        "2001": {
+          "per_picture_info": "Elevated LST anomalies spread to the central Pampas and noticeable UHI effect near Buenos Aires (Max: +3.5°C).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.1,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Mapped UHI zones using ASTER thermal data; guided city planners to prioritize green infrastructure development in highly affected neighborhoods."
+        },
+        "2002": {
+          "per_picture_info": "LST anomalies recede, but LUCC shows significant deforestation (+4.1%) in northern forest boundaries for agricultural expansion.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.8,
+            "annual_deforestation_percent": 4.1
+          },
+          "community_impact_response": "Used ASTER high-resolution imagery to establish forest cover baseline; enabled regional governments to enforce and monitor land use restrictions."
+        },
+        "2003": {
+          "per_picture_info": "LST anomalies moderate; focus on monitoring land consolidation in the Pampas via ASTER 15m VNIR.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.4,
+            "max_lst_anomaly_c": 1.9
+          },
+          "community_impact_response": "Verified land cover changes for property tax assessments; improved transparency in land management records."
+        },
+        "2004": {
+          "per_picture_info": "Scattered LST hotspots in the Northwest; SWIR detects early soil salinization in poorly irrigated zones.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.9,
+            "max_lst_anomaly_c": 2.6
+          },
+          "community_impact_response": "Pilot program using SWIR to identify/treat salinization; promoted better drainage and water-use practices."
+        },
+        "2005": {
+          "per_picture_info": "LST stabilizes; GDEM used extensively for infrastructure planning and hydrologic modeling in central rivers.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.7,
+            "max_lst_anomaly_c": 2.1
+          },
+          "community_impact_response": "GDEM foundational for a new national flood mitigation plan; designed barriers and improved early warning systems."
+        },
+        "2006": {
+          "per_picture_info": "Slightly cooler summer; anomalies mostly below baseline; early UHI measures show marginal success.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.1,
+            "max_lst_anomaly_c": 1.5
+          },
+          "community_impact_response": "UHI impact audit using ASTER thermal data validated green space initiatives; justified continued investment."
+        },
+        "2007": {
+          "per_picture_info": "Severe nationwide heatwave (Max: +4.0°C) with rapid soil moisture depletion in agricultural heartland.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Declared regional drought emergency; mapped affected fields to prioritize emergency aid."
+        },
+        "2008": {
+          "per_picture_info": "Persistent heat stress; multi-spectral data reveals crop failure and replacement with drought-tolerant varieties.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "ASTER imagery provided geo-referenced proof of damage, streamlining crop insurance claims."
+        },
+        "2009": {
+          "per_picture_info": "Anomalies trend downwards; TIR used to monitor geothermal potential in Andean regions.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.9,
+            "max_lst_anomaly_c": 2.2
+          },
+          "community_impact_response": "Identified geothermal vents to develop sustainable energy for remote communities."
+        },
+        "2010": {
+          "per_picture_info": "Normal conditions; 15m imagery used for national inventory of small water bodies.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.5,
+            "max_lst_anomaly_c": 1.7
+          },
+          "community_impact_response": "Inventory improved local water management and distribution equity for small-scale farmers."
+        },
+        "2011": {
+          "per_picture_info": "Moderate anomalies; ASTER detects urban albedo changes due to mitigation.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "Used LST as a metric to incentivize increased surface reflectivity and reduced heat absorption."
+        },
+        "2012": {
+          "per_picture_info": "Short, intense heat spikes localized along transport corridors; infrastructure retaining heat.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.4,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Identified highway/rail sections vulnerable to heat failure; guided preemptive maintenance."
+        },
+        "2013": {
+          "per_picture_info": "Moderate LST; monitored Patagonian glacier retreat with multi-band data.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.7,
+            "max_lst_anomaly_c": 2.0
+          },
+          "community_impact_response": "Evidence supported international climate negotiations and local conservation in Patagonia."
+        },
+        "2014": {
+          "per_picture_info": "Higher anomalies in northern agricultural frontier correlated with soybean expansion (LUCC).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.2,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Investigated land-use non-compliance; promoted sustainable practices to reduce deforestation."
+        },
+        "2015": {
+          "per_picture_info": "Strong El Niño; high mean LST across central regions.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.1,
+            "max_lst_anomaly_c": 4.1
+          },
+          "community_impact_response": "Activated flood/drought plans; guided emergency shelters during floods."
+        },
+        "2016": {
+          "per_picture_info": "More stable LST; ASTER detects new urban sprawl outside major cities.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.3,
+            "max_lst_anomaly_c": 3.2
+          },
+          "community_impact_response": "Mapped peri-urban expansion; extended essential services and prevented dense UHI zones."
+        },
+        "2017": {
+          "per_picture_info": "Moderate year; GDEM used for detailed landslide susceptibility mapping in the Northwest.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "High-precision hazard maps informed relocations and building code improvements."
+        },
+        "2018": {
+          "per_picture_info": "UHI intensifies in major cities (Buenos Aires, Córdoba, Rosario).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.6,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Public heat-protection campaign; placed cooling centers and fountains in stressed cores."
+        },
+        "2019": {
+          "per_picture_info": "Significant heat; spectral bands monitor stress in major forest parks.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.2
+          },
+          "community_impact_response": "Early warnings guided water management and fire prevention strategies."
+        },
+        "2020": {
+          "per_picture_info": "LST spikes coincide with dry lightning, indicating high fire ignition potential.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.7,
+            "max_lst_anomaly_c": 3.9
+          },
+          "community_impact_response": "Integrated LST into wildfire prediction for more accurate alerts and aerial deployment."
+        },
+        "2021": {
+          "per_picture_info": "Major heatwave (Max: +4.7°C) severely stressing central grain regions.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.3,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Declared agricultural disaster zones using LST+NDVI, unlocking relief funds."
+        },
+        "2022": {
+          "per_picture_info": "Heat continues; SWIR tracks expansion of exposed soil and dunes due to drought/wind erosion.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.3
+          },
+          "community_impact_response": "Launched soil conservation program with windbreaks and planting guided by ASTER."
+        },
+        "2023": {
+          "per_picture_info": "Record-breaking heat (Max: +5.0°C) confirms a national climate emergency.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "Health services on high alert; ASTER LST became core metric for mandatory heat alerts."
+        },
+        "2024": {
+          "per_picture_info": "Slightly lower than 2023 but high mean confirms warmer baseline; coastal wetland changes detected.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.2,
+            "max_lst_anomaly_c": 4.6
+          },
+          "community_impact_response": "Mapped coastal ecosystem degradation; informed restoration and protection policy."
+        }
+      }
+    }
+  },
+  "Bangladesh": {
+    "ASTER": {
+      "years": {
+        "2000": {
+          "per_picture_info": "Baseline LST with VNIR land-cover baseline for the delta (Dhaka Max: +2.5°C).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.6,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "First high-res map for urban/rural planning supporting delta infrastructure."
+        },
+        "2001": {
+          "per_picture_info": "LST anomalies increase; GDEM refines flood risk maps in low-lying coastal districts.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Improved national flood warnings; guided protective embankment construction."
+        },
+        "2002": {
+          "per_picture_info": "Pronounced UHI in Dhaka (Max: +3.8°C) stressing water and energy.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.4,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Identified heat-vulnerable zones; expanded parks and cooling centers."
+        },
+        "2003": {
+          "per_picture_info": "LST stabilizes; SWIR tracks rising coastal soil salinity.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.1,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Promoted salt-tolerant rice and provided soil health data to farmers."
+        },
+        "2004": {
+          "per_picture_info": "Widespread anomalies; ASTER monitors cyclone impacts.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Post-disaster imagery for rapid assessment; guided aid and preparedness."
+        },
+        "2005": {
+          "per_picture_info": "LST stabilizes; VNIR monitors Sundarbans health and extent.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Supported conservation and anti-logging enforcement."
+        },
+        "2006": {
+          "per_picture_info": "Anomalies increase across the Delta, degrading coastal ecosystems.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.2
+          },
+          "community_impact_response": "Coastal defense program launched; GDEM guided shelters and higher embankments."
+        },
+        "2007": {
+          "per_picture_info": "Rapid urban growth (LUCC) and loss of agricultural land.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.3,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Managed expansion with LUCC data; protected prime agricultural land."
+        },
+        "2008": {
+          "per_picture_info": "LST stabilizes; GDEM optimizes siting of water treatment/sanitation infrastructure.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Improved public health by building on less flood/contamination-prone sites."
+        },
+        "2009": {
+          "per_picture_info": "LST spike (Max: +4.7°C) stressing infrastructure.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.2,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Utilities predicted grid stress; performed preventative maintenance and demand reduction."
+        },
+        "2010": {
+          "per_picture_info": "LST stabilizes; monitored micro-climate impacts on coastal aquaculture (shrimp).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Managed water quality to prevent thermal losses in aquaculture."
+        },
+        "2011": {
+          "per_picture_info": "Widespread anomalies; VNIR tracks sedimentation in major rivers.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Guided dredging to ensure navigability and reduce silt-induced flooding."
+        },
+        "2012": {
+          "per_picture_info": "UHI intensifies in Dhaka (Max: +4.5°C).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Mandated cool roofs on new commercial buildings."
+        },
+        "2013": {
+          "per_picture_info": "LST slightly recedes; SWIR monitors heat stress on jute.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Supported R&D for heat/drought-tolerant crop varieties."
+        },
+        "2014": {
+          "per_picture_info": "LST spike (Max: +4.9°C); GDEM models SLR flood risk.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "Informed climate migration plan and safe resettlement zones."
+        },
+        "2015": {
+          "per_picture_info": "Strong El Niño with very high anomalies and variable weather.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.8,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "Activated high-alert cyclone/flood response; mobilized national disaster forces."
+        },
+        "2016": {
+          "per_picture_info": "LST high; monitored power infrastructure thermal health under extreme heat.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Proactive maintenance prevented major summer power failures."
+        },
+        "2017": {
+          "per_picture_info": "Anomalies increase across coastal areas; SWIR indicates saltwater intrusion.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.9,
+            "max_lst_anomaly_c": 5.1
+          },
+          "community_impact_response": "Mapped contamination; guided earthen dams and freshwater retention ponds."
+        },
+        "2018": {
+          "per_picture_info": "LST stabilizes; GDEM used for precise land leveling for new housing to minimize flood risk.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Ensured resilient siting of housing, improving community safety."
+        },
+        "2019": {
+          "per_picture_info": "LST spike (Max: +5.2°C) shows extreme heat vulnerability nationwide.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.0,
+            "max_lst_anomaly_c": 5.2
+          },
+          "community_impact_response": "Nationwide heat safety campaign; guided emergency cooling supply distribution."
+        },
+        "2020": {
+          "per_picture_info": "LST remains high; VNIR monitors rapid peri-urban housing growth.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.8,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "Managed unregulated expansion and extended essential services."
+        },
+        "2021": {
+          "per_picture_info": "UHI in Dhaka and major towns reaches critical levels.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.1,
+            "max_lst_anomaly_c": 5.3
+          },
+          "community_impact_response": "Mandated reflective road paint and pavements to reduce surface temperatures."
+        },
+        "2022": {
+          "per_picture_info": "Anomalies slightly recede; SWIR monitors agriculture under thermal/salinity stress.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.7,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "Optimized fertilizer/water use to maximize crop survival."
+        },
+        "2023": {
+          "per_picture_info": "Record-breaking heat (Max: +5.5°C) confirms national climate emergency.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.3,
+            "max_lst_anomaly_c": 5.5
+          },
+          "community_impact_response": "Activated highest heat preparedness; sited cooling shelters; work restrictions enacted."
+        },
+        "2024": {
+          "per_picture_info": "LST remains extremely high; GDEM used for elevated roads/infrastructure against floods and sea-level rise.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.2,
+            "max_lst_anomaly_c": 5.4
+          },
+          "community_impact_response": "Informed long-term infrastructure investments for national resilience."
+        }
+      }
+    }
+  },
+  "Chile": {
+    "ASTER": {
+      "years": {
+        "2000": {
+          "per_picture_info": "Baseline coastal LST; slight anomaly in Atacama; initial mineral mapping.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.4,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "Spectral data supported geological surveys and sustainable mining exploration."
+        },
+        "2001": {
+          "per_picture_info": "Moderate anomaly; TIR monitors minor thermal fluctuations on Villarrica/Llaima.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.8,
+            "max_lst_anomaly_c": 2.0
+          },
+          "community_impact_response": "Thermal monitoring system improved volcano early warning."
+        },
+        "2002": {
+          "per_picture_info": "Localized Central Valley heat spike (Max: +3.0°C) impacting vineyards.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Vineyards used LST for micro-irrigation and stress assessment."
+        },
+        "2003": {
+          "per_picture_info": "Relatively cool; GDEM crucial for post-earthquake damage/deformation monitoring in the south.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.2,
+            "max_lst_anomaly_c": 1.5
+          },
+          "community_impact_response": "Topography baseline aided reconstruction; measured land shifts precisely."
+        },
+        "2004": {
+          "per_picture_info": "Anomalies rise; VNIR shows accelerated Andean glacier melt; water scarcity concerns emerge.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.1,
+            "max_lst_anomaly_c": 3.2
+          },
+          "community_impact_response": "Public campaigns on water conservation using ASTER visuals."
+        },
+        "2005": {
+          "per_picture_info": "Stabilized LST; spectral monitoring of SO2 pollution plumes from mining.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.7,
+            "max_lst_anomaly_c": 2.1
+          },
+          "community_impact_response": "Independent compliance monitoring held mines to air quality standards."
+        },
+        "2006": {
+          "per_picture_info": "UHI grows around Santiago (Max: +3.5°C) stressing energy use.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.2,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Energy conservation and reflective roofing subsidies implemented."
+        },
+        "2007": {
+          "per_picture_info": "Extreme anomalies; low snowpack → critical drought in Central Valley.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Mandatory water rationing; prioritized deliveries to essential services."
+        },
+        "2008": {
+          "per_picture_info": "High anomalies persist; coastline change post high-tide suggests erosion vulnerability.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.3
+          },
+          "community_impact_response": "GDEM modeled coastal erosion risk; guided setbacks/protection works."
+        },
+        "2009": {
+          "per_picture_info": "Chaitén volcanic activity tracked via thermal and ash plumes.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "Real-time ash tracking enabled safe air routing and protected agriculture."
+        },
+        "2010": {
+          "per_picture_info": "Post-Maule quake: LST highlights exposed infrastructure; GDEM maps deformation.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.8,
+            "max_lst_anomaly_c": 2.2
+          },
+          "community_impact_response": "Precise tectonic measures informed repairs and long-term planning."
+        },
+        "2011": {
+          "per_picture_info": "Anomalies increase; VNIR/SWIR monitor high-density housing growth.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.3,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Managed urban expansion with minimum green space requirements."
+        },
+        "2012": {
+          "per_picture_info": "Widespread anomalies confirm heat trend; alpine glacial LST shows further ice loss.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Funded national glacial monitoring program with ASTER core."
+        },
+        "2013": {
+          "per_picture_info": "High LST; SWIR detects early bark beetle infestations in forests.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.6
+          },
+          "community_impact_response": "Early warnings allowed targeted management to avoid large outbreaks."
+        },
+        "2014": {
+          "per_picture_info": "Extreme summer heat; LST + ignition models show high fire potential.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.1,
+            "max_lst_anomaly_c": 4.2
+          },
+          "community_impact_response": "Pre-positioned firefighting crews reduced wildfire response time."
+        },
+        "2015": {
+          "per_picture_info": "Strong El Niño exacerbates multi-year drought in Central Valley.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Declared megadrought crisis; prioritized water for human consumption."
+        },
+        "2016": {
+          "per_picture_info": "Post-El Niño anomalies remain high; monitored aquaculture temperatures.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "LST guided disease prevention and avoided mass fish kills."
+        },
+        "2017": {
+          "per_picture_info": "Widespread anomalies drive extensive wildfires in south-central regions.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.2,
+            "max_lst_anomaly_c": 4.3
+          },
+          "community_impact_response": "Post-fire burn severity mapping guided restoration and insurance."
+        },
+        "2018": {
+          "per_picture_info": "Moderate LST; focus returns to volcanoes with minor thermal anomalies.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Maintained volcanic warning system and community assurance."
+        },
+        "2019": {
+          "per_picture_info": "LST spike; Atacama shows increasing extremes.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Optimized PV energy production in high-heat desert conditions."
+        },
+        "2020": {
+          "per_picture_info": "Critical anomalies; GDEM models water flow/reservoir capacity in drought areas.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.3,
+            "max_lst_anomaly_c": 4.4
+          },
+          "community_impact_response": "Informed new and expanded water retention infrastructure."
+        },
+        "2021": {
+          "per_picture_info": "Central Valley UHI intensifies (Max: +5.0°C), a public health crisis.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.8,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "Urban resilience plan with cool pavements and shaded transit corridors."
+        },
+        "2022": {
+          "per_picture_info": "High LST with rapid desertification on Central Valley edges (LUCC).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.6,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Land restoration targeted to stabilize soil and reduce LST."
+        },
+        "2023": {
+          "per_picture_info": "Record-breaking LST; ASTER monitors illegal water diversion/use.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.0,
+            "max_lst_anomaly_c": 5.2
+          },
+          "community_impact_response": "Evidence enabled enforcement and fines against illegal diversions."
+        },
+        "2024": {
+          "per_picture_info": "Anomalies slightly recede but remain high; thermal monitoring of power infrastructure.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.7,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "Proactive maintenance prevented peak-demand outages."
+        }
+      }
+    }
+  },
+  "Japan": {
+    "ASTER": {
+      "years": {
+        "2000": {
+          "per_picture_info": "Baseline UHI in Tokyo/Osaka; TIR baseline for surface temperature.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.5,
+            "max_lst_anomaly_c": 2.1
+          },
+          "community_impact_response": "Started ASTER-UHI monitoring; supported local heat vulnerability assessments."
+        },
+        "2001": {
+          "per_picture_info": "Anomalies increase in urban core; SWIR tracks coastal reclamation LUCC.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.9,
+            "max_lst_anomaly_c": 2.8
+          },
+          "community_impact_response": "Ensured coastal development complied with environmental protection laws."
+        },
+        "2002": {
+          "per_picture_info": "High LST year (Osaka Max: +3.5°C); GDEM for precise Kanto flood modeling.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.3,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Improved flood forecast/evacuation planning in low-lying areas."
+        },
+        "2003": {
+          "per_picture_info": "Volcanic monitoring with minor thermal signatures on Sakurajima.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "Thermal data integrated into national volcanic alert system."
+        },
+        "2004": {
+          "per_picture_info": "LST spikes stress power grid; VNIR tracks industrial zone growth.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Utilities predicted peaks and initiated load shedding to avoid grid failures."
+        },
+        "2005": {
+          "per_picture_info": "Stabilized anomalies; GDEM for landslide susceptibility in mountains.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.2,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Guided evacuations and higher construction standards in vulnerable areas."
+        },
+        "2006": {
+          "per_picture_info": "Persistent high UHI; spectral data tracks heat-related asphalt degradation.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.7,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "R&D on heat-resistant reflective road materials validated via ASTER."
+        },
+        "2007": {
+          "per_picture_info": "Cooler year; SWIR monitors peatland/forest moisture and fire risk.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.8,
+            "max_lst_anomaly_c": 2.2
+          },
+          "community_impact_response": "Moisture maps optimized fire-prevention patrol deployment."
+        },
+        "2008": {
+          "per_picture_info": "Anomalies increase; VNIR monitors rapid PV plant growth.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.4,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Ensured solar farms minimize local LST impacts."
+        },
+        "2009": {
+          "per_picture_info": "High LST; GDEM models sea-level rise impacts on coastal cities.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.1
+          },
+          "community_impact_response": "Informed long-term planning and sea wall/tidal barrier construction."
+        },
+        "2010": {
+          "per_picture_info": "Stabilized anomalies; TIR monitors geothermal plant health.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.3
+          },
+          "community_impact_response": "Supported safe, efficient geothermal base-load energy."
+        },
+        "2011": {
+          "per_picture_info": "Post-Tōhoku: GDEM assessed land deformation and tsunami impacts.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "Crucial for disaster relief coordination and rescue."
+        },
+        "2012": {
+          "per_picture_info": "Anomalies increase; VNIR tracks urban green space loss and UHI intensification.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Launched '1,000 Green Roofs' and tracked thermal benefits."
+        },
+        "2013": {
+          "per_picture_info": "Moderate LST; monitored rice/tea crop health for disease detection.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.4,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Early warnings minimized crop losses via targeted actions."
+        },
+        "2014": {
+          "per_picture_info": "LST spikes; high power use and public health warnings.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.2
+          },
+          "community_impact_response": "Daily heat-risk maps advised vulnerable people on safe hours."
+        },
+        "2015": {
+          "per_picture_info": "High LST persists; GDEM plans coastal flood defenses.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.1,
+            "max_lst_anomaly_c": 4.4
+          },
+          "community_impact_response": "Guided improved sea walls and evacuation routes."
+        },
+        "2016": {
+          "per_picture_info": "LST stabilizes; SWIR monitors thermal stress on bridges/tunnels.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Prioritized maintenance based on thermal vulnerability."
+        },
+        "2017": {
+          "per_picture_info": "Anomaly increases; accelerated glacial/snowpack melt.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.3,
+            "max_lst_anomaly_c": 4.6
+          },
+          "community_impact_response": "Confirmed shrinking mountain water reserves; reviewed water policy."
+        },
+        "2018": {
+          "per_picture_info": "Localized spikes; mean confirms warming trend.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.3
+          },
+          "community_impact_response": "Targeted insulation retrofits for high heat-loss/gain buildings."
+        },
+        "2019": {
+          "per_picture_info": "Major heatwave (Max: +4.8°C) in Tokyo UHI.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.6,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Optimized emergency cooling station placement."
+        },
+        "2020": {
+          "per_picture_info": "LST high; GDEM for precise leveling of major public works.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.6
+          },
+          "community_impact_response": "Improved resilience of critical infrastructure."
+        },
+        "2021": {
+          "per_picture_info": "UHI now permanent in major cities with minimal reduction.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.7,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "National R&D on heat-dissipating tech validated with ASTER."
+        },
+        "2022": {
+          "per_picture_info": "Anomalies slightly recede; SWIR monitors coastal mangroves/tidal flats.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Guided restoration of natural storm buffers."
+        },
+        "2023": {
+          "per_picture_info": "LST spike (Max: +5.1°C) strains grid and public transport.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.9,
+            "max_lst_anomaly_c": 5.1
+          },
+          "community_impact_response": "Adjusted schedules and cooled heat-vulnerable track sections."
+        },
+        "2024": {
+          "per_picture_info": "Intense UHI continues; GDEM models optimal placement of wind/solar.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.6,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "Siting maximized renewable efficiency and minimized impacts."
+        }
+      }
+    }
+  },
+  "Kenya": {
+    "ASTER": {
+      "years": {
+        "2000": {
+          "per_picture_info": "Baseline LST; VNIR establishes land cover/vegetation baseline in Rift Valley.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.7,
+            "max_lst_anomaly_c": 2.5
+          },
+          "community_impact_response": "First high-res land cover map for resource planning and conservation."
+        },
+        "2001": {
+          "per_picture_info": "Anomalies increase; SWIR tracks drought-induced vegetation stress in rangelands.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.2,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Early warning enabled strategic livestock movements."
+        },
+        "2002": {
+          "per_picture_info": "UHI emerges around Nairobi (Max: +3.5°C).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Guided development away from heat-absorbing materials; prioritized green space."
+        },
+        "2003": {
+          "per_picture_info": "Anomalies stabilize; GDEM identifies water retention reservoir sites.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.0,
+            "max_lst_anomaly_c": 2.8
+          },
+          "community_impact_response": "Constructed community water pans to improve dry-season access."
+        },
+        "2004": {
+          "per_picture_info": "LST spikes accelerate desertification in northern rangelands (LUCC).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.7,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "National land restoration with native vegetation to stabilize soils."
+        },
+        "2005": {
+          "per_picture_info": "Stabilized anomalies; monitored settlement impacts on wildlife corridors.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.4,
+            "max_lst_anomaly_c": 3.3
+          },
+          "community_impact_response": "Conservation policy protected key routes and sustainable tourism."
+        },
+        "2006": {
+          "per_picture_info": "Prolonged dry season, high LST, significant livestock mortality.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.2
+          },
+          "community_impact_response": "Drought emergency; mapped thermal stress for targeted feed/water aid."
+        },
+        "2007": {
+          "per_picture_info": "High anomalies; monitored Great Rift lakes surface change due to heat/extraction.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.2,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Informed international negotiations and sustainable water use policy."
+        },
+        "2008": {
+          "per_picture_info": "Stabilized anomalies; monitored tea/coffee health in highlands.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.6,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Precision irrigation/pest management secured export income."
+        },
+        "2009": {
+          "per_picture_info": "Spike (Max: +4.7°C) in Eastern Plains; GDEM models flood risk during heavy rains.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.1,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Improved flood warnings and timely evacuations."
+        },
+        "2010": {
+          "per_picture_info": "Stabilized anomalies; monitored Olkaria geothermal thermal output.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Ensured safe, efficient renewable operations aiding electrification."
+        },
+        "2011": {
+          "per_picture_info": "Extreme anomalies (Max: +5.0°C) and Horn of Africa drought.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "National famine declared; LST+NDVI guided emergency food aid."
+        },
+        "2012": {
+          "per_picture_info": "High LST; LUCC tracks forest conversion to agriculture.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.3
+          },
+          "community_impact_response": "Enforced conservation; prosecuted illegal deforestation to protect catchments."
+        },
+        "2013": {
+          "per_picture_info": "Anomalies recede slightly; monitored invasive species impacts with multi-spectral data.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.7,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Early detection maps enabled targeted eradication in parks."
+        },
+        "2014": {
+          "per_picture_info": "Spikes increase heat-related illness risk in cities.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.3,
+            "max_lst_anomaly_c": 4.6
+          },
+          "community_impact_response": "Public campaigns advised hydration and safe outdoor hours."
+        },
+        "2015": {
+          "per_picture_info": "Strong El Niño → variable LST and flood risk.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.6,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "GDEM key for inundation mapping and emergency coordination."
+        },
+        "2016": {
+          "per_picture_info": "High LST; monitored water temperatures for disease vectors.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.2,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Predicted malaria outbreaks; guided spraying and education."
+        },
+        "2017": {
+          "per_picture_info": "Anomalies increase confirming severe multi-year drought.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.8,
+            "max_lst_anomaly_c": 5.1
+          },
+          "community_impact_response": "National disaster; established feeding corridors and temporary camps."
+        },
+        "2018": {
+          "per_picture_info": "LST recedes slightly; VNIR/SWIR monitor restoration/tree planting success.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Objective metrics secured international funding."
+        },
+        "2019": {
+          "per_picture_info": "Spike (Max: +5.2°C) shows extreme vulnerability in arid north.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.9,
+            "max_lst_anomaly_c": 5.2
+          },
+          "community_impact_response": "Built climate-resilient shelters and water storage."
+        },
+        "2020": {
+          "per_picture_info": "High LST; monitored geothermal features’ thermal health.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.7,
+            "max_lst_anomaly_c": 5.0
+          },
+          "community_impact_response": "Ensured stability/efficiency of major geothermal generation."
+        },
+        "2021": {
+          "per_picture_info": "UHI expansion continues in Nairobi and other towns.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.0,
+            "max_lst_anomaly_c": 5.3
+          },
+          "community_impact_response": "Expanded public transport and shaded walkways to reduce exposure."
+        },
+        "2022": {
+          "per_picture_info": "Anomalies recede slightly; SWIR monitors coastal mangrove health.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Informed coastal protection recognizing mangroves as vital defenses."
+        },
+        "2023": {
+          "per_picture_info": "Record-breaking heat (Max: +5.5°C) confirms national climate emergency.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.2,
+            "max_lst_anomaly_c": 5.5
+          },
+          "community_impact_response": "Highest drought/heat preparedness; LST core metric for water allocation."
+        },
+        "2024": {
+          "per_picture_info": "Extremely high LST; monitored mining/resource extraction impacts on land cover and LST.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.1,
+            "max_lst_anomaly_c": 5.3
+          },
+          "community_impact_response": "Regulators used high-res data to enforce reclamation/environmental standards."
+        }
+      }
+    }
+  },
+  "USA": {
+    "ASTER": {
+      "years": {
+        "2000": {
+          "per_picture_info": "Baseline Southwest anomalies; GDEM used for initial national digital mapping.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.4,
+            "max_lst_anomaly_c": 2.2
+          },
+          "community_impact_response": "Foundational elevation data for water and infrastructure planning across Western States."
+        },
+        "2001": {
+          "per_picture_info": "Southwest anomalies increase; VNIR/SWIR monitor Sun Belt LUCC.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 0.9,
+            "max_lst_anomaly_c": 2.8
+          },
+          "community_impact_response": "Managed urban sprawl while protecting sensitive desert ecosystems."
+        },
+        "2002": {
+          "per_picture_info": "UHI intensifies around Phoenix/Las Vegas (Max: +3.5°C).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.3,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Utilities predicted peak demand; guided conservation messaging."
+        },
+        "2003": {
+          "per_picture_info": "Widespread anomalies; TIR monitors geothermal potential in the West.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.6,
+            "max_lst_anomaly_c": 3.8
+          },
+          "community_impact_response": "Supported expansion of geothermal projects."
+        },
+        "2004": {
+          "per_picture_info": "High anomalies drive large wildfires; ASTER used for real-time detection.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Integrated into NIFC for rapid fire mapping and resource allocation."
+        },
+        "2005": {
+          "per_picture_info": "LST stabilizes; monitored hurricane impacts (Katrina) on coastal LUCC/infrastructure.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.2,
+            "max_lst_anomaly_c": 3.0
+          },
+          "community_impact_response": "Post-disaster imagery guided FEMA and long-term coastal restoration."
+        },
+        "2006": {
+          "per_picture_info": "Western anomalies increase with high ET/soil moisture loss.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.5,
+            "max_lst_anomaly_c": 3.7
+          },
+          "community_impact_response": "Enabled precision agriculture; shift to less water-intensive crops."
+        },
+        "2007": {
+          "per_picture_info": "Extreme anomalies (Max: +4.2°C) in the Southwest; monitored Colorado River basin vegetation.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.1,
+            "max_lst_anomaly_c": 4.2
+          },
+          "community_impact_response": "Confirmed severe ecological stress; informed basin water allocation policy."
+        },
+        "2008": {
+          "per_picture_info": "High anomalies persist; GDEM models Midwest flooding.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 3.9
+          },
+          "community_impact_response": "Supported flood control and resilient ag drainage design."
+        },
+        "2009": {
+          "per_picture_info": "LST stabilizes; VNIR tracks pine beetle epidemic decline (tree mortality).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.3,
+            "max_lst_anomaly_c": 3.1
+          },
+          "community_impact_response": "Targeted logging/mitigation slowed spread."
+        },
+        "2010": {
+          "per_picture_info": "Widespread anomalies; GDEM used for Haiti earthquake damage assessment.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.9,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Public GDEM release aided international relief operations."
+        },
+        "2011": {
+          "per_picture_info": "Extreme drought in Texas/Southern Plains (Max: +4.5°C).",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.2,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "LST+NDVI informed herd/crop decisions and insurance payouts."
+        },
+        "2012": {
+          "per_picture_info": "Midwest anomalies increase with major heat stress on corn/soy.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 4.7
+          },
+          "community_impact_response": "Confirmed widespread crop failure; triggered federal aid."
+        },
+        "2013": {
+          "per_picture_info": "LST stabilizes; monitored Aleutian volcanoes for aviation safety.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.7,
+            "max_lst_anomaly_c": 3.5
+          },
+          "community_impact_response": "Real-time ash/thermal monitoring protected trans-Pacific routes."
+        },
+        "2014": {
+          "per_picture_info": "Anomalies fuel massive Western wildfires; tracked post-fire debris flow potential.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.0,
+            "max_lst_anomaly_c": 4.3
+          },
+          "community_impact_response": "Debris flow warnings protected downstream communities."
+        },
+        "2015": {
+          "per_picture_info": "Strong El Niño → very high anomalies in West/Southwest.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.4,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Confirmed California drought; mandated water savings and desalination investment."
+        },
+        "2016": {
+          "per_picture_info": "High LST; monitored UHI around East Coast cities.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.1,
+            "max_lst_anomaly_c": 4.5
+          },
+          "community_impact_response": "Identified neighborhoods for cooling infrastructure/green space."
+        },
+        "2017": {
+          "per_picture_info": "High LST across West leading to record-setting California wildfires.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.3,
+            "max_lst_anomaly_c": 4.6
+          },
+          "community_impact_response": "Real-time fire mapping guided evacuations, protecting homes."
+        },
+        "2018": {
+          "per_picture_info": "Anomalies stabilize; GDEM models Hurricane Florence impacts.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 1.8,
+            "max_lst_anomaly_c": 4.0
+          },
+          "community_impact_response": "Precise elevation informed flood zones and rebuilding."
+        },
+        "2019": {
+          "per_picture_info": "West spike (Max: +4.9°C); VNIR/SWIR monitor heat stress on specialty crops.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.6,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "Optimized drip irrigation conserving water and mitigating heat damage."
+        },
+        "2020": {
+          "per_picture_info": "High LST fuels intense wildfire season; detected elevated subsurface temperatures pre-fire.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.5,
+            "max_lst_anomaly_c": 4.8
+          },
+          "community_impact_response": "Ignition probability model improved controlled burns and rapid attack."
+        },
+        "2021": {
+          "per_picture_info": "New higher baseline (Mean: +3.0°C) across the West confirms climate shift.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.0,
+            "max_lst_anomaly_c": 5.2
+          },
+          "community_impact_response": "Overhauled water laws and energy policy for the 'new normal'."
+        },
+        "2022": {
+          "per_picture_info": "Anomalies recede slightly; monitored agricultural runoff effects on Great Lakes thermal health.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 2.7,
+            "max_lst_anomaly_c": 4.9
+          },
+          "community_impact_response": "Targeted runoff reduction to manage nutrient loading/algal blooms."
+        },
+        "2023": {
+          "per_picture_info": "Record-breaking heat (Max: +5.5°C) confirms national climate emergency.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.2,
+            "max_lst_anomaly_c": 5.5
+          },
+          "community_impact_response": "National heat alerts impacted school closures/work hours."
+        },
+        "2024": {
+          "per_picture_info": "Extremely high LST; monitored National Parks ecosystem heat/drought stress.",
+          "aster_data": {
+            "mean_lst_anomaly_c": 3.1,
+            "max_lst_anomaly_c": 5.3
+          },
+          "community_impact_response": "Guided emergency water and fire management to protect landscapes."
+        }
+      }
+    }
+  }
+}
