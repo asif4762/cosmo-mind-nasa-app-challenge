@@ -371,7 +371,7 @@ const GlobeComponent = ({
 
       loader.load(
         // ⬇️ Your downloaded GLB (1k, ~2MB)
-        '../../public/satellites.glb',
+        '../../public/nasa_eos_am-1terra_satellite.glb',
         (gltf) => {
           if (disposed) return;
           const sat = gltf.scene;
