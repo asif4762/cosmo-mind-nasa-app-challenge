@@ -2,6 +2,7 @@
 import React, { useMemo, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, MessageSquare, Send, CheckCircle2, AlertTriangle, Loader2 } from "lucide-react";
+import emailjs from "@emailjs/browser";
 import Navbar from "./Navbar";
 
 const fade = (d = 0) => ({
@@ -10,6 +11,13 @@ const fade = (d = 0) => ({
   viewport: { once: true, amount: 0.25 },
   transition: { duration: 0.55, delay: d }
 });
+
+// Read EmailJS env (Vite). If you’re on CRA/Next, swap prefixes accordingly.
+const EMAILJS = {
+  SERVICE_ID: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  TEMPLATE_ID: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  PUBLIC_KEY: import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+};
 
 export default function Contact() {
   const [status, setStatus] = useState({ type: "", msg: "" });
@@ -35,31 +43,49 @@ export default function Contact() {
       return;
     }
 
-    setLoading(true);
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: form.name,
-          email: form.email,
-          subject: form.subject || "Message from CosmoMinds",
-          message: form.message
-        })
-      });
-
-      const data = await res.json().catch(() => ({}));
-      if (res.ok && data.ok) {
-        setStatus({ type: "ok", msg: "Thanks! Your message was sent. We'll reply soon." });
-        setForm({ name: "", email: "", subject: "", message: "", botField: "" });
-      } else {
-        throw new Error(data?.error || "Email failed");
-      }
-    } catch {
+    if (!EMAILJS.SERVICE_ID || !EMAILJS.TEMPLATE_ID || !EMAILJS.PUBLIC_KEY) {
       setStatus({
         type: "error",
-        msg: "Sorry, something went wrong. You can email us directly at hello@cosmominds.dev."
+        msg: "Email service is not configured. Add your EmailJS IDs/keys to .env."
       });
+      statusRef.current?.focus();
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const templateParams = {
+        name: form.name,
+        email: form.email,
+        reply_to: form.email, // appears in body
+        subject: form.subject || "Message from CosmoMinds",
+        message: form.message
+      };
+
+      // ✅ Use the EMAILJS constants, not bare identifiers
+      await emailjs.send(
+        EMAILJS.SERVICE_ID,
+        EMAILJS.TEMPLATE_ID,
+        templateParams,
+        { publicKey: EMAILJS.PUBLIC_KEY }
+      );
+
+      setStatus({ type: "ok", msg: "Thanks! Your message was sent. We'll reply soon." });
+      setForm({ name: "", email: "", subject: "", message: "", botField: "" });
+    } catch (err) {
+      console.error("EmailJS send failed:", err, err?.text);
+      let friendly = "Sorry, something went wrong. You can email us directly at hello@cosmominds.dev.";
+      const msg = (err?.text || err?.message || "").toLowerCase();
+      if (msg.includes("origin")) {
+        friendly = "This site isn’t allowed in EmailJS Origins. Add your dev/prod URLs in EmailJS → Account → Security → Origins.";
+      } else if (msg.includes("template") || msg.includes("param")) {
+        friendly = "Template variables don’t match. Make sure your EmailJS template uses from_name, from_email, reply_to, subject, message.";
+      } else if (msg.includes("unauthorized") || msg.includes("public key") || msg.includes("404")) {
+        friendly = "EmailJS IDs/keys look incorrect. Double-check Service ID, Template ID, and your Public Key.";
+      } else if (msg.includes("quota")) {
+        friendly = "Email quota exceeded for your EmailJS plan.";
+      }
+      setStatus({ type: "error", msg: friendly });
     } finally {
       setLoading(false);
       statusRef.current?.focus();
@@ -89,7 +115,7 @@ export default function Contact() {
                   <div className="grid h-10 w-10 place-items-center rounded-lg bg-white/10"><Mail className="text-teal-300" /></div>
                   <div>
                     <div className="text-white font-semibold">Email</div>
-                    <a href="mailto:hello@cosmominds.dev" className="text-sm text-white/80 hover:text-white">mindscosmo@gmail.com</a>
+                    <a href="mailto:mindscosmo@gmail.com" className="text-sm text-white/80 hover:text-white">mindscosmo@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -189,6 +215,7 @@ export default function Contact() {
                   disabled={loading || !valid}
                   className="inline-flex items-center gap-2 rounded-lg bg-white text-black px-4 py-2 font-semibold hover:bg-white/90 disabled:opacity-60"
                   type="submit"
+                  aria-busy={loading ? "true" : "false"}
                 >
                   {loading ? <Loader2 className="animate-spin" size={16} /> : <Send size={16} />}
                   {loading ? "Sending…" : "Send message"}

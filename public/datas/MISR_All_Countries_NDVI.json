@@ -499,7 +499,9 @@
             "livelihoods": "Communities reliant on rice and wheat crops experienced stable yields"
           },
           "our_response_suggestions": [
-            "Promote efficient irrigation in low NDVI areas"
+            "Promote efficient irrigation in low NDVI areas",
+            "Encourage crop rotation to maintain soil fertility",
+            "Monitor vulnerable urban green spaces"
           ]
         },
         "ndvi_2001": {
@@ -518,7 +520,9 @@
             "livelihoods": "Farmers needed supplemental water; minor reduction in food production"
           },
           "our_response_suggestions": [
-            "Implement drought-resilient crops in affected districts"
+            "Implement drought-resilient crops in affected districts",
+            "Provide temporary water supply support for irrigation",
+            "Promote urban tree planting to mitigate local vegetation loss"
           ]
         },
         "ndvi_2002": {
@@ -537,7 +541,9 @@
             "livelihoods": "Farmers benefited from high yields; local food security improved"
           },
           "our_response_suggestions": [
-            "Encourage continued soil conservation practices"
+            "Encourage continued soil conservation practices",
+            "Maintain irrigation systems for consistency in future stress years",
+            "Support agroforestry initiatives in urban and rural areas"
           ]
         },
         "ndvi_2003": {
@@ -556,7 +562,9 @@
             "livelihoods": "Farmers needed careful crop management to avoid losses"
           },
           "our_response_suggestions": [
-            "Provide guidance on optimized irrigation schedules"
+            "Provide guidance on optimized irrigation schedules",
+            "Implement localized drought monitoring systems",
+            "Encourage crop diversification to reduce risk"
           ]
         },
         "ndvi_2004": {
@@ -575,348 +583,430 @@
             "livelihoods": "Positive impact on community income and food availability"
           },
           "our_response_suggestions": [
-            "Maintain good agricultural practices for sustained productivity"
+            "Maintain good agricultural practices for sustained productivity",
+            "Monitor vegetation to ensure early detection of any stress",
+            "Promote community engagement in urban greening projects"
           ]
         },
         "ndvi_2005": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.4,
+            "assessment": "moderate vegetation cover"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Widespread cropland with healthy stands; slight stress in some coastal rice belts",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Generally normal yields, coastal paddies experienced minor salinity-related stress",
+            "water_resources": "Rainfall near average; localized shortages in late season",
+            "urban_areas": "City greens sustained; small losses in low-lying parks",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Mostly stable; marginal fishers and smallholder farmers experienced localized losses"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Promote salt-tolerant rice varieties in vulnerable coastal zones",
+            "Strengthen small-scale water harvesting and storage",
+            "Protect urban park drainage to reduce salt intrusion"
+          ]
         },
         "ndvi_2006": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.43,
+            "assessment": "healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Strong regrowth across croplands and riparian forests",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Good crop performance, strong rice transplanting season",
+            "water_resources": "Adequate river flows and groundwater recharge",
+            "urban_areas": "Green belts thriving",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Improved incomes for most rural households"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Incentivize maintaining soil cover crops",
+            "Continue monitoring groundwater extraction in high-use areas",
+            "Support agroforestry to lock in gains"
+          ]
         },
         "ndvi_2007": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.36,
+            "assessment": "slight vegetation decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Noticeable stress in flood-affected and riverine plains; patchy vegetation loss in central and northwestern agricultural zones",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Flooding and waterlogging reduced yields in some districts",
+            "water_resources": "Disrupted local water infrastructure; contamination risk",
+            "urban_areas": "Park flooding and short-term vegetation damage",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Temporary loss of income for affected farmers and fishers"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Implement targeted post-flood soil remediation and seed distribution",
+            "Repair irrigation infrastructure and water treatment where needed",
+            "Strengthen flood early-warning and evacuation for agricultural zones"
+          ]
         },
         "ndvi_2008": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.42,
+            "assessment": "moderate to healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Recovery after previous year’s floods; robust regrowth in wetlands and croplands",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Recovery with good planting conditions; localised soil compaction issues remain",
+            "water_resources": "Restored availability; improved irrigation scheduling",
+            "urban_areas": "Parks and roadside greenery rebounded",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Recovery in farm incomes"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Promote soil aeration and nutrient replenishment programs",
+            "Maintain community-level flood-resilience measures",
+            "Replant vulnerable urban green spaces"
+          ]
         },
         "ndvi_2009": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.38,
+            "assessment": "slight decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Drier-than-average patches in northwest; otherwise stable",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Mildly reduced vegetative vigor in rainfed areas",
+            "water_resources": "Early dry spells increased irrigation demand",
+            "urban_areas": "Some stress in public lawns and small parks",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Smallholders faced higher irrigation costs"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Encourage efficient irrigation (drip and scheduling)",
+            "Support drought-tolerant crop trials",
+            "Urban water-wise landscaping grants"
+          ]
         },
         "ndvi_2010": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Strong growing season; dense canopy in north and northeast",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "High expectations for harvest; good food security outlook",
+            "water_resources": "Riverine recharge adequate",
+            "urban_areas": "Urban forestry initiatives showing benefit",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Improved farm incomes and marketable surplus"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Scale up successful urban forestry programs",
+            "Document and replicate good irrigation practices",
+            "Support value-chain linkages for surplus crops"
+          ]
         },
         "ndvi_2011": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.37,
+            "assessment": "slight vegetation decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Localized pest pressure and moisture stress in central belts",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Increased pest outbreaks reduced vegetative vigor in some fields",
+            "water_resources": "Patchy water shortages in late season",
+            "urban_areas": "Marginal impact on greenspaces",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Farmers incurred extra pest-control costs"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Strengthen integrated pest management (IPM) outreach",
+            "Monitor pest hotspots using remote sensing and field surveys",
+            "Provide low-cost water conservation training"
+          ]
         },
         "ndvi_2012": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.46,
+            "assessment": "healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Vigorous growth across many districts; wetlands and floodplain forests healthy",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Strong yields and good crop establishment",
+            "water_resources": "Good distribution of monsoon rainfall",
+            "urban_areas": "Greener streets and improved air quality",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Positive income trends for agricultural households"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Promote conservation agriculture to lock in productivity",
+            "Protect wetland biodiversity through community stewardship",
+            "Expand rainwater harvesting in peri-urban areas"
+          ]
         },
         "ndvi_2013": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Mixed conditions — healthy upland fields, stress in some low-lying zones due to water management issues",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Variable yields; some pockets needed supplemental irrigation",
+            "water_resources": "Local drainage problems affected crop health",
+            "urban_areas": "Minor declines in small urban green patches",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Uneven income outcomes across districts"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Improve local drainage and canal maintenance",
+            "Targeted irrigation support where drainage constraints exist",
+            "Urban community greening maintenance programs"
+          ]
         },
         "ndvi_2014": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.39,
+            "assessment": "slight decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Drier signals in northwest and intermittent salinity stress in south",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Lower vegetative vigor in marginal lands",
+            "water_resources": "Higher groundwater pumping in some areas",
+            "urban_areas": "Small declines in recreational greens",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Increased vulnerability for marginal farmers"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Promote groundwater recharge and managed aquifer programs",
+            "Support salinity-tolerant planting in coastal belts",
+            "Strengthen social safety nets during low-yield years"
+          ]
         },
         "ndvi_2015": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.47,
+            "assessment": "healthy vegetation (above-average)"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Widespread healthy canopy; excellent crop stands in many regions",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Strong harvests; positive food security signals",
+            "water_resources": "Healthy monsoon performance and river flow",
+            "urban_areas": "City greening shows visible gains",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Increased marketable surplus and incomes"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Harvest and market support to realize economic gains",
+            "Preserve high-performing practices for resilience",
+            "Invest in post-harvest storage and processing"
+          ]
         },
         "ndvi_2016": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.35,
+            "assessment": "moderate decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Noticeable dry spells; stress concentrated in rainfed northwest and central plains",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Reduced vegetative cover; some crop failures in marginal areas",
+            "water_resources": "Increased irrigation demand and reduced river flows in parts",
+            "urban_areas": "Parks showing early-season browning",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Strain on smallholders and day laborers"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Emergency drought advisory and water savings campaigns",
+            "Support for alternative livelihoods where crops fail",
+            "Promote drought-resilient cropping systems"
+          ]
         },
         "ndvi_2017": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.43,
+            "assessment": "healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Strong recovery; riparian forests and rice paddies vigorous",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Rebound in yields after previous dry year",
+            "water_resources": "Improved distribution of monsoon rains",
+            "urban_areas": "Green infrastructure projects contributed to resilience",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Recovery of farm income and local markets"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Document successful adaptive measures for replication",
+            "Continue investments in small-scale irrigation",
+            "Expand urban green infrastructure programs"
+          ]
         },
         "ndvi_2018": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.4,
+            "assessment": "moderate vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Mixed — healthy in northeast, stress in some southern coastal tracts",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Localized yield variability tied to salinity and water access",
+            "water_resources": "Increased salinity intrusion observed in some coastal rivers",
+            "urban_areas": "Coastal towns saw small greenspace declines",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Coastal fishers and farmers showed mixed outcomes"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Intensify coastal salinity monitoring and adaptive cropping",
+            "Support freshwater irrigation where feasible",
+            "Promote saltwater-tolerant agroforestry species"
+          ]
         },
         "ndvi_2019": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.45,
+            "assessment": "healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Good canopy across major agricultural regions; successful wet-season growth",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Favorable conditions for staple crops",
+            "water_resources": "Strong monsoon distribution; reservoirs replenished",
+            "urban_areas": "Increased tree cover in many municipalities",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Positive economic signals for rural areas"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Strengthen market linkages to capitalize on surplus",
+            "Preserve watershed areas for sustained water security",
+            "Promote urban tree protection ordinances"
+          ]
         },
         "ndvi_2020": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.39,
+            "assessment": "slight decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Slight decline, likely influenced by atypical seasonal timing and local land-use change",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Some planting disruptions and labor shortages in specific areas",
+            "water_resources": "Local variability in availability",
+            "urban_areas": "Maintenance of public greens slowed in places",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Smallholders faced logistical challenges"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Support agricultural labor access and mechanization where needed",
+            "Prioritize maintenance of urban green assets",
+            "Monitor land-use change and protect high-value vegetated areas"
+          ]
         },
         "ndvi_2021": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.41,
+            "assessment": "moderate vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Stabilization across most zones with localized stress",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Largely stable production, targeted stress in marginal zones",
+            "water_resources": "Adequate for most cropping cycles",
+            "urban_areas": "Recovery of maintenance programs in cities",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Gradual recovery of market activity"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Continue support for marginal farmers through inputs and advisory",
+            "Maintain monitoring to catch early stress",
+            "Encourage urban community gardening to boost local food access"
+          ]
         },
         "ndvi_2022": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.37,
+            "assessment": "slight decline"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Pockets of stress due to irregular monsoon onset and localized dry spells",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Some delayed planting and lower vigor in affected districts",
+            "water_resources": "Increased pressure on irrigation infrastructure in dry pockets",
+            "urban_areas": "Small dips in peri-urban vegetation",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Households in marginal lands experienced income variability"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Improve seasonal forecasting dissemination to farmers",
+            "Repair and upgrade local irrigation canals and pumps",
+            "Support early-season planting subsidies where necessary"
+          ]
         },
         "ndvi_2023": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.44,
+            "assessment": "healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Strong wet-season growth; riparian and upland areas particularly robust",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Positive crop establishment and yield prospects",
+            "water_resources": "Good replenishment of surface and shallow groundwater",
+            "urban_areas": "Urban greening initiatives show clear benefits",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Upward trend in rural incomes and employment"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Capture lessons from successful water management practices",
+            "Invest in infrastructure to reduce post-harvest losses",
+            "Expand urban–rural green corridors for biodiversity"
+          ]
         },
         "ndvi_2024": {
-          "per_picture_info": null,
+          "per_picture_info": "Sensor: MISR Terra\n\n\nBands used: NIR, Red\n\n\nCoverage: Entire Bangladesh",
           "terra_data": {
             "sensor": "MISR Terra",
-            "average_ndvi": null,
-            "assessment": null
+            "average_ndvi": 0.42,
+            "assessment": "moderate to healthy vegetation"
           },
-          "vegetation_state": null,
+          "vegetation_state": "Generally stable vegetation with localized stress in coastal and urban fringe areas",
           "community_impact": {
-            "agriculture": null,
-            "water_resources": null,
-            "urban_areas": null,
+            "agriculture": "Stable production overall with vigilance needed for salt-prone and marginal lands",
+            "water_resources": "Monsoon performance generally adequate with local variability",
+            "urban_areas": "Continued focus on urban greenspace maintenance",
             "forests": null,
-            "livelihoods": null
+            "livelihoods": "Mostly stable with targeted vulnerabilities"
           },
-          "our_response_suggestions": []
+          "our_response_suggestions": [
+            "Prioritize coastal resilience and salt-adaptation measures",
+            "Maintain support for peri-urban green maintenance",
+            "Continue satellite-based monitoring to detect emerging stress early"
+          ]
         }
       }
     }
