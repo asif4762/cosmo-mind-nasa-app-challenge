@@ -23,6 +23,12 @@ const GlobeComponent = ({
   const burstsRef = useRef([]);   // active particle bursts (for cleanup)
   const rafRef = useRef(null);    // animation loop for bursts
 
+  // --- Satellite orbit refs (ADD) ---
+  const satOrbitRef = useRef({ group: null, pivot: null, mesh: null });
+  const satAnimRef = useRef(null);
+  const satAngleRef = useRef(0);
+  const satLastTsRef = useRef(0);
+
   // Memoize static datasets (avoid re-creating on each render)
   const arcsData = useMemo(() => generateArcsData(), []);
   const points = useMemo(() => locations, []);
@@ -315,6 +321,119 @@ const GlobeComponent = ({
         globeRef.current?.scene()?.remove(haloRef.current);
         haloRef.current = null;
       }
+    };
+  }, []);
+
+  // --- Satellite orbit setup (ADD) ---
+  useEffect(() => {
+    let disposed = false;
+    let orbitGroup = null;
+    let pivot = null;
+
+    const init = async () => {
+      const globe = globeRef.current;
+      if (!globe) return;
+
+      const scene  = globe.scene();
+      const radius = globe.getGlobeRadius?.() || 100;
+
+      // Orbit parameters
+      const orbitAltitudeRatio = 1.50;                  // >1 => above surface
+      const orbitRadius = radius * orbitAltitudeRatio;
+      const inclination = THREE.MathUtils.degToRad(35); // tilt of the orbit plane
+      const ascNode    = THREE.MathUtils.degToRad(-20); // rotation around Y
+
+      // Group that defines the orbit plane
+      orbitGroup = new THREE.Group();
+      orbitGroup.name = 'satellite-orbit-group';
+      orbitGroup.rotation.set(inclination, ascNode, 0);
+      scene.add(orbitGroup);
+
+      // Optional: draw the orbit path
+      const steps = 256;
+      const pts = [];
+      for (let i = 0; i < steps; i++) {
+        const a = (i / steps) * Math.PI * 2;
+        pts.push(new THREE.Vector3(Math.cos(a) * orbitRadius, 0, Math.sin(a) * orbitRadius));
+      }
+      orbitGroup.add(new THREE.LineLoop(
+        new THREE.BufferGeometry().setFromPoints(pts),
+        new THREE.LineBasicMaterial({ color: 0x7dd3fc, transparent: true, opacity: 0.75 })
+      ));
+
+      // Pivot we rotate to move the satellite
+      pivot = new THREE.Object3D();
+      orbitGroup.add(pivot);
+
+      // Lazy import GLTFLoader so SSR is safe
+      const { GLTFLoader } = await import('three/examples/jsm/loaders/GLTFLoader.js');
+      const loader = new GLTFLoader();
+
+      loader.load(
+        // ⬇️ Your downloaded GLB (1k, ~2MB)
+        '../../public/satellites.glb',
+        (gltf) => {
+          if (disposed) return;
+          const sat = gltf.scene;
+
+          // Scale relative to globe size (~2%)
+          const scale = radius * 0.045;
+          sat.scale.setScalar(scale);
+
+          // Position on orbit (X axis in orbit plane)
+          sat.position.set(orbitRadius, 0, 0);
+
+          // Face the Earth initially; keep updating in the loop below
+          sat.lookAt(0, 0, 0);
+
+          // Light weight
+          sat.traverse(o => { if (o.isMesh) { o.castShadow = false; o.receiveShadow = false; } });
+
+          pivot.add(sat);
+          satOrbitRef.current = { group: orbitGroup, pivot, mesh: sat };
+        },
+        undefined,
+        (err) => console.error('Satellite load error:', err)
+      );
+
+      // Animate: one revolution ≈ 30s
+      const angularSpeed = (2 * Math.PI) / 30000; // rad per ms
+      const step = (now) => {
+        if (satLastTsRef.current === 0) satLastTsRef.current = now;
+        const dt = now - satLastTsRef.current;
+        satLastTsRef.current = now;
+
+        satAngleRef.current += dt * angularSpeed;
+        if (pivot) pivot.rotation.y = satAngleRef.current;
+
+        // Keep satellite always facing Earth (optional, looks nice)
+        if (satOrbitRef.current.mesh) {
+          satOrbitRef.current.mesh.lookAt(0, 0, 0);
+        }
+
+        if (!disposed) satAnimRef.current = requestAnimationFrame(step);
+      };
+      satAnimRef.current = requestAnimationFrame(step);
+    };
+
+    init();
+
+    return () => {
+      disposed = true;
+      if (satAnimRef.current) cancelAnimationFrame(satAnimRef.current);
+      satAnimRef.current = null;
+
+      const globe = globeRef.current;
+      if (globe && orbitGroup) {
+        // Dispose children (line, GLB meshes/materials)
+        orbitGroup.traverse(obj => {
+          obj.geometry?.dispose?.();
+          if (Array.isArray(obj.material)) obj.material.forEach(m => m.dispose?.());
+          else obj.material?.dispose?.();
+        });
+        globe.scene().remove(orbitGroup);
+      }
+      satOrbitRef.current = { group: null, pivot: null, mesh: null };
     };
   }, []);
 
