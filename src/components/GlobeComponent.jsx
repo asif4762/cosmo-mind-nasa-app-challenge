@@ -371,8 +371,7 @@ const GlobeComponent = ({
       const loader = new GLTFLoader();
 
       loader.load(
-        // 🔧 EDIT THESE PATHS (GLB + 2 textures)
-        // Serve from your web root (e.g., /public in Next/Vite => URL like /models/xxx)
+        // 🔧 Keep your path as-is if it works for you
         '../../public/nasa-eos-am-1terra-satellite/source/nasa_eos_am-1terra_satellite.glb',
         async (gltf) => {
           if (disposed) return;
@@ -632,7 +631,8 @@ const GlobeComponent = ({
             border: '1px solid rgba(255,255,255,.12)',
             fontSize: 12,
             lineHeight: 1.3,
-            zIndex: 10
+            zIndex: 10,
+            animation: 'nasaFade 180ms ease-out both'
           }}
         >
           <div style={{ fontWeight: 700, marginBottom: 4 }}>
@@ -657,7 +657,8 @@ const GlobeComponent = ({
             borderRadius: 12,
             border: '1px solid rgba(255,255,255,.12)',
             fontSize: 12,
-            zIndex: 10
+            zIndex: 10,
+            animation: 'nasaSlideUp 220ms ease-out both'
           }}
         >
           <div style={{ fontWeight: 700, marginBottom: 4 }}>
@@ -667,99 +668,252 @@ const GlobeComponent = ({
         </div>
       )}
 
-      {/* NASA-themed modal on satellite click */}
+      {/* NASA-themed modal on satellite click — fancy + animated */}
       {satInfoOpen && (
         <div
+          className="nasa-backdrop"
           onClick={() => setSatInfoOpen(false)}
-          style={{
-            position: 'absolute',
-            inset: 0,
-            background: 'rgba(0,0,0,0.45)',
-            backdropFilter: 'blur(3px)',
-            zIndex: 30,
-            display: 'grid',
-            placeItems: 'center'
-          }}
         >
           <div
+            className="nasa-modal"
             onClick={(e) => e.stopPropagation()}
-            style={{
-              width: 'min(720px, 92vw)',
-              maxHeight: '80vh',
-              overflow: 'auto',
-              borderRadius: 16,
-              boxShadow: '0 10px 40px rgba(0,0,0,.6)',
-              border: '1px solid rgba(255,255,255,.12)',
-              background: 'linear-gradient(160deg, #0b3d91 0%, #0a1a2f 60%)',
-              color: 'white',
-              padding: '18px 20px 16px'
-            }}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Terra Instrument Suite"
           >
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-              <div style={{
-                width: 34, height: 34, borderRadius: '50%',
-                background: '#e0312c', display: 'grid', placeItems: 'center',
-                fontWeight: 800, letterSpacing: 0.5
-              }}>NASA</div>
-              <div>
-                <div style={{ fontWeight: 800, fontSize: 18, lineHeight: 1 }}>Terra (EOS AM-1)</div>
-                <div style={{ opacity: .85, fontSize: 12, marginTop: 2 }}>Instrument Suite — Quick Overview</div>
+            {/* Animated gradient border */}
+            <div className="nasa-border-glow" />
+
+            {/* Animated starry grid bg */}
+            <div className="nasa-bg">
+              <div className="nasa-stars nasa-stars-1" />
+              <div className="nasa-stars nasa-stars-2" />
+              <div className="nasa-scanline" />
+            </div>
+
+            {/* Header */}
+            <div className="nasa-header">
+              <div className="nasa-badge">
+                <div className="nasa-badge-ring" />
+                <div className="nasa-badge-core">NASA</div>
+              </div>
+              <div className="nasa-title">
+                <div className="nasa-title-main">Terra (EOS AM-1)</div>
+                <div className="nasa-title-sub">Instrument Suite — Quick Overview</div>
               </div>
               <button
                 onClick={() => setSatInfoOpen(false)}
-                style={{
-                  marginLeft: 'auto',
-                  background: 'transparent',
-                  border: 'none',
-                  color: '#fff',
-                  fontSize: 18,
-                  cursor: 'pointer'
-                }}
+                className="nasa-close"
                 aria-label="Close"
                 title="Close"
-              >×</button>
+              >
+                ×
+              </button>
             </div>
 
-            <div style={{
-              borderTop: '2px solid rgba(255,255,255,.1)',
-              paddingTop: 12,
-              display: 'grid',
-              gap: 10
-            }}>
-              <Item k="MODIS" v="Monitors land, oceans, and atmosphere for vegetation, temperature, and clouds." />
-              <Item k="ASTER" v="Captures high-resolution images of Earth’s surface for geology and land cover." />
-              <Item k="CERES" v="Measures Earth’s energy balance to study climate and clouds." />
-              <Item k="MISR"  v="Analyzes aerosols, clouds, and surface features from multiple angles." />
-              <Item k="MOPITT" v="Tracks atmospheric carbon monoxide to monitor air pollution." />
+            {/* Content */}
+            <div className="nasa-content">
+              <Item k="MODIS"  v="Monitors land, oceans, and atmosphere for vegetation, temperature, and clouds." delay={0} />
+              <Item k="ASTER"  v="Captures high-resolution images of Earth’s surface for geology and land cover." delay={60} />
+              <Item k="CERES"  v="Measures Earth’s energy balance to study climate and clouds." delay={120} />
+              <Item k="MISR"   v="Analyzes aerosols, clouds, and surface features from multiple angles." delay={180} />
+              <Item k="MOPITT" v="Tracks atmospheric carbon monoxide to monitor air pollution." delay={240} />
             </div>
 
-            <div style={{ marginTop: 14, display: 'flex', gap: 8, alignItems: 'center' }}>
-              <div style={{ width: 8, height: 8, borderRadius: 999, background: '#e0312c' }} />
-              <div style={{ fontSize: 12, opacity: .9 }}>
+            {/* Footer */}
+            <div className="nasa-footer">
+              <div className="nasa-dot" />
+              <div className="nasa-tip">
                 Tip: Click outside this window or press <b>Esc</b> to close.
               </div>
+              <div className="nasa-chip">Sun-sync orbit</div>
+              <div className="nasa-chip">Polar crossing</div>
+              <div className="nasa-chip">Climate science</div>
             </div>
           </div>
         </div>
       )}
+
+      {/* ✨ Modal CSS & Animations (scoped) */}
+      <style>{`
+        /* Backdrop */
+        .nasa-backdrop {
+          position: absolute; inset: 0; z-index: 30;
+          background: radial-gradient(1200px 600px at 60% 30%, rgba(11,61,145,.35), rgba(0,0,0,.45)),
+                      rgba(0,0,0,.45);
+          backdrop-filter: blur(3px);
+          animation: nasaFade 180ms ease-out both;
+          display: grid; place-items: center;
+        }
+        /* Modal shell */
+        .nasa-modal {
+          width: min(820px, 94vw);
+          max-height: 80vh; overflow: hidden;
+          position: relative;
+          border-radius: 18px;
+          background: #0a1426; /* fallback behind layers */
+          color: #fff;
+          box-shadow: 0 16px 55px rgba(0,0,0,.6);
+          border: 1px solid rgba(255,255,255,.12);
+          animation: nasaPop 280ms cubic-bezier(.2,.9,.3,1.2) both;
+        }
+        /* Animated gradient border glow using ::before overlay element */
+        .nasa-border-glow {
+          pointer-events: none;
+          position: absolute; inset: -2px;
+          border-radius: 20px;
+          background: conic-gradient(from 0deg,
+            rgba(125,211,252,.0),
+            rgba(125,211,252,.35),
+            rgba(224,49,44,.35),
+            rgba(255,255,255,.35),
+            rgba(125,211,252,.35),
+            rgba(125,211,252,.0)
+          );
+          filter: blur(14px) saturate(140%);
+          opacity: .65;
+          animation: nasaSpinSlow 10s linear infinite;
+        }
+
+        /* Background grid + stars + scanline */
+        .nasa-bg {
+          position: absolute; inset: 0; z-index: 0; overflow: hidden;
+          background:
+            radial-gradient(1200px 800px at -10% -20%, rgba(11,61,145,.65), rgba(10,26,47,1) 50%, rgba(6,13,26,1) 70%),
+            linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,0));
+        }
+        .nasa-bg::after {
+          content: '';
+          position: absolute; inset: 0;
+          background-image:
+            linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+          background-size: 26px 26px, 26px 26px;
+          mask-image: radial-gradient(800px 520px at 20% 10%, rgba(255,255,255,1), transparent 60%);
+          opacity: .15;
+          animation: nasaDrift 24s linear infinite;
+        }
+        .nasa-stars { position: absolute; inset: -20% -10% -10% -10%; background-repeat: repeat; opacity: .25 }
+        .nasa-stars-1 {
+          background-image: radial-gradient(1px 1px at 20% 30%, #ffffff 50%, transparent 51%),
+                            radial-gradient(1px 1px at 80% 70%, #ffffff 50%, transparent 51%),
+                            radial-gradient(1px 1px at 50% 10%, #ffffff 50%, transparent 51%);
+          animation: nasaParallax 50s linear infinite;
+        }
+        .nasa-stars-2 {
+          background-image: radial-gradient(1px 1px at 10% 60%, #7dd3fc 50%, transparent 51%),
+                            radial-gradient(1px 1px at 70% 20%, #7dd3fc 50%, transparent 51%),
+                            radial-gradient(1px 1px at 40% 80%, #7dd3fc 50%, transparent 51%);
+          opacity: .2; animation: nasaParallax 90s linear infinite reverse;
+        }
+        .nasa-scanline {
+          position: absolute; inset: 0;
+          background: repeating-linear-gradient(0deg, rgba(255,255,255,.07), rgba(255,255,255,.07) 1px, transparent 2px);
+          mix-blend-mode: overlay;
+          opacity: .05;
+          animation: nasaScan 8s linear infinite;
+        }
+
+        /* Header */
+        .nasa-header {
+          position: relative; z-index: 1;
+          display: flex; align-items: center; gap: 12px;
+          padding: 16px 18px 10px 18px;
+        }
+        .nasa-badge { position: relative; width: 44px; height: 44px; }
+        .nasa-badge-core {
+          position: absolute; inset: 6px;
+          border-radius: 999px;
+          background: #e0312c;
+          display: grid; place-items: center;
+          font-weight: 900; letter-spacing: .5px; font-size: 13px;
+          text-shadow: 0 1px 2px rgba(0,0,0,.4);
+          box-shadow: inset 0 -6px 10px rgba(0,0,0,.25), 0 6px 14px rgba(224,49,44,.35);
+        }
+        .nasa-badge-ring {
+          position: absolute; inset: 0; border-radius: 999px;
+          background: conic-gradient(from 180deg, #7dd3fc, #ffffff, #e0312c, #7dd3fc);
+          filter: blur(1px);
+          animation: nasaSpinSlow 6s linear infinite;
+          opacity: .9;
+        }
+        .nasa-title { display: grid; line-height: 1; }
+        .nasa-title-main { font-weight: 900; font-size: 18px; letter-spacing: .2px; }
+        .nasa-title-sub { opacity: .9; font-size: 12px; margin-top: 3px; }
+        .nasa-close {
+          margin-left: auto; background: transparent; border: none; color: #fff;
+          font-size: 22px; cursor: pointer; padding: 2px 6px;
+          transition: transform .18s ease, color .18s ease;
+        }
+        .nasa-close:hover { transform: rotate(90deg) scale(1.05); color: #7dd3fc; }
+
+        /* Content */
+        .nasa-content {
+          position: relative; z-index: 1;
+          padding: 10px 14px 14px 14px;
+          display: grid; gap: 12px;
+          border-top: 2px solid rgba(255,255,255,.08);
+        }
+        .nasa-item {
+          display: grid; grid-template-columns: 130px 1fr;
+          gap: 12px; align-items: start;
+          background: linear-gradient(90deg, rgba(255,255,255,.07), rgba(255,255,255,0));
+          padding: 12px 14px; border-radius: 12px;
+          box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
+          transform-origin: 20% 50%;
+          animation: nasaItem 360ms cubic-bezier(.2,.9,.3,1) both;
+        }
+        .nasa-item-key {
+          font-weight: 900; letter-spacing: .3px;
+          text-shadow: 0 1px 2px rgba(0,0,0,.35);
+        }
+        .nasa-item-val { opacity: .96 }
+        .nasa-item:hover {
+          box-shadow: inset 0 0 0 1px rgba(125,211,252,.35), 0 0 0 3px rgba(125,211,252,.08);
+          transform: translateY(-1px) scale(1.01);
+        }
+
+        /* Footer chips */
+        .nasa-footer {
+          position: relative; z-index: 1;
+          padding: 6px 14px 16px 14px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+          border-top: 1px dashed rgba(255,255,255,.12);
+        }
+        .nasa-dot { width: 8px; height: 8px; border-radius: 999px; background: #e0312c; box-shadow: 0 0 10px rgba(224,49,44,.6) inset, 0 0 10px rgba(224,49,44,.6); }
+        .nasa-tip { font-size: 12px; opacity: .9 }
+        .nasa-chip {
+          margin-left: auto;
+          background: linear-gradient(180deg, rgba(125,211,252,.25), rgba(125,211,252,.05));
+          border: 1px solid rgba(125,211,252,.35);
+          color: #dff5ff; font-size: 12px; padding: 6px 10px; border-radius: 999px;
+          box-shadow: 0 4px 12px rgba(125,211,252,.15);
+          animation: nasaFade 260ms 180ms ease-out both;
+        }
+
+        /* Keyframes */
+        @keyframes nasaFade { from { opacity: 0 } to { opacity: 1 } }
+        @keyframes nasaPop {
+          0% { opacity: 0; transform: translateY(10px) scale(.96) }
+          60% { opacity: 1; transform: translateY(0) scale(1.02) }
+          100% { transform: translateY(0) scale(1) }
+        }
+        @keyframes nasaSlideUp { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+        @keyframes nasaItem { from { opacity: 0; transform: translateY(12px) scale(.985) } to { opacity: 1; transform: translateY(0) scale(1) } }
+        @keyframes nasaSpinSlow { to { transform: rotate(360deg) } }
+        @keyframes nasaParallax { to { background-position: -1000px -400px } }
+        @keyframes nasaScan { 0% { transform: translateY(-100%) } 100% { transform: translateY(100%) } }
+        @keyframes nasaDrift { to { transform: translate(20px, 12px) } }
+      `}</style>
     </>
   );
 };
 
-// Small presentational component for the modal list
-function Item({ k, v }) {
+// Animated presentational item with delay
+function Item({ k, v, delay = 0 }) {
   return (
-    <div style={{
-      display: 'grid',
-      gridTemplateColumns: '110px 1fr',
-      gap: 10,
-      alignItems: 'start',
-      background: 'linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,0))',
-      padding: '10px 12px',
-      borderRadius: 10
-    }}>
-      <div style={{ fontWeight: 800 }}>{k}</div>
-      <div style={{ opacity: .95 }}>{v}</div>
+    <div className="nasa-item" style={{ animationDelay: `${delay}ms` }}>
+      <div className="nasa-item-key">{k}</div>
+      <div className="nasa-item-val">{v}</div>
     </div>
   );
 }
