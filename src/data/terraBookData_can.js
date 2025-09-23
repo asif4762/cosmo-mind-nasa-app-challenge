@@ -6,7 +6,7 @@ const bookCAN = {
     {
       code: "CAN",
       name: "Canada",
-      coverImage: "/images/can_cover.jpg",
+      coverImage: "/images_c/Can.jpg",
       pages: [
         {
           year: "Page 1 — The Quiet Morning",

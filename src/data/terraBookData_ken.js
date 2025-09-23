@@ -6,7 +6,7 @@ const bookKEN = {
     {
       code: "KEN",
       name: "Kenya",
-      coverImage: "/images/ken_cover.jpg",
+      coverImage: "/images_c/Key.jpg",
       pages: [
         {
           year: "Page 1 — The Silent Dawn",

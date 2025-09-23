@@ -1,12 +1,12 @@
 // src/data/terraBookData_jpn.js
 const bookJPN = {
   title: "The Sakura’s Lament",
-  subtitle: ": A Tale of Renewa",
+  subtitle: ": A Tale of Renewal",
   countries: [
     {
       code: "JPN",
       name: "Japan",
-      coverImage: "/images/jpn_cover.jpg",
+      coverImage: "/images_c/Jap.jpg",
       pages: [
         {
           year: "Page 1 — The Quiet Morning",

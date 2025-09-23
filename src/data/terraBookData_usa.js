@@ -6,7 +6,7 @@ const bookUSA = {
     {
       code: "USA",
       name: "United States",
-      coverImage: "/images/usa_cover.jpg",
+      coverImage: "/images_c/Usa.jpg",
       pages: [
         {
           year: "Page 1 — The Quiet Morning",

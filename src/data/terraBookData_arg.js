@@ -6,7 +6,7 @@ export const bookData = {
     {
       code: "ARG",
       name: "Argentina",
-      coverImage: "/images/argentina_cover.jpg",
+      coverImage: "/images_c/Arg.jpg",
       pages: [
         {
           year: "Page 1 — The Dry Wind",

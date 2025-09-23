@@ -1,12 +1,12 @@
 // src/data/terraBookData_bra.js
 const bookBRA = {
-  title: "he Cry of the Amazon",
+  title: "The Cry of the Amazon",
   subtitle: "Renewal in the Rainforest,Fight Against Destruction",
   countries: [
     {
       code: "BRA",
       name: "Brazil",
-      coverImage: "/images/bra_cover.jpg",
+      coverImage: "/images_c/Bra.jpg",
       pages: [
         {
           year: "Page 1 — The Quiet Morning",

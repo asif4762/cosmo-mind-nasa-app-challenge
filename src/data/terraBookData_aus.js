@@ -6,7 +6,7 @@ export const bookData = {
     {
       code: "AUS",
       name: "Australia",
-      coverImage: "/images/aus_cover.jpg",
+      coverImage: "/images_c/Aus.jpg",
       pages: [
         {
           year: "Page 1 — The Quiet Morning",

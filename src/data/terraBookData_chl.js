@@ -1,12 +1,12 @@
 // src/data/terraBookData_chl.js
 const bookCHL = {
-  title: "🌲 The Whispering Andes of Chile",
+  title: " The Whispering Andes of Chile",
   subtitle: "A Story of Climate, Deforestation, and Hope",
   countries: [
     {
       code: "CHL",
       name: "Chile",
-      coverImage: "/images/chl_cover.jpg",
+      coverImage: "/images_c/chil.png",
       pages: [
         {
           year: "Page 1 — The Quiet Morning",

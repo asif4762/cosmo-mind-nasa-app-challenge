@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useMemo, useRef, useState } from "react"; 
 import HTMLFlipBook from "react-pageflip";
 import "./terra-book.css";
 import confetti from "canvas-confetti";
@@ -8,6 +8,7 @@ import { Play, Pause } from "lucide-react";
 const flipSound = new Howl({ src: ["/sounds/page-flip.mp3"], volume: 0.25 });
 const chime = new Howl({ src: ["/sounds/chime.mp3"], volume: 0.3 });
 
+/* ✅ Narration Hook */
 const useNarration = () => {
   const utteranceRef = useRef(null);
 
@@ -33,34 +34,52 @@ const useNarration = () => {
   return { speak, pause, stop };
 };
 
+/* ✅ Generic Page Wrapper */
 const Page = React.forwardRef(({ children, className = "" }, ref) => (
   <div className={`page ${className}`} ref={ref}>
     <div className="page-content">{children}</div>
   </div>
 ));
 
-const Cover = ({ title, subtitle }) => (
-  <div className="cover-simple">
-    <h1 className="cover-title">{title}</h1>
-    {subtitle && <p className="cover-subtitle">{subtitle}</p>}
+/* ✅ Cover Page (only image, no title/subtitle) */
+const Cover = ({ coverImage }) => (
+  <div
+    className="cover-page"
+    style={{
+      position: "relative",
+      width: "100%",
+      height: "100%",
+      overflow: "hidden",
+    }}
+  >
+    {/* Background image that fits fully */}
+    <div
+      style={{
+        backgroundImage: `url(${coverImage})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "contain", // ✅ keeps whole image visible
+        width: "100%",
+        height: "100%",
+      }}
+    />
   </div>
 );
 
+/* ✅ Country Intro Page */
 const CountryIntro = ({ country }) => (
   <div className="country-intro">
-    {country.coverImage && (
-      <img className="country-cover" src={country.coverImage} alt={`${country.name} cover`} />
-    )}
     <h2 className="country-title">{country.name}</h2>
     <p className="country-lead">
       Flying over <b>{country.name}</b> with Terra, the forests stretch thin across the land.
-Fields that once glowed with life now soften into pale shades of green.
-City rooftops shimmer under the relentless sun.
-Every corner of the land seems to whisper a story of change.
+      Fields that once glowed with life now soften into pale shades of green.
+      City rooftops shimmer under the relentless sun.
+      Every corner of the land seems to whisper a story of change.
     </p>
   </div>
 );
 
+/* ✅ Year Page */
 const YearPage = ({ name, year, image, caption, story }) => (
   <div className="year-page">
     <div className="year-head">
@@ -70,7 +89,17 @@ const YearPage = ({ name, year, image, caption, story }) => (
 
     {image && (
       <figure className="map-figure">
-        <img src={image} alt={`${name} ${year}`} />
+        <img
+          src={image}
+          alt={`${name} ${year}`}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "260px",
+            objectFit: "contain",
+            display: "block",
+            margin: "0 auto",
+          }}
+        />
         {caption && <figcaption>{caption}</figcaption>}
       </figure>
     )}
@@ -79,12 +108,13 @@ const YearPage = ({ name, year, image, caption, story }) => (
   </div>
 );
 
-export default function TerraBook({ title, subtitle, data }) {
+export default function TerraBook({ data }) {
   const countries = data?.countries ?? [];
   const { speak, pause, stop } = useNarration();
   const [currentText, setCurrentText] = useState("");
   const [showControls, setShowControls] = useState(false);
 
+  /* ✅ Build page list */
   const pages = useMemo(() => {
     const out = [];
     out.push({ kind: "cover" });
@@ -99,11 +129,12 @@ export default function TerraBook({ title, subtitle, data }) {
     return out;
   }, [countries]);
 
+  /* ✅ Narration Text */
   const handlePageText = (page) => {
     switch (page.kind) {
       case "cover":
         setCurrentText("");
-        setShowControls(false); 
+        setShowControls(false);
         break;
       case "country-intro":
         setCurrentText(`Let’s fly over ${page.country.name} with Terra. The greener it is, the better plants are doing.`);
@@ -145,7 +176,7 @@ export default function TerraBook({ title, subtitle, data }) {
             case "cover":
               return (
                 <Page className="cover" key={`p-${i}`}>
-                  <Cover title={title} subtitle={subtitle} />
+                  <Cover coverImage={countries[0]?.coverImage} />
                 </Page>
               );
             case "country-intro":
@@ -181,6 +212,7 @@ export default function TerraBook({ title, subtitle, data }) {
         })}
       </HTMLFlipBook>
 
+      {/* ✅ Controls */}
       {showControls && (
         <div
           style={{
@@ -193,69 +225,47 @@ export default function TerraBook({ title, subtitle, data }) {
             zIndex: 10,
           }}
         >
-           
+          {/* Play button */}
+          <button
+            onClick={() => speak(currentText)}
+            style={{
+              width: 50,
+              height: 50,
+              borderRadius: "50%",
+              background: "radial-gradient(circle at 30% 30%, #1f75fe, #0b3d91)",
+              border: "2px solid rgba(255, 255, 255, 0.8)",
+              boxShadow: "0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+              transition: "all 0.3s ease",
+              animation: "pulse 2s infinite",
+            }}
+          >
+            <Play color="#fff" size={28} />
+          </button>
 
-{/* Play button */}
-<button
-  onClick={() => speak(currentText)}
-  style={{
-    width: 50,
-    height: 50,
-    borderRadius: "50%",
-    background: "radial-gradient(circle at 30% 30%, #1f75fe, #0b3d91)",
-    border: "2px solid rgba(255, 255, 255, 0.8)",
-    boxShadow: "0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    cursor: "pointer",
-    transition: "all 0.3s ease",
-    animation: "pulse 2s infinite",
-  }}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.transform = "scale(1.2)";
-    e.currentTarget.style.boxShadow = "0 0 25px #1f75fe, 0 0 35px #1f75fe inset";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.transform = "scale(1)";
-    e.currentTarget.style.boxShadow = "0 0 15px #1f75fe, 0 0 30px #1f75fe55 inset";
-  }}
->
-  <Play color="#fff" size={28} />
-</button>
-
-{/* Pause button */}
-<button
-  onClick={pause}
-  style={{
-    width: 50,
-    height: 50,
-    borderRadius: "50%",
-    background: "radial-gradient(circle at 30% 30%, #ff5959, #ff2e2e)",
-    border: "2px solid rgba(255, 255, 255, 0.8)",
-    boxShadow: "0 0 15px #ff5959, 0 0 30px #ff595955 inset",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    cursor: "pointer",
-    transition: "all 0.3s ease",
-    animation: "pulseRed 2s infinite",
-  }}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.transform = "scale(1.2)";
-    e.currentTarget.style.boxShadow = "0 0 25px #ff5959, 0 0 35px #ff595955 inset";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.transform = "scale(1)";
-    e.currentTarget.style.boxShadow = "0 0 15px #ff5959, 0 0 30px #ff595955 inset";
-  }}
->
-  <Pause color="#fff" size={28} />
-</button>
-
-
-
-
+          {/* Pause button */}
+          <button
+            onClick={pause}
+            style={{
+              width: 50,
+              height: 50,
+              borderRadius: "50%",
+              background: "radial-gradient(circle at 30% 30%, #ff5959, #ff2e2e)",
+              border: "2px solid rgba(255, 255, 255, 0.8)",
+              boxShadow: "0 0 15px #ff5959, 0 0 30px #ff595955 inset",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+              transition: "all 0.3s ease",
+              animation: "pulseRed 2s infinite",
+            }}
+          >
+            <Pause color="#fff" size={28} />
+          </button>
         </div>
       )}
     </div>
