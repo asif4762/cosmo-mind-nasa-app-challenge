@@ -238,9 +238,12 @@ export default function About() {
 
           <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { name: "A. Rahman", role: "Lead • Frontend + 3D", img: "/images/team/1.jpg" },
-              { name: "S. Akter", role: "Story & UX", img: "/images/team/2.jpg" },
-              { name: "T. Khan", role: "Data & Charts", img: "/images/team/3.jpg" }
+              { name: "ASIF ZAMAN", role: "Frontend Developer", img: "https://i.ibb.co.com/DHmLW7K0/Whats-App-Image-2025-09-23-at-10-30-29.jpg" },
+              { name: "AFRIDI CHOWDHURY", role: "Fullstack Developer", img: "https://i.ibb.co.com/ynHZtbpw/Whats-App-Image-2025-09-23-at-10-30-29-1.jpg" },
+              { name: "ROBIUL HASAN", role: "Frontend Developer", img: "https://i.ibb.co.com/xkzbkTK/Whats-App-Image-2025-09-23-at-10-30-29-2.jpg" },
+              { name: "MEHRAB-AL-HASAN", role: "Video Editor", img: "https://i.ibb.co.com/1GsMC4wL/Whats-App-Image-2025-09-23-at-10-32-05.jpg" },
+              { name: "ABRAR HOSSAIN", role: "UI/UX Designer", img: "https://i.ibb.co.com/cKNNDfqL/Whats-App-Image-2025-09-23-at-10-30-00.jpg" },
+              { name: "KAZI TAHERA JANNAT", role: "Researcher", img: "https://i.ibb.co.com/Wp57yvJK/Whats-App-Image-2025-09-23-at-10-30-28.jpg" }
             ].map((p, i) => (
               <motion.div key={p.name} {...fade(0.05 + i * 0.05)} className="rounded-2xl border border-white/10 bg-white/5 p-5">
                 <div className="flex items-center gap-4">
@@ -253,14 +256,6 @@ export default function About() {
                   <div>
                     <div className="text-white font-semibold">{p.name}</div>
                     <div className="text-white/70 text-sm">{p.role}</div>
-                    <div className="mt-2 flex items-center gap-3">
-                      <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-white/80 hover:text-white">
-                        <Github size={16}/>
-                      </a>
-                      <a href="#" className="text-white/80 hover:text-white">
-                        <ExternalLink size={16}/>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </motion.div>

@@ -89,7 +89,7 @@ export default function Contact() {
                   <div className="grid h-10 w-10 place-items-center rounded-lg bg-white/10"><Mail className="text-teal-300" /></div>
                   <div>
                     <div className="text-white font-semibold">Email</div>
-                    <a href="mailto:hello@cosmominds.dev" className="text-sm text-white/80 hover:text-white">hello@cosmominds.dev</a>
+                    <a href="mailto:hello@cosmominds.dev" className="text-sm text-white/80 hover:text-white">mindscosmo@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function Contact() {
                   <div className="grid h-10 w-10 place-items-center rounded-lg bg-white/10"><Phone className="text-blue-300" /></div>
                   <div>
                     <div className="text-white font-semibold">Phone</div>
-                    <div className="text-sm text-white/80">+000 000 0000 (placeholder)</div>
+                    <div className="text-sm text-white/80">+880 16704XXXX (placeholder)</div>
                   </div>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function Contact() {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8">
             <h3 className="text-white font-bold text-lg">Prefer email?</h3>
             <p className="text-white/80 text-sm mt-1">
-              hello@cosmominds.dev — include links or attachments if needed.
+              mindscosmo@gmail.com — include links or attachments if needed.
             </p>
           </div>
         </section>
