@@ -23,11 +23,12 @@ const GlobeComponent = ({
   const burstsRef = useRef([]);   // active particle bursts (for cleanup)
   const rafRef = useRef(null);    // animation loop for bursts
 
-  // --- Satellite orbit refs (ADD) ---
+  // --- Satellite orbit refs + UI ---
   const satOrbitRef = useRef({ group: null, pivot: null, mesh: null });
   const satAnimRef = useRef(null);
   const satAngleRef = useRef(0);
   const satLastTsRef = useRef(0);
+  const [satInfoOpen, setSatInfoOpen] = useState(false);
 
   // Memoize static datasets (avoid re-creating on each render)
   const arcsData = useMemo(() => generateArcsData(), []);
@@ -274,6 +275,7 @@ const GlobeComponent = ({
       } else if (e.key === 'Escape') {
         setSelected(null);
         updateSelectionHalo(null);
+        setSatInfoOpen(false); // close modal via Esc too
       }
     };
 
@@ -291,7 +293,6 @@ const GlobeComponent = ({
     );
     return () => {
       if (idleTimer.current) clearTimeout(idleTimer.current);
-      // removeEventListener needs same fn; re-add to be safe
       dom.removeEventListener('pointerdown', markUserActive);
       dom.removeEventListener('wheel', markUserActive);
       dom.removeEventListener('pointermove', markUserActive);
@@ -324,7 +325,7 @@ const GlobeComponent = ({
     };
   }, []);
 
-  // --- Satellite orbit setup (ADD) ---
+  // --- Satellite orbit setup (GLB + manual textures) ---
   useEffect(() => {
     let disposed = false;
     let orbitGroup = null;
@@ -349,7 +350,7 @@ const GlobeComponent = ({
       orbitGroup.rotation.set(inclination, ascNode, 0);
       scene.add(orbitGroup);
 
-      // Optional: draw the orbit path
+      // Orbit path (line)
       const steps = 256;
       const pts = [];
       for (let i = 0; i < steps; i++) {
@@ -358,7 +359,7 @@ const GlobeComponent = ({
       }
       orbitGroup.add(new THREE.LineLoop(
         new THREE.BufferGeometry().setFromPoints(pts),
-        new THREE.LineBasicMaterial({ color: 0x7dd3fc, transparent: true, opacity: 0.75 })
+        new THREE.LineBasicMaterial({ color: 0x7dd3fc, transparent: true, opacity: 0.95 })
       ));
 
       // Pivot we rotate to move the satellite
@@ -370,24 +371,70 @@ const GlobeComponent = ({
       const loader = new GLTFLoader();
 
       loader.load(
-        // ⬇️ Your downloaded GLB (1k, ~2MB)
-        '../../public/nasa_eos_am-1terra_satellite.glb',
-        (gltf) => {
+        // 🔧 EDIT THESE PATHS (GLB + 2 textures)
+        // Serve from your web root (e.g., /public in Next/Vite => URL like /models/xxx)
+        '../../public/nasa-eos-am-1terra-satellite/source/nasa_eos_am-1terra_satellite.glb',
+        async (gltf) => {
           if (disposed) return;
           const sat = gltf.scene;
 
-          // Scale relative to globe size (~2%)
+          // Bigger satellite ~4.5% of globe radius
           const scale = radius * 0.045;
           sat.scale.setScalar(scale);
 
-          // Position on orbit (X axis in orbit plane)
+          // Position on orbit
           sat.position.set(orbitRadius, 0, 0);
-
-          // Face the Earth initially; keep updating in the loop below
           sat.lookAt(0, 0, 0);
 
-          // Light weight
-          sat.traverse(o => { if (o.isMesh) { o.castShadow = false; o.receiveShadow = false; } });
+          // --- load and apply the TWO textures ---
+          // 🔧 EDIT THESE PATHS to your real files (you said they're in a "textures" folder)
+          const ALBEDO_URL   = '../../public/nasa-eos-am-1terra-satellite/textures/gltf_embedded_2.png'; // base color (solid blue)
+          const EMISSIVE_URL = '../../public/nasa-eos-am-1terra-satellite/textures/gltf_embedded_0.png'; // grid/tiles (emissive glow)
+
+          const tLoader = new THREE.TextureLoader();
+          const loadTex = (url, isColor = false) =>
+            new Promise((resolve) => {
+              tLoader.load(
+                url,
+                (tex) => {
+                  if (isColor) tex.colorSpace = THREE.SRGBColorSpace;
+                  tex.flipY = false;      // GLTF UV convention
+                  tex.anisotropy = 4;
+                  resolve(tex);
+                },
+                undefined,
+                () => resolve(null)
+              );
+            });
+
+          const [colorMap, emissiveMap] = await Promise.all([
+            loadTex(ALBEDO_URL, true),
+            loadTex(EMISSIVE_URL, true)
+          ]);
+
+          // Replace materials on all meshes so we see the textures
+          sat.traverse((o) => {
+            if (!o.isMesh) return;
+
+            // Dispose previous materials
+            if (o.material) {
+              if (Array.isArray(o.material)) o.material.forEach((m) => m.dispose?.());
+              else o.material.dispose?.();
+            }
+
+            o.material = new THREE.MeshStandardMaterial({
+              map: colorMap || null,
+              metalness: 0.55,
+              roughness: 0.5,
+              emissiveMap: emissiveMap || null,
+              emissive: emissiveMap ? new THREE.Color(0xffffff) : new THREE.Color(0x000000),
+              emissiveIntensity: emissiveMap ? 0.8 : 0.0
+            });
+
+            o.castShadow = false;
+            o.receiveShadow = false;
+          });
+          // --- end texture application ---
 
           pivot.add(sat);
           satOrbitRef.current = { group: orbitGroup, pivot, mesh: sat };
@@ -406,7 +453,7 @@ const GlobeComponent = ({
         satAngleRef.current += dt * angularSpeed;
         if (pivot) pivot.rotation.y = satAngleRef.current;
 
-        // Keep satellite always facing Earth (optional, looks nice)
+        // Keep satellite always facing Earth (optional)
         if (satOrbitRef.current.mesh) {
           satOrbitRef.current.mesh.lookAt(0, 0, 0);
         }
@@ -437,6 +484,51 @@ const GlobeComponent = ({
     };
   }, []);
 
+  // --- Click satellite to open NASA info (raycast) ---
+  useEffect(() => {
+    const g = globeRef.current;
+    if (!g) return;
+    const dom = g.renderer().domElement;
+    const camera = g.camera();
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+
+    const pick = (e) => {
+      const sat = satOrbitRef.current?.mesh;
+      if (!sat) return;
+
+      const rect = dom.getBoundingClientRect();
+      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObject(sat, true);
+      if (hits.length) {
+        e.preventDefault();
+        markUserActive();
+        setSatInfoOpen(true);
+      }
+    };
+
+    const hover = (e) => {
+      const sat = satOrbitRef.current?.mesh;
+      if (!sat) return;
+      const rect = dom.getBoundingClientRect();
+      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObject(sat, true);
+      dom.style.cursor = hits.length ? 'pointer' : (hovered ? 'pointer' : 'grab');
+    };
+
+    dom.addEventListener('pointerdown', pick);
+    dom.addEventListener('pointermove', hover, { passive: true });
+    return () => {
+      dom.removeEventListener('pointerdown', pick);
+      dom.removeEventListener('pointermove', hover);
+    };
+  }, [markUserActive, hovered]);
+
   // Dynamic label size/color (pop on hover/selected)
   const labelSize = useCallback((d) => {
     if (selected?.name === d.name) return globeConfig.labelSize * 1.35;
@@ -445,7 +537,6 @@ const GlobeComponent = ({
   }, [hovered, selected]);
 
   const labelText = useCallback((d) => {
-    // Will show emoji if present, otherwise just the name
     return `${d.emoji ? d.emoji + ' ' : ''}${d.name}`;
   }, []);
 
@@ -575,8 +666,102 @@ const GlobeComponent = ({
           <div>Enter = focus · Esc = clear · Space = auto-rotate</div>
         </div>
       )}
+
+      {/* NASA-themed modal on satellite click */}
+      {satInfoOpen && (
+        <div
+          onClick={() => setSatInfoOpen(false)}
+          style={{
+            position: 'absolute',
+            inset: 0,
+            background: 'rgba(0,0,0,0.45)',
+            backdropFilter: 'blur(3px)',
+            zIndex: 30,
+            display: 'grid',
+            placeItems: 'center'
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              width: 'min(720px, 92vw)',
+              maxHeight: '80vh',
+              overflow: 'auto',
+              borderRadius: 16,
+              boxShadow: '0 10px 40px rgba(0,0,0,.6)',
+              border: '1px solid rgba(255,255,255,.12)',
+              background: 'linear-gradient(160deg, #0b3d91 0%, #0a1a2f 60%)',
+              color: 'white',
+              padding: '18px 20px 16px'
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+              <div style={{
+                width: 34, height: 34, borderRadius: '50%',
+                background: '#e0312c', display: 'grid', placeItems: 'center',
+                fontWeight: 800, letterSpacing: 0.5
+              }}>NASA</div>
+              <div>
+                <div style={{ fontWeight: 800, fontSize: 18, lineHeight: 1 }}>Terra (EOS AM-1)</div>
+                <div style={{ opacity: .85, fontSize: 12, marginTop: 2 }}>Instrument Suite — Quick Overview</div>
+              </div>
+              <button
+                onClick={() => setSatInfoOpen(false)}
+                style={{
+                  marginLeft: 'auto',
+                  background: 'transparent',
+                  border: 'none',
+                  color: '#fff',
+                  fontSize: 18,
+                  cursor: 'pointer'
+                }}
+                aria-label="Close"
+                title="Close"
+              >×</button>
+            </div>
+
+            <div style={{
+              borderTop: '2px solid rgba(255,255,255,.1)',
+              paddingTop: 12,
+              display: 'grid',
+              gap: 10
+            }}>
+              <Item k="MODIS" v="Monitors land, oceans, and atmosphere for vegetation, temperature, and clouds." />
+              <Item k="ASTER" v="Captures high-resolution images of Earth’s surface for geology and land cover." />
+              <Item k="CERES" v="Measures Earth’s energy balance to study climate and clouds." />
+              <Item k="MISR"  v="Analyzes aerosols, clouds, and surface features from multiple angles." />
+              <Item k="MOPITT" v="Tracks atmospheric carbon monoxide to monitor air pollution." />
+            </div>
+
+            <div style={{ marginTop: 14, display: 'flex', gap: 8, alignItems: 'center' }}>
+              <div style={{ width: 8, height: 8, borderRadius: 999, background: '#e0312c' }} />
+              <div style={{ fontSize: 12, opacity: .9 }}>
+                Tip: Click outside this window or press <b>Esc</b> to close.
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };
+
+// Small presentational component for the modal list
+function Item({ k, v }) {
+  return (
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: '110px 1fr',
+      gap: 10,
+      alignItems: 'start',
+      background: 'linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,0))',
+      padding: '10px 12px',
+      borderRadius: 10
+    }}>
+      <div style={{ fontWeight: 800 }}>{k}</div>
+      <div style={{ opacity: .95 }}>{v}</div>
+    </div>
+  );
+}
 
 export default GlobeComponent;
